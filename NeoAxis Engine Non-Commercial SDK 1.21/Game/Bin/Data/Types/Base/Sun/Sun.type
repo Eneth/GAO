@@ -1,0 +1,14 @@
+type Sun
+{
+	class = Sun
+	allowEditorCreate = True
+	networkType = ClientOnly
+	attachedObjects
+	{
+		billboard
+		{
+			materialName = LightFlare
+			onlyForEditor = True
+		}
+	}
+}

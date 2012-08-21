@@ -1,0 +1,60 @@
+type Girl
+{
+	class = PlayerCharacter
+	radius = 0.3
+	bottomRadius = 0.1
+	soundJump = "Types/Units/Girl/Jump.ogg"
+	allowPlayerControl = True
+	initialAI = DefaultGameCharacterAI
+	viewRadius = 70
+	fpsCameraOffset = 0 0 0.52
+	lifeMax = 300
+	targetPriority = 1
+	substance = Flesh
+	allowEditorCreate = True
+	networkType = Synchronized
+	weapons
+	{
+		item
+		{
+			weaponType = SubmachineGun
+		}
+		item
+		{
+			weaponType = Shotgun
+		}
+		item
+		{
+			weaponType = Hammer
+		}
+	}
+	attachedObjects
+	{
+		mesh
+		{
+			meshName = "Types\\Units\\Girl\\Girl.mesh"
+			castDynamicShadows = True
+			animationTree = "Types\\Units\\Girl\\Girl.animationTree"
+			position = 0 0 -1.15
+			rotation = 0 0 -0.7071068 -0.7071068
+			boneSlot WeaponHand
+			{
+				bone = GirlRebornRArmPalm
+				position = 0.13 0 -0.08
+				rotation = -0.9697794 -0.1276739 0.206133 0.02713788
+			}
+		}
+	}
+	dieObjects
+	{
+		mapObject
+		{
+			type = GirlDead
+			copyVelocitiesFromParent = True
+		}
+		sound
+		{
+			soundName = "Types/Units/Girl/Die.ogg"
+		}
+	}
+}

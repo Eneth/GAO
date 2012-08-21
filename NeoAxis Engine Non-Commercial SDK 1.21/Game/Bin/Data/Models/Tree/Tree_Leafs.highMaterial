@@ -1,0 +1,21 @@
+highLevelMaterial Tree_Leafs
+{
+	template = VegetationMaterial
+	doubleSided = True
+	alphaRejectFunction = GreaterEqual
+	halfLambert = True
+	diffusePower = 1.3
+	diffuseVertexColor = True
+	specularColor = 0.2745098 0.2745098 0.2745098
+	specularShininess = 38.1
+	bendVariation = 0.005
+	detailBending = False
+	diffuse1Map
+	{
+		texture = "Models\\Tree\\Tree_Leafs.dds"
+	}
+	specularMap
+	{
+		texture = "Models\\Tree\\Tree_Leafs_SPEC.dds"
+	}
+}

@@ -1,0 +1,7 @@
+highLevelMaterial "Material_002-material"
+{
+	template = ShaderBaseMaterial
+	doubleSided = True
+	diffuseColor = 0.1960784 0.1960784 0.1960784
+	specularColor = 0.5 0.5 0.5
+}

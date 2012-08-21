@@ -1,0 +1,22 @@
+type SubmachineGunBullet
+{
+	class = Bullet
+	damage = 5
+	impulse = 100
+	networkType = Synchronized
+	dieObjects
+	{
+		particle
+		{
+			particleName = SubmachineGunBulletHit
+		}
+		particle
+		{
+			particleName = SubmachineGunBulletHit2
+		}
+		mapObject
+		{
+			type = DefaultBulletDecalCreator
+		}
+	}
+}

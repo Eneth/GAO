@@ -1,0 +1,6 @@
+type RecastNavigationSystem
+{
+	class = RecastNavigationSystem
+	allowEditorCreate = True
+	uniqueEntityInstance = True
+}

@@ -1,0 +1,26 @@
+sourceFile = "Types\\StaticObjects\\Castle_001\\castle_001.dae"
+objects
+{
+	mesh
+	{
+		name = castle_001
+		pivotPosition = -1.149315 3.500616 8.759109
+		sources
+		{
+			item
+			{
+				name = castle_001
+				position = -1.149315 3.500618 0.1846482
+				rotation = -0.7071068 0 0 0.7071068
+				scale = 3.494365 3.494365 3.494365
+			}
+			item
+			{
+				name = castle_0012
+				position = -1.149315 3.500618 0.1846482
+				rotation = -0.7071068 0 0 0.7071068
+				scale = 3.494365 3.494365 3.494365
+			}
+		}
+	}
+}
