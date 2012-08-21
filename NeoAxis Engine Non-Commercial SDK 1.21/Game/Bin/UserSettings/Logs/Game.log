@@ -1,0 +1,240 @@
+Log started: 8/22/2012 12:45:02 AM
+Info: NeoAxis Engine log file.
+Info: Operating System: Microsoft Windows 5.1.2600.196608 (32-bit)
+Info: Runtime Framework: Net 4.0.30319.269
+Info: Engine version: 1.21
+Info: Engine SDK: Non-Commercial SDK
+Info: Engine 32-bit version
+Info: Application type: Simulation
+Info: PhysXPhysicsSystem: Software mode enabled.
+Info: Physics system is initialized (Driver: NVIDIA PhysX 2.8.4)
+Info: OGRE: Added resource location 'E:\NeoAxis Engine Non-Commercial SDK 1.21\Game\Bin\Data' of type 'VirtualFileSystem' to resource group 'General' with recursive option
+Info: OGRE: Loading library RenderSystem_Direct3D9.dll
+Info: OGRE: Installing plugin: D3D9 RenderSystem
+Info: OGRE: D3D9 : Direct3D9 Rendering Subsystem created.
+Info: OGRE: D3D9: Driver Detection Starts
+Info: OGRE: D3D9: Driver Detection Ends
+Info: OGRE: Plugin successfully installed
+Info: OGRE: CPU Identifier & Features
+Info: OGRE: -------------------------
+Info: OGRE:  *   CPU ID: AuthenticAMD: AMD Phenom(tm) II X4 965 Processor
+Info: OGRE:  *      SSE: yes
+Info: OGRE:  *     SSE2: yes
+Info: OGRE:  *     SSE3: yes
+Info: OGRE:  *      MMX: yes
+Info: OGRE:  *   MMXEXT: yes
+Info: OGRE:  *    3DNOW: yes
+Info: OGRE:  * 3DNOWEXT: yes
+Info: OGRE:  *     CMOV: yes
+Info: OGRE:  *      TSC: yes
+Info: OGRE:  *      FPU: yes
+Info: OGRE:  *      PRO: yes
+Info: OGRE:  *       HT: no
+Info: OGRE: -------------------------
+Info: OGRE: D3D9 : Subsystem Initialising
+Info: OGRE: Driver name: nv4_disp.dll
+Info: OGRE: Driver description: NVIDIA GeForce GTS 250
+Info: OGRE: ***************************************
+Info: OGRE: *** D3D9 : Subsystem Initialised OK ***
+Info: OGRE: ***************************************
+Info: OGRE: D3D9RenderSystem::_createRenderWindow "MainWindow", 640x480 fullscreen  miscParams: colourDepth=32 externalWindowHandle=1115504 vsync=false 
+Info: OGRE: D3D9 : Created D3D9 Rendering Window 'MainWindow' : 1680x1050, 32bpp
+Info: OGRE: Registering ResourceManager for type Texture
+Info: OGRE: Registering ResourceManager for type GpuProgram
+Info: OGRE: D3D9: Vertex texture format supported - PF_FLOAT16_RGB PF_FLOAT16_RGBA PF_FLOAT32_RGB PF_FLOAT32_RGBA PF_FLOAT16_R PF_FLOAT32_R PF_FLOAT16_GR PF_FLOAT32_GR
+Info: OGRE: RenderSystem capabilities
+Info: OGRE: -------------------------
+Info: OGRE: RenderSystem Name: Direct3D9 Rendering Subsystem
+Info: OGRE: GPU Vendor: nvidia
+Info: OGRE: Device Name: NVIDIA GeForce GTS 250
+Info: OGRE: Driver Version: 6.14.12.9573
+Info: OGRE:  * Fixed function pipeline: yes
+Info: OGRE:  * Hardware generation of mipmaps: yes
+Info: OGRE:  * Texture blending: yes
+Info: OGRE:  * Anisotropic texture filtering: yes
+Info: OGRE:  * Dot product texture operation: yes
+Info: OGRE:  * Cube mapping: yes
+Info: OGRE:  * Hardware stencil buffer: yes
+Info: OGRE:    - Stencil depth: 8
+Info: OGRE:    - Two sided stencil support: yes
+Info: OGRE:    - Wrap stencil values: yes
+Info: OGRE:  * Hardware vertex / index buffers: yes
+Info: OGRE:  * Vertex programs: yes
+Info: OGRE:  * Number of floating-point constants for vertex programs: 256
+Info: OGRE:  * Number of integer constants for vertex programs: 16
+Info: OGRE:  * Number of boolean constants for vertex programs: 16
+Info: OGRE:  * Fragment programs: yes
+Info: OGRE:  * Number of floating-point constants for fragment programs: 224
+Info: OGRE:  * Number of integer constants for fragment programs: 16
+Info: OGRE:  * Number of boolean constants for fragment programs: 16
+Info: OGRE:  * Geometry programs: no
+Info: OGRE:  * Number of floating-point constants for geometry programs: 0
+Info: OGRE:  * Number of integer constants for geometry programs: 0
+Info: OGRE:  * Number of boolean constants for geometry programs: 0
+Info: OGRE:  * Supported Shader Profiles: hlsl ps_1_1 ps_1_2 ps_1_3 ps_1_4 ps_2_0 ps_2_a ps_2_b ps_2_x ps_3_0 vs_1_1 vs_2_0 vs_2_a vs_2_x vs_3_0
+Info: OGRE:  * Texture Compression: yes
+Info: OGRE:    - DXT: yes
+Info: OGRE:    - VTC: no
+Info: OGRE:    - PVRTC: no
+Info: OGRE:    - 3Dc: yes
+Info: OGRE:  * Scissor Rectangle: yes
+Info: OGRE:  * Hardware Occlusion Query: yes
+Info: OGRE:  * User clip planes: yes
+Info: OGRE:  * VET_UBYTE4 vertex element type: yes
+Info: OGRE:  * Infinite far plane projection: yes
+Info: OGRE:  * Hardware render-to-texture: yes
+Info: OGRE:  * Floating point textures: yes
+Info: OGRE:  * Non-power-of-two textures: yes
+Info: OGRE:  * Volume textures: yes
+Info: OGRE:  * Multiple Render Targets: 4
+Info: OGRE:    - With different bit depths: yes
+Info: OGRE:  * Point Sprites: yes
+Info: OGRE:  * Extended point parameters: yes
+Info: OGRE:  * Max Point Size: 8192
+Info: OGRE:  * Vertex texture fetch: yes
+Info: OGRE:  * Number of world matrices: 0
+Info: OGRE:  * Number of texture units: 8
+Info: OGRE:  * Stencil buffer depth: 8
+Info: OGRE:  * Number of vertex blend matrices: 0
+Info: OGRE:    - Max vertex textures: 4
+Info: OGRE:    - Vertex textures shared: no
+Info: OGRE:  * Render to Vertex Buffer: no
+Info: OGRE:  * Alpha to coverage: yes
+Info: OGRE:  * Fetch4: no
+Info: OGRE:  * Hardware Instancing: yes
+Info: OGRE:  * Depth Buffer As Texture (INTZ): yes
+Info: OGRE:  * DirectX per stage constants: yes
+Info: OGRE:  * Max texture size: 8192
+Info: OGRE: DefaultWorkQueue('Root') initialising on thread main.
+Info: OGRE: Particle Renderer Type 'billboard' registered
+Info: Renderer: GPU description: NVIDIA GeForce GTS 250
+Info: Renderer: GPU codename: GeForce_Unknown
+Info: Renderer: Shader model 2.0: yes
+Info: Renderer: Shader model 3.0: yes
+Info: 2D texture render target pixel formats: ByteL ByteL ShortL ShortL R5G6B5 A8R8G8B8 A2R10G10B10 A2B10G10R10 Float16RGBA Float32RGBA X8R8G8B8 Depth24 ShortRGBA Float16R Float32R ShortGR Float16GR Float32GR
+Info: OGRE: Parsing scripts for resource group General
+Info: OGRE: Parsing script Materials\Common\AmbientOneTexture.program
+Info: OGRE: Parsing script Materials\Common\StdQuad_vp.program
+Info: OGRE: Parsing script Materials\Common\StdQuadSM3_vp.program
+Info: OGRE: Parsing script Materials\PostEffects\_ShowDepth\ShowDepth.material
+Info: OGRE: Parsing script Materials\PostEffects\Blur\Blur.material
+Info: OGRE: Parsing script Materials\PostEffects\ColorCorrection\ColorCorrection.material
+Info: OGRE: Parsing script Materials\PostEffects\DepthOfField\DepthOfField_AutoFocusBegin.material
+Info: OGRE: Parsing script Materials\PostEffects\DepthOfField\DepthOfField_AutoFocusCurrent.material
+Info: OGRE: Parsing script Materials\PostEffects\DepthOfField\DepthOfField_AutoFocusFinal.material
+Info: OGRE: Parsing script Materials\PostEffects\DepthOfField\DepthOfField_AutoFocusIteration.material
+Info: OGRE: Parsing script Materials\PostEffects\DepthOfField\DepthOfField_Blur.material
+Info: OGRE: Parsing script Materials\PostEffects\DepthOfField\DepthOfField_Downscale.material
+Info: OGRE: Parsing script Materials\PostEffects\DepthOfField\DepthOfField_Final.material
+Info: OGRE: Parsing script Materials\PostEffects\FXAA\FXAA_Final.material
+Info: OGRE: Parsing script Materials\PostEffects\FXAA\FXAA_Luma.material
+Info: OGRE: Parsing script Materials\PostEffects\Glass\Glass.material
+Info: OGRE: Parsing script Materials\PostEffects\Grayscale\Grayscale.material
+Info: OGRE: Parsing script Materials\PostEffects\HDR\hdr_Bloom.material
+Info: OGRE: Parsing script Materials\PostEffects\HDR\hdr_BrightPass.material
+Info: OGRE: Parsing script Materials\PostEffects\HDR\hdr_CalculateAdaptedLuminance.material
+Info: OGRE: Parsing script Materials\PostEffects\HDR\hdr_CopyLastAdaptedLuminance.material
+Info: OGRE: Parsing script Materials\PostEffects\HDR\hdr_FinalToneMapping.material
+Info: OGRE: Parsing script Materials\PostEffects\HDR\hdr_GaussianBlur5x5.material
+Info: OGRE: Parsing script Materials\PostEffects\HDR\hdr_SampleLuminanceFinal.material
+Info: OGRE: Parsing script Materials\PostEffects\HDR\hdr_SampleLuminanceInitial.material
+Info: OGRE: Parsing script Materials\PostEffects\HDR\hdr_SampleLuminanceIterative.material
+Info: OGRE: Parsing script Materials\PostEffects\HeatVision\HaatVision_LightToHeat.material
+Info: OGRE: Parsing script Materials\PostEffects\HeatVision\HeatVision_Blur.material
+Info: OGRE: Parsing script Materials\PostEffects\Invert\Invert.material
+Info: OGRE: Parsing script Materials\PostEffects\LDRBloom\LDRBloom_Bloom.material
+Info: OGRE: Parsing script Materials\PostEffects\LDRBloom\LDRBloom_BrightPass.material
+Info: OGRE: Parsing script Materials\PostEffects\LDRBloom\LDRBloom_Final.material
+Info: OGRE: Parsing script Materials\PostEffects\LDRBloom\LDRBloom_GaussianBlur5x5.material
+Info: OGRE: Parsing script Materials\PostEffects\LightScattering\LightScattering_Blur.material
+Info: OGRE: Parsing script Materials\PostEffects\LightScattering\LightScattering_Final.material
+Info: OGRE: Parsing script Materials\PostEffects\LightScattering\LightScattering_Scattering.material
+Info: OGRE: Parsing script Materials\PostEffects\MotionBlur\MotionBlur_Combine.material
+Info: OGRE: Parsing script Materials\PostEffects\MotionBlur\MotionBlur_Copyback.material
+Info: OGRE: Parsing script Materials\PostEffects\MotionBlur\MotionBlur_Display.material
+Info: OGRE: Parsing script Materials\PostEffects\OldTV\OldTV.material
+Info: OGRE: Parsing script Materials\PostEffects\RadialBlur\RadialBlur.material
+Info: OGRE: Parsing script Materials\PostEffects\Tiling\Tiling.material
+Info: OGRE: Parsing script Materials\PostEffects\Vignetting\Vignetting.material
+Info: OGRE: Parsing script Materials\PostEffects\_ShowDepth\ShowDepth.compositor
+Info: OGRE: Parsing script Materials\PostEffects\Blur\Blur.compositor
+Info: OGRE: Parsing script Materials\PostEffects\ColorCorrection\ColorCorrection.compositor
+Info: OGRE: Parsing script Materials\PostEffects\DepthOfField\DepthOfField.compositor
+Info: OGRE: Parsing script Materials\PostEffects\FXAA\FXAA.compositor
+Info: OGRE: Parsing script Materials\PostEffects\Glass\Glass.compositor
+Info: OGRE: Parsing script Materials\PostEffects\Grayscale\Grayscale.compositor
+Info: OGRE: Parsing script Materials\PostEffects\HDR\hdr.compositor
+Info: OGRE: Parsing script Materials\PostEffects\HeatVision\HeatVision.compositor
+Info: OGRE: Parsing script Materials\PostEffects\Invert\Invert.compositor
+Info: OGRE: Parsing script Materials\PostEffects\LDRBloom\LDRBloom.compositor
+Info: OGRE: Parsing script Materials\PostEffects\LightScattering\LightScattering.compositor
+Info: OGRE: Parsing script Materials\PostEffects\MotionBlur\MotionBlur.compositor
+Info: OGRE: Parsing script Materials\PostEffects\OldTV\OldTV.compositor
+Info: OGRE: Parsing script Materials\PostEffects\RadialBlur\RadialBlur.compositor
+Info: OGRE: Parsing script Materials\PostEffects\Tiling\Tiling.compositor
+Info: OGRE: Parsing script Materials\PostEffects\Vignetting\Vignetting.compositor
+Info: OGRE: Parsing script _Tests\ParticleSystem\EmittersTest.particle
+Info: OGRE: Parsing script Demos\VillageDemo\River\Splash\VillageSplashDown.particle
+Info: OGRE: Parsing script Demos\VillageDemo\River\Splash\VillageWaterParticle.particle
+Info: OGRE: Parsing script Demos\VillageDemo\River\Splash\VillageWaterParticle2.particle
+Info: OGRE: Parsing script Demos\VillageDemo\River\Splash\VillageWaterParticle2_1.particle
+Info: OGRE: Parsing script Demos\VillageDemo\River\Splash\VillageWaterParticle3.particle
+Info: OGRE: Parsing script Demos\VillageDemo\River\Splash\VillageWaterParticleBig.particle
+Info: OGRE: Parsing script Effects\ExplosionParticle\ExplosionParticle.particle
+Info: OGRE: Parsing script Effects\ExplosionParticle\ExplosionParticle2.particle
+Info: OGRE: Parsing script Effects\FireParticle\BigFireParticle.particle
+Info: OGRE: Parsing script Effects\FireParticle\FireParticle.particle
+Info: OGRE: Parsing script Effects\GreenyNimbusParticle\GreenyNimbusParticle.particle
+Info: OGRE: Parsing script Effects\ItemParticle\ItemParticle.particle
+Info: OGRE: Parsing script Effects\SmallSmokeParticle\SmallSmokeParticle.particle
+Info: OGRE: Parsing script Effects\SmallSmokeParticle2\SmallSmokeParticle2.particle
+Info: OGRE: Parsing script Effects\SmokeParticle\SmokeParticle.particle
+Info: OGRE: Parsing script Types\Bullets\ShotgunBullet\ShotgunBullet.particle
+Info: OGRE: Parsing script Types\Bullets\ShotgunBullet\ShotgunBulletHit.particle
+Info: OGRE: Parsing script Types\Bullets\ShotgunBullet\ShotgunBulletHit2.particle
+Info: OGRE: Parsing script Types\Bullets\SubmachineGunBullet\SubmachineGunBulletHit.particle
+Info: OGRE: Parsing script Types\Bullets\SubmachineGunBullet\SubmachineGunBulletHit2.particle
+Info: OGRE: Parsing script Types\Bullets\SubmachineGunGrenade\SubmachineGunGrenadeParticle.particle
+Info: OGRE: Parsing script Types\Dynamic\DestructibleHouse\DestructibleHouseFileParticle.particle
+Info: OGRE: Parsing script Types\Dynamic\Fan\FanParticle\FanParticle.particle
+Info: OGRE: Parsing script Types\Dynamic\Firework\FireworkBullet\FireworkBulletHit.particle
+Info: OGRE: Parsing script Types\Dynamic\GasFlamePipe\GasFlamePipeParticle\GasFlamePipe.particle
+Info: OGRE: Parsing script Types\Dynamic\Pipe\PipeLeak\PipeLeakFlameParticle\PipeLeakFlame.particle
+Info: OGRE: Parsing script Types\Dynamic\Pipe\PipeLeak\PipeLeakSteamParticle\PipeLeakSteam.particle
+Info: OGRE: Parsing script Types\RTSSpecific\Dynamic\RTSGeyser\RTSGeyserParticle.particle
+Info: OGRE: Parsing script Types\RTSSpecific\Units\RTSConstructor\RTSConstructorBullet\RTSConstructorBulletHit.particle
+Info: OGRE: Parsing script Types\RTSSpecific\Units\RTSConstructor\RTSConstructorBullet\RTSConstructorBulletHit2.particle
+Info: OGRE: Parsing script Types\RTSSpecific\Units\RTSRobot\RTSRobotBullet\RTSRobotBulletHit.particle
+Info: OGRE: Parsing script Types\RTSSpecific\Units\RTSRobot\RTSRobotBullet\RTSRobotBulletHit2.particle
+Info: OGRE: Parsing script Types\Special\WaterPlane\WaterSplash\WaterSplash.particle
+Info: OGRE: Parsing script Types\Special\WaterPlane\WaterSplashWave\WaterSplashWave.particle
+Info: OGRE: Parsing script Types\Units\Robot\RobotBullet\RobotBulletHit.particle
+Info: OGRE: Parsing script Types\Units\Robot\RobotBullet\RobotBulletHit2.particle
+Info: OGRE: Parsing script Types\Units\Turret\TurretBullet\TurretBulletHit.particle
+Info: OGRE: Parsing script Types\Units\Turret\TurretBullet\TurretBulletHit2.particle
+Info: OGRE: Parsing script Types\Units\Zombie\ZombieBullet\ZombieBulletHit.particle
+Info: OGRE: Finished parsing scripts for resource group General
+Info: OGRE: Parsing scripts for resource group Internal
+Info: OGRE: Finished parsing scripts for resource group Internal
+Info: Sound system is initialized (Driver: OpenAL 1.1 ALSOFT 1.13, Device: DirectSound Default)
+Info: OGRE: RenderTarget "MainWindow": createAdditionalMRTs
+Info: OGRE: Skeleton: Loading Types\Units\Girl\Girl.skeleton
+Exception: System.NullReferenceException: Der Objektverweis wurde nicht auf eine Objektinstanz festgelegt.
+   bei GameEntities.Crane.MagnetAttachObject(Body mapObjectBody)
+   bei GameEntities.Crane.TickMagnet()
+   bei GameEntities.Crane.OnTick()
+   bei Engine.EntitySystem.Entity.B()
+   bei Engine.EntitySystem.Entities.A(Single A, Boolean a)
+   bei Engine.EntitySystem.EntitySystemWorld.B()
+   bei Engine.EntitySystem.EntitySystemWorld.Tick()
+   bei Game.GameWindow.OnTick(Single delta)
+   bei Game.ActionGameWindow.OnTick(Single delta)
+   bei Engine.UISystem.Control.OnTick(Single delta)
+   bei Engine.UISystem.ControlManager.DoTick(Single delta)
+   bei Game.GameEngineApp.OnTick(Single delta)
+   bei Engine.EngineApp.DoTick()
+   bei Engine.EngineApp.A(Boolean A)
+   bei a.aD.RunMessageLoop()
+   bei Engine.EngineApp.Run()
+   bei Game.Program.Main2()
+   bei Game.Program.Main()Info: OGRE: RenderTarget "MainWindow": destroyAdditionalMRTs
