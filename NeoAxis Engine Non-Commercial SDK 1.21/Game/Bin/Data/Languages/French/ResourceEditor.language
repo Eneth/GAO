@@ -1,0 +1,820 @@
+groups
+{
+	group Menu
+	{
+		"&File" = &Fichier
+		"&Edit" = &Edition
+		"Close Editing" = "&Fermer l\'\x00e9dition"
+		Save = &Enregi&strer
+		"E&xit" = &Quitter
+		Select = "&S\x00e9lectionner"
+		Move = "&D\x00e9placer"
+		Rotate = &Faire pivoter
+		Scale = "&Changer l\'\x00e9chelle"
+		"&View" = &Affichage
+		"&Resources Window" = "Fen\x00eatre des &ressources"
+		"&Properties Window" = "Fen\x00eatre des &propri\x00e9t\x00e9s"
+		"&Output" = &Sortie
+		"&Tools" = &Outils
+		"&Options..." = &Options...
+		"&Help" = Ai&de
+		"Overview of Resource Editor" = "&Aper\x00e7u de l\'\x00e9diteur de ressources"
+		Documentation = Documentation
+		"&About..." = A &propos...
+		Resources = &Ressources
+		"Resources Window" = "Fen\x00eatre des &ressources"
+		"&Output Window" = "Fen\x00eatre de &sortie"
+		"Status Bar" = &Barre de statut
+		"&Undo" = &Annuler
+		"&Redo" = "&R\x00e9tablir"
+		"&Clone" = "C&l\x00f4ner"
+		"Delete..." = &Supprimer...
+		"&Add-ons" = "&Compl\x00e9ments"
+		"&Free Camera For Editing" = 
+	}
+	group ToolBar
+	{
+		Edit = Edition
+		"Close Editing" = "Fermer l\'\x00e9dition"
+		Save = Enregistrer
+		Select = "S\x00e9lectionner"
+		World = Monde
+		"Movement Snapping" = "Crantage du d\x00e9placement"
+		"Rotation Snapping" = Crantage de la rotation
+		"Scaling Snapping" = "Crantage de la mise \x00e0 l\'\x00e9chelle"
+		Options = Options
+		Local = Local
+		Move = "D\x00e9placer"
+		Rotate = Faire pivoter
+		Scale = "Changer l\'\x00e9chelle"
+		"Gizmo\'s Coordinate Mode" = "Mode de coordon\x00e9es du Gizmo"
+		"Free Camera On Editing" = 
+	}
+	group PropertiesForm
+	{
+		Properties = "Propri\x00e9t\x00e9s"
+		Reset = "R\x00e9initialiser"
+	}
+	group Various
+	{
+		"Resource Editor" = Editeur de ressources
+		"http://www.neoaxis.com/wiki/Documentation/Articles/Overview_of_Resource_Editor" = "http://www.neoaxis.com/wiki/Documentation/Articles/Overview_of_Resource_Editor"
+		"http://www.neoaxis.com/wiki/Documentation" = "http://www.neoaxis.com/wiki/Documentation"
+		"NeoAxis Resource Editor" = Editeur de ressources - NeoAxis Engine
+		Warning = Avertissement
+		Error = Erreur
+		"Archive file." = Fichier archive.
+		"Not an registered resource file type." = "Type de fichier ressource non renseign\x00e9."
+		"This file is inside an archive. Unable to edit it." = "Impossible d\'\x00e9diter un fichier se trouvant dans une archive."
+		"This file is inside an archive." = Ce fichier se trouve dans une archive.
+		"Save resource \"{0}\"?" = "Enregistrer la ressource \"{0}\"?"
+		"Editing mode is not supported for this file." = "Le mode \x00e9dition n\'est pas support\x00e9 pour ce fichier."
+		"Particle System" = "Syst\x00e8me de particules"
+		"Physics Model" = "Mod\x00e8le physique"
+		"Entity Type" = "Type d\'entit\x00e9"
+		Material = "Mat\x00e9riel"
+		"UI Model" = "Mod\x00e8le d\'UI"
+		"Font Definition" = "D\x00e9finition de police"
+		Language = Langage
+		"True Type Font" = Police TrueType
+		Mesh = Mesh
+		Texture = Texture
+		Sound = Son
+		Video = "Vid\x00e9o"
+		Skeleton = Squelette
+		True = Vrai
+		False = Faux
+		"Animation Tree" = Arborescence des animations
+	}
+	group AboutBox
+	{
+		About = A propos
+	}
+	group OptionsDialog
+	{
+		General = "G\x00e9n\x00e9ral"
+		"Entity Type Editor" = "Editeur de type d\'entit\x00e9"
+		"Physics Model Editor" = "Editeur de mod\x00e8le physique"
+		"Particle System Editor" = "Editeur de syst\x00e8me de particules"
+		"Mesh Editor" = Editeur de mesh
+		"Material Editor" = "Editeur de mat\x00e9riel"
+		"Gui Editor" = Editeur de GUI
+		"Sound / Video Editor" = "Editeur son/vid\x00e9o"
+		"Texture Editor" = Editeur de texture
+		"Font Definition Editor" = "Editeur de d\x00e9finition de police"
+		Gizmo = Gizmo
+		Options = Options
+		"&Cancel" = &Annuler
+		"&OK" = &OK
+		"General Background Color" = "Couleur g\x00e9n\x00e9rale pour l\'arri\x00e8re-plan"
+		"Hide Directories And Files" = Cacher les dossiers et les fichiers
+		"Show Splash Screen At Startup" = "Afficher l\'\x00e9cran de d\x00e9marrage"
+		"Sound Volume" = Volume des sons
+		"Material Scheme of Viewport" = "Sch\x00e9ma de mat\x00e9riel du viewport"
+		"Maximum FPS" = Plafond max. FPS
+		"Background Color" = "Couleur d\'arri\x00e8re-plan"
+		"Sky Box" = Skybox
+		"Show Axes" = Afficher les axes
+		"Show Grid" = Afficher la grille
+		"Grid Height" = "El\x00e9vation de la grille"
+		"Grid Step" = Taille des cases
+		"Scaling In Test Mode" = "Mise \x00e0 l\'\x00e9chelle en mode test"
+		"Grid Color" = Couleur de la grille
+		"Test Mode" = Mode test
+		"Light Diffuse Color 1" = "Couleur diffuse de la lumi\x00e8re 1"
+		"Light Specular Color 3" = "Couleur sp\x00e9culaire de la lumi\x00e8re 3"
+		"Light Diffuse Color 3" = "Couleur diffuse de la lumi\x00e8re 3"
+		"Light Position 3" = "Position de la lumi\x00e8re 3"
+		"Light Specular Color 2" = "Couleur sp\x00e9culaire de la lumi\x00e8re 2"
+		"Preview Mesh Name" = "Nom du mesh d\'aper\x00e7u"
+		"Light Diffuse Color 2" = "Couleur diffuse de la lumi\x00e8re 2"
+		"Ambient Light Color" = "Coleur de la lumi\x00e8re ambiante"
+		"Light Position 1" = "Position de la lumi\x00e8re 1"
+		"Light Position 2" = "Position de la lumi\x00e8re 2"
+		"Light Specular Color 1" = "Couleur sp\x00e9culaire de la lumi\x00e8re 1"
+		"Light Ambient" = "Lumi\x00e8re ambiante"
+		"Light 1" = "Lumi\x00e8re 1"
+		"Light 2" = "Lumi\x00e8re 2"
+		"Light 3" = "Lumi\x00e8re 3"
+		"Preview Text" = "Texte d\'aper\x00e7u"
+		"Movement Snapping" = "Crantage du d\x00e9placement"
+		"Rotation Snapping (degrees)" = "Crantage de la rotation (d\x00e9gr\x00e9s)"
+		"Rotation Sensitivity" = "Sensibilit\x00e9 de la rotation"
+		"Scaling Snapping (%)" = "Crantage de la mise \x00e0 l\'\x00e9chelle (%)"
+		Snapping = Crantage
+		Sensitivity = "Sensibilit\x00e9"
+		Viewport = Viewport
+		Reset = "R\x00e9initialiser"
+		"Animation Tree Editor" = "Editeur de l\'arborescence des animations"
+		"Invert Mouse Wheel" = Inverser la molette de la souris
+	}
+	group OutputForm
+	{
+		Output = Sortie
+	}
+	group Gizmo
+	{
+		Move = "D\x00e9placer"
+		Rotate = Faire pivoter
+		Scale = "Changer l\'\x00e9chelle"
+		Select = "S\x00e9lectionner"
+	}
+	group ResourcesForm
+	{
+		Resources = Ressources
+		"New Directory" = "Nouveau r\x00e9pertoire"
+		"New Resource" = Nouvelle ressource
+		"Open Folder in Explorer" = "Ouvrir le dossier dans l\'Explorateur Windows"
+		"Sort by" = Trier par
+		Name = Nom
+		"Date modified" = "Date de derni\x00e8re modification"
+		Type = Type
+		Size = Taille
+		Ascending = Croissant
+		Properties = "Propri\x00e9t\x00e9s"
+		"Are you sure you want to delete \"{0}\"?" = "Etes-vous s\x00fbr de vouloir supprimer \"{0}\"?"
+		"Are you sure you want to delete these {0} items?" = "Etes-vous s\x00fbr de vouloir supprimer ces {0} objets?"
+		"File \"{0}\" cannot be moved or copied because it\'s inside archive." = "Le fichier \"{0}\" ne peut \x00eatre d\x00e9plac\x00e9 ou copi\x00e9 car il se trouve dans une archive."
+		Cut = Couper
+		Copy = Copier
+		Delete = Supprimer
+		Rename = Renommer
+		"Close Editing" = "Fermer l\'\x00e9dition"
+		Edit = Edition
+		"Open in External Program" = Ouvrir dans un programme externe
+		Paste = Coller
+	}
+	group NewResourceDialog
+	{
+		"New Resource" = Nouvelle ressource
+		Cancel = Annuler
+		Continue = Continuer
+		Material = "Mat\x00e9riel"
+	}
+	group PhysicsModelNewResourceDialog
+	{
+		"Name:" = "Nom:"
+		"Invalid name." = Nom invalide.
+		"A resource with the name you have specified already exists. Please specify another name." = "Une ressource portant ce nom existe d\x00e9j\x00e0. Veuillez sp\x00e9cifier un autre nom."
+		"New Physics Model" = "Nouveau mod\x00e8le physique"
+		"Please specify fields." = Veuillez remplir les champs.
+	}
+	group EntityTypeNewResourceDialog
+	{
+		Data = "Donn\x00e9es"
+		"..." = ...
+		"Class:" = "Classe:"
+		"Name:" = "Nom:"
+		"Please specify fields." = Veuillez remplir les champs.
+		"Invalid name." = Nom invalide.
+		"A resource with the name you have specified already exists. Please specify another name." = "Une ressource portant ce nom existe d\x00e9j\x00e0. Veuillez sp\x00e9cifier un autre nom."
+		"New Entity Type" = "Nouveau type d\'entit\x00e9"
+		"A file with the name you have specified already exists. Please specify another name." = "Un fichier portant ce nom existe d\x00e9j\x00e0. Veuillez sp\x00e9cifier un autre nom."
+	}
+	group Wizard
+	{
+		Cancel = Annuler
+		"&Next >" = "&Suivant >"
+		"< &Back" = "< &Pr\x00e9c\x00e9dent"
+		"Fi&nish" = &Terminer
+	}
+	group FontDefinitionNewResourceDialog
+	{
+		"New Font Definition" = "Nouvelle d\x00e9finition de police"
+		"Please specify fields." = Veuillez remplir les champs.
+		"Language:" = "Langage:"
+		"Name:" = "Nom:"
+		"Invalid name." = Nom invalide.
+		"Invalid language name." = Nom de langage invalide.
+		"A font with the file name \"{0}\" is already exists." = "Une d\x00e9finition de police avec le nom \"{0}\" existe d\x00e9j\x00e0."
+	}
+	group GuiModelNewResourceDialog
+	{
+		"New UI Model" = "Nouveau mod\x00e8le UI"
+		"Please specify fields." = Veuillez remplir les champs.
+		"Base UI Model:" = "Mod\x00e8le UI de base:"
+		"Name:" = "Nom:"
+		"Invalid name." = Nom invalide.
+		"Please select a base UI Model." = "Veuillez s\x00e9lectionner un mod\x00e8le UI de base."
+		"A resource with the name you have specified already exists. Please specify another name." = "Une ressource portant ce nom existe d\x00e9j\x00e0. Veuillez sp\x00e9cifier un autre nom."
+	}
+	group MaterialNewResourceDialog
+	{
+		"New Material" = "Nouveau mat\x00e9riel"
+		"Please specify fields." = Veuillez remplir les champs.
+		"Type:" = "Type:"
+		"Name:" = "Nom:"
+		"Invalid name." = Nom invalide.
+		"A resource with the name you have specified already exists. Please specify another name." = "Une ressource portant ce nom existe d\x00e9j\x00e0. Veuillez sp\x00e9cifier un autre nom."
+		"Base template for shader materials (Diffuse, Specular, Emission, Cubemap reflections, Normal mapping, Parallax mapping)." = "Gabarit de base pour les shaders de mat\x00e9riel (Diffuse, Specular, Emission, Cubemap reflections, Normal mapping, Parallax mapping)."
+		"Material for correct rendering of weapons in the FPS mode." = "Mat\x00e9riel pour le rendu correct des armes vues \x00e0 la premi\x00e8re personne (FPS)."
+		"Material for grass and trees. Adds wave in the vertex shader." = "Mat\x00e9riel pour la v\x00e9g\x00e9tation (ajoute un effet \"vague\" au vertex shader)."
+		"Example of a simple material template." = "Exemple de gabarit de mat\x00e9riel simple."
+	}
+	group ParticleSystemNewResourceDialog
+	{
+		"New Particle System" = "Nouveau syst\x00e8me de particules"
+		"Please specify fields." = Veuillez remplir les champs.
+		"Name:" = "Nom:"
+		"Invalid name." = Nom invalide.
+		"A resource with the name you have specified already exists. Please specify another name." = "Une ressource portant ce nom existe d\x00e9j\x00e0. Veuillez sp\x00e9cifier un autre nom."
+		"A file with the name you have specified already exists. Please specify another name." = "Un fichier portant ce nom existe d\x00e9j\x00e0. Veuillez sp\x00e9cifier un autre nom."
+	}
+	group OKCancelTextBoxDialog
+	{
+		OK = OK
+		Cancel = Annuler
+	}
+	group EntityTypeResourceType
+	{
+		"Name:" = "Nom:"
+		"Rename Resource" = Renommer la ressource
+		"Invalid name." = Nom invalide.
+		"The resource with such name is already exists." = "Une ressource avec un tel nom existe d\x00e9j\x00e0."
+		"Unable to load entity type \"{0}\" ({1})." = "Impossible de charger le type d\'entit\x00e9 \"{0}\" ({1})."
+		"Unable to save file \"{0}\" ({1})." = "Impossible de sauvegarder le fichier \"{0}\" ({1})."
+		"The file with a name \"{0}\" is already exists." = "Le fichier nomm\x00e9 \"{0}\" existe d\x00e9j\x00e0."
+	}
+	group MaterialResourceType
+	{
+		"Name:" = "Nom:"
+		"Rename Resource" = Renommer la ressource
+		"Invalid name." = Nom invalide.
+		"The resource with such name is already exists." = "Une ressource avec un tel nom existe d\x00e9j\x00e0."
+		"Unable to load material \"{0}\" ({1})." = "Impossible de charger le mat\x00e9riel \"{0}\" ({1})."
+		"Unable to save file \"{0}\" ({1})." = "Impossible de sauvegarder le fichier \"{0}\" ({1})."
+		"The file with a name \"{0}\" is already exists." = "Le fichier nomm\x00e9 \"{0}\" existe d\x00e9j\x00e0."
+		"The material with a name \"{0}\" is already exists. The material was renamed to \"{1}\"." = "Le mat\x00e9riel nomm\x00e9 \"{0}\" existe d\x00e9j\x00e0. Le mat\x00e9riel a \x00e9t\x00e9 renomm\x00e9 \"{1}\"."
+	}
+	group ParticleSystemResourceType
+	{
+		"Name:" = "Nom:"
+		"Rename Resource" = Renommer la ressource
+		"Invalid name." = Nom invalide.
+		"The resource with such name is already exists." = "Une ressource avec un tel nom existe d\x00e9j\x00e0."
+		"The file with a name \"{0}\" is already exists." = "Le fichier nomm\x00e9 \"{0}\" existe d\x00e9j\x00e0."
+	}
+	group PhysicsModelResourceEditor
+	{
+		"Contacts: {0}" = "Points de contact: {0}"
+		"Create Body" = "Cr\x00e9er un corps"
+		"{0} selected" = "{0} s\x00e9lectionn\x00e9s"
+		"1 object was cloned" = "1 objet a \x00e9t\x00e9 cl\x00f4n\x00e9"
+		"{0} objects were cloned" = "{0} objets ont \x00e9t\x00e9 cl\x00f4n\x00e9s"
+		"Are you sure you want to delete selected objects?" = "Etes-vous s\x00fbr de vouloir supprimer les objets s\x00e9lectionn\x00e9s?"
+		"Unable to save. There are two bodies with same name \"{0}\"." = "Sauvegarde impossible ; il existe plusieurs corps portant le m\x00eame nom \"{0}\"."
+		"Create {0} Joint" = "Cr\x00e9er {0} joints"
+		"Create Attractor Motor" = "Cr\x00e9er un moteur type Attractor"
+		Delete = Supprimer
+		"Unable to save. There are two joints with same name \"{0}\"." = "Sauvegarde impossible ; il existe plusieurs joints portant le m\x00eame nom \"{0}\"."
+		"Create {0} Shape" = "Cr\x00e9er la forme {0}"
+		"Unable to save. There are two motors with same name \"{0}\"." = "Sauvegarde impossible ; il existe plusieurs moteurs portant le m\x00eame nom \"{0}\"."
+		"Create {0} Motor At {1} {2}" = "Cr\x00e9er {0} moteurs \x00e0 {1} {2}"
+		"Show Contacts" = Montrer les points de contact
+		"Wireframe mode" = Mode maillage
+		Stop = "Arr\x00eater"
+		Test = Tester
+		"Selected:" = "S\x00e9lectionn\x00e9s:"
+	}
+	group FontDefinitionResourceEditor
+	{
+		"Show texture (for current screen size):" = "Afficher la texture (pour la r\x00e9solution d\'\x00e9cran actuelle):"
+		"(None)" = (Aucune)
+		"Texture {0}" = "Texture {0}"
+		"Editing of recompiled image based fonts is not supported." = "L\'\x00e9dition d\'une police bas\x00e9e sur une image pr\x00e9compil\x00e9e n\'est pas support\x00e9e."
+		"No preview font loaded." = "Pas de police d\'aper\x00e7u charg\x00e9e."
+	}
+	group TextureResourceEditor
+	{
+		"Shrink to fit" = Adapter la texture au cadre
+		"Unable to load texture." = Impossible de charger la texture
+		"You can convert texture to another format. Use context menu in the Resources Tree." = "Vous pouvez convertir la texture en un autre format. Utiliser le menu contextuelle dans l\'arborescence des ressources."
+	}
+	group TextureResourceType
+	{
+		"Convert to..." = Convertir en...
+		"Conversion from compressed format is not supported." = "La conversion depuis un format compress\x00e9 n\'est pas support\x00e9e."
+		"The file with the name \"{0}\" is already exists. Overwrite?" = "Un fichier portant le nom \"{0}\" existe d\x00e9j\x00e0. Souhaitez-vous le remplacer?"
+		"Unable to load image ({0})." = "Impossible de charger l\'image ({0})."
+		"Unable to convert. Conversion from \"{0}\" format to \"DDS\" is not supported." = "Conversion impossible. La conversion depuis le format \"{0}\" vers le format \"DDS\" n\'est pas support\x00e9e."
+		"Unable to write image ({0})." = "Impossible d\'encoder l\'image ({0})."
+		TGA = TGA
+		JPG = JPG
+		PNG = PNG
+		"DDS - DXT1" = DDS - DXT1
+		"DDS - DXT5" = DDS - DXT5
+		"DDS - 3Dc (Normal Map)" = DDS - 3Dc (Normal Map)
+		"DDS - (A)RGB" = DDS - (A)RGB
+	}
+	group StatusBar
+	{
+		Ready = "Pr\x00eat"
+	}
+	group SoundVideoResourceEditor
+	{
+		Play = Jouer
+		"Loop Play" = Jouer en boucle
+		Pause = Suspendre
+		Stop = "Arr\x00eater"
+		"File Name" = Nom du fichier
+		Channels = Canaux
+		Size = Taille
+		"Sampling Rate" = "Fr\x00e9quence d\'\x00e9chantillonage"
+		FPS = Images par seconde
+		Audio = Audio
+		_General = _General
+		Video = "Vid\x00e9o"
+		Length = Longueur
+	}
+	group PhysicsSystem
+	{
+		Name = Nom
+		_General = _General
+		Sleepiness = Somnolence
+		Rotation = Rotation
+		EnableGravity = "Gravit\x00e9 activ\x00e9e"
+		Mass = Masse
+		Static = Statique
+		CCD = CCD
+		Shapes = Formes
+		AngularDamping = Amortissement angulaire
+		Position = Position
+		LinearDamping = "Amortissement lin\x00e9aire"
+		Damping = Amortissement
+		Transform = Transformation
+		Bodies = Corps
+		Joints = Joints
+		Motors = Moteurs
+		General = "G\x00e9n\x00e9ral"
+		Dimensions = Dimensions
+		Hardness = "Duret\x00e9"
+		Contact = Point de contact
+		ShapeType = Type de forme
+		SpecialLiquidDensity = "Densit\x00e9 liquide sp\x00e9ciale"
+		Density = "Densit\x00e9"
+		Bounciness = Rebond
+		DynamicFriction = Friction dynamique
+		StaticFriction = Friction statique
+		MaterialName = "Nom du mat\x00e9riel"
+		Material = "Mat\x00e9riel"
+		Box = "Bo\x00eete"
+		Special = "Sp\x00e9cial"
+		Anchor = Ancre
+		Body2 = Corps2
+		BreakMaxTorque = Couple max. avant cassure
+		Axis = Axe
+		Body1 = Corps1
+		BreakMaxForce = Force max. avant cassure
+		ContactsEnabled = "Contacts activ\x00e9s"
+		Break = Cassure
+		Radius = Rayon
+		Sphere = "Sph\x00e8re"
+		Length = Longueur
+		Capsule = Capsule
+		MeshName = Nom du mesh
+		MeshScale = Echelle du mesh
+		MeshType = Type du mesh
+		Mesh = Mesh
+		BrakeTorque = Couple du frein
+		SuspensionTravel = Marge de la suspension
+		Suspension = Suspension
+		SteerAngle = Angle de fonction
+		LongitudalTireForceFunction = Force longitudinale sur le pneu
+		MotorTorque = Couple du moteur
+		ClampedFriction = "Friction serr\\x00e9e"
+		LateralTireForceFunction = "Force lat\x00e9rale sur le pneu"
+		AxleSpeedOverride = AxleSpeedOverride
+		UnscaledSpringBehaviour = UnscaledSpringBehaviour
+		InputLongutudalSlipVelocity = InputLongutudalSlipVelocity
+		InputLaterialSlipVelocity = InputLaterialSlipVelocity
+		WheelAxisContactNormal = WheelAxisContactNormal
+		PhysXWheel_Constant = PhysXWheel_Constant
+		PhysXWheel_Dynamic = PhysXWheel_Dynamic
+		ExtremumSlip = ExtremumSlip
+		AsymptoteSlip = AsymptoteSlip
+		StiffnessFactor = StiffnessFactor
+		ExtremumValue = ExtremumValue
+		AsymptoteValue = AsymptoteValue
+		Axis1 = Axe 1
+		Axis2 = Axe 2
+		Axis3 = Axe 3
+		Strength = Force
+		Enabled = "Activ\x00e9"
+		Exponent = Exponentielle
+		Joint = Joint
+		MaxVelocity = Vitesse max.
+		JointAxis = Axe de jointure
+		MaxTorque = Couple max.
+		Throttle = "Acc\x00e9l\x00e9ration"
+		ODE_VelocityMultiplier = ODE_VelocityMultiplier
+		PhysX_DamperCoefficient = PhysX_DamperCoefficient
+		PhysX_SpringCoefficient = PhysX_SpringCoefficient
+		DesiredAngle = "Angle d\x00e9sir\x00e9"
+		ODE_MaxTorque = ODE_MaxTorque
+		Servo = Servo
+		Spring = Ressort
+		Damper = Amortisseur
+		TargetValue = Valeur cible
+		LimitLow = "Limite inf\x00e9rieure"
+		LimitsEnabled = "Limites activ\x00e9es"
+		Direction = Direction
+		LimitHigh = "Limite sup\x00e9rieure"
+		LimitsBounciness = Limites de rebond
+		LimitsHardness = "Limites de duret\x00e9"
+		Body = Corps
+		"Continuous collision detection." = "D\x00e9t\x00e9ction continue des collisions"
+		"Hinge joint" = "Joint: charni\x00e8re"
+		"Hinge2 joint" = "Joint: charni\x00e8re 2"
+		"Attractor motor" = "Moteur: attracteur"
+		"Box shape" = "Forme: bo\x00eete"
+		RotationAxis = Axe de rotation
+		"Sphere shape" = "Forme: sph\x00e8re"
+		"Capsule shape" = "Forme: capsule"
+		"Mesh shape" = "Forme: mesh"
+		"PhysXWheel shape" = "Forme: PhysXWheel"
+		TireFunction = TireFunction
+		"Geared motor" = "Moteur: engrenage"
+		"Servo motor" = "Moteur: servom\x00e9canisme"
+		"Slider joint" = "Joint: glissi\x00e8re"
+		TranslationAxis = "Axe: translation"
+		"Ball joint" = "Joint: boule"
+		MassMethod = "M\x00e9thode pour la masse"
+		Manually = Manuellement
+		"By density" = "Par densit\x00e9"
+		"You can\'t add joints. For creation a new joint you need go to working area, select two bodies, use context menu." = "Vous ne pouvez ajouter de joint. Pour cr\x00e9er de nouveux joints, s\x00e9lectionnez deux corps dans la zone de travail et utilisez le menu contextuel."
+		"You can\'t add motors. For creation a new motor you need go to working area, select two bodies or joint, use context menu." = "Vous ne pouvez ajouter de moteur. Pour cr\x00e9er de nouveaux moteurs, s\x00e9lectionnez deux corps ou joints dans la zone de travail et utilisez le menu contextuel."
+	}
+	group Texture
+	{
+		Name = Nom
+		SourceSize = Taille de la source
+		MipmapCount = Nombre de MIPmaps
+		Size = Taille
+		SourceFormat = Format de la source
+		Format = Format
+	}
+	group FontDefinition
+	{
+		TrueTypeFontName = Nom de la police TrueType
+		TextureIndentBetweenCharacters = "Marge entre les caract\x00e8res dans la texture"
+		Type = Type
+		Characters = "Caract\x00e8res"
+		InGame3DGuiHeightInPixels = Hauteur (en pixels) dans la GUI 3D (en jeu)
+		TextureSize = Taille de la texture
+		FileName = Nom du fichier
+		SizeMultiplier = Multiplicateur de taille
+		AdvanceMultiplier = AdvanceMultiplier
+		DrawOffsetY = Afficher la marge Y
+		Begin = "D\x00e9but"
+		End = Fin
+		Range = Fourchette
+		_General = _General
+		TrueType = TrueType
+		CharactersString = CharactersString
+		CharactersRanges = CharactersRanges
+	}
+	group CollectionTypeConverter
+	{
+		"(Collection)" = (Collection)
+	}
+	group HighLevelMaterial
+	{
+		Template = Gabarit
+		Name = Nom
+		_General = _General
+	}
+	group ShaderBaseMaterial
+	{
+		Blending = Blending
+		Diffuse4Map = Diffuse4Map
+		Lighting = Lighting
+		HeightScale = HeightScale
+		HeightFromNormalMapAlpha = HeightFromNormalMapAlpha
+		HeightMap = HeightMap
+		NormalMap = NormalMap
+		SpecularShininess = SpecularShininess
+		SpecularMap = SpecularMap
+		SpecularScaleDynamic = SpecularScaleDynamic
+		SpecularPower = SpecularPower
+		SpecularColor = SpecularColor
+		EmissionMap = EmissionMap
+		EmissionScaleDynamic = EmissionScaleDynamic
+		EmissionPower = EmissionPower
+		EmissionColor = EmissionColor
+		ReflectionSpecificCubemap = ReflectionSpecificCubemap
+		ReflectionMap = ReflectionMap
+		ReflectionScaleDynamic = ReflectionScaleDynamic
+		ReflectionPower = ReflectionPower
+		ReflectionColor = ReflectionColor
+		Culling = Culling
+		UseNormals = UseNormals
+		Diffuse3Map = Diffuse3Map
+		ReceiveShadows = ReceiveShadows
+		Diffuse2Map = Diffuse2Map
+		ReceiveSimpleShadows = ReceiveSimpleShadows
+		Diffuse1Map = Diffuse1Map
+		AlphaRejectFunction = AlphaRejectFunction
+		AlphaRejectValue = AlphaRejectValue
+		AlphaToCoverage = AlphaToCoverage
+		FadingByDistanceRange = FadingByDistanceRange
+		DiffuseVertexColor = DiffuseVertexColor
+		DiffuseScaleDynamic = DiffuseScaleDynamic
+		DiffusePower = DiffusePower
+		DiffuseColor = DiffuseColor
+		DepthTest = DepthTest
+		AllowFog = AllowFog
+		DepthWrite = DepthWrite
+		Texture = Texture
+		TexCoord = TexCoord
+		Transform = Transform
+		Clamp = Clamp
+		Scroll = Scroll
+		Rotate = Rotate
+		Animation = Animation
+		Scale = Scale
+		ScrollSpeed = ScrollSpeed
+		ScrollRound = ScrollRound
+		RotateSpeed = RotateSpeed
+		DoubleSided = DoubleSided
+		DisplacementTechnique = DisplacementTechnique
+	}
+	group VegetationMaterial
+	{
+		WaveOnlyInVerticalPosition = WaveOnlyInVerticalPosition
+		ReceiveObjectsPositionsFromVertices = ReceiveObjectsPositionsFromVertices
+		Vegetation = Vegetation
+	}
+	group ParticleSystemResourceEditor
+	{
+		Play = Voir
+		"Loop play" = Voir en boucle
+		Affectors = Affects
+		"Particle count: {0}" = "Nombre de particules: {0}"
+		"Are you sure you want to delete selected objects?" = "Etes-vous s\x00fbr de vouloir supprimer les objets s\x00e9lectionn\x00e9s?"
+		"1 object was cloned" = "1 objet a \x00e9t\x00e9 cl\x00f4n\x00e9"
+		"{0} objects were cloned" = "{0} objets ont \x00e9t\x00e9 cl\x00f4n\x00e9s"
+		"Create Emitter" = "Cr\x00e9er un \x00e9metteur"
+		"{0} Emitter" = "{0} \x00e9metteurs"
+		"Create Affector" = "Cr\x00e9er un affect"
+		"{0} Affector" = "{0} affects"
+		Delete = Supprimer
+		"Unable to save file \"{0}\"." = "Impossible de sauvegarder le fichier \"{0}\"."
+	}
+	group MeshResourceType
+	{
+		"Convert to custom format" = "Convertir en un format personnalis\x00e9"
+		"Convert to \".mesh\" format" = "Convertir en \".mesh\""
+	}
+	group EntityTypeResourceEditor
+	{
+		"Edit Physics Model" = "Editer le mod\x00e8le physique."
+		"Show Physics" = Afficher la physique.
+		"Show Invisible Objects" = Afficher les objets invisibles
+		"(No filter)" = (Pas de filtre)
+		"(Without alias only)" = (Sans alias uniquement)
+		"Filter By Alias:" = "Filtrer par alias:"
+		"&Type Editor" = Editeur de type
+		"&Objects Window" = "Fen\x00eatre des objets"
+		"Attach Object" = "Attacher l\'objet"
+		"Are you sure you want to delete attached object \"{0}\"?" = "Etes-vous s\x00fbr de vouloir supprimer l\'objet attach\x00e9 \"{0}\"?"
+		Delete = Supprimer
+		"The entity type can\'t be deleted." = "Le type d\'entit\x00e9 ne peut pas \x00eatre supprim\x00e9."
+		"1 object was cloned" = "1 objet a \x00e9t\x00e9 cl\x00f4n\x00e9"
+		"Are you sure you want to delete these {0} attached objects?" = "Etes-vous s\x00fbr de vouloir supprimer ces {0} objets attach\x00e9s?"
+		"{0} objects were cloned" = "{0} objets ont \x00e9t\x00e9 cl\x00f4n\x00e9s"
+		"This file is inside an archive. Unable to edit it." = "Impossible d\'\x00e9diter un fichier se trouvant dans une archive."
+		"Unable to load type \"{0}\"." = "Impossible de charger le type \"{0}\"."
+	}
+	group EntityTypeEditorObjectsForm
+	{
+		Objects = Objets
+		Attached = "Attach\x00e9s"
+	}
+	group ChooseResourceForm
+	{
+		"Resource Choosing" = "Choix d\'une ressource"
+		OK = OK
+		Cancel = Annuler
+		"(Null)" = (Aucune)
+	}
+	group MeshResourceEditor
+	{
+		"Animations:" = "Animations:"
+		"(None)" = (Aucune)
+		"LODs:" = "Niveaux de d\x00e9tail (LODs):"
+		"(Auto)" = (Automatique)
+		"LOD {0}; Faces: {1}; Depth {2}" = "LOD {0} ; Faces {1} ; Profondeur {2}"
+		"UV channels:" = "Canaux UV:"
+		"SubMesh: {0}; TexCoord: {1}" = "Sous-mesh: {0} ; TextCoord: {1}"
+		"Generate LODs" = "G\x00e9n\x00e9rer les niveaux de d\x00e9tail"
+		Channels = Canaux
+		Move = "D\x00e9placer"
+		Rotate = Faire pivoter
+		Scale = "Changer l\'\x00e9chelle"
+		"Show skeleton" = Afficher le squelette
+		"UV Unwrap" = "D\x00e9faire les UV"
+		"Current LOD Index: {0}" = "Index du niveau de d\x00e9tail actuel (LOD): {0}"
+		"Faces: {0}" = "Faces: {0}"
+		"LOD {0}: Depth: {1}; Faces: {2}" = "LOD {0}: Profondeur: {1} ; Faces: {2}"
+		"The current model can not be used as a LOD." = "Le mod\x00e8le actuel ne peut pas \x00eatre utilis\x00e9 comme un LOD."
+		"Cursor over bone: {0}" = "Curseur sur l\'os: {0}"
+		"Warning: Empty mesh" = "Avertissement: mesh vide"
+		"The mesh uses a material with Normal Mapping." = "Ce mesh utilise un mat\x00e9riel avec du normal mapping."
+		"You need calculate tangent vectors." = Vous devez calculer les vecteurs tangents.
+		"Use \"Channels\" button." = "Utilisez le bouton \"Canaux\"."
+		"The mesh contains old version of tangent vectors channel (float3)." = Ce mesh contient une ancienne version des canaux de vecteurs tangents (float3).
+		"You need recalculate tangent vectors." = Vous devez recalculer les vecteurs tangents.
+		"You cannot edit custom mesh format." = "Vous ne pouvez \x00e9diter un format mesh personnalis\x00e9."
+		"You can convert it to the usual \".mesh\" file. Use context menu." = "Vous pouvez cependant le convertir en \".mesh\" normal. Utilisez pour cela le menu contextuel."
+		"Gabarites: {0}" = "Gabarits: {0}"
+	}
+	group MeshMoveAxesForm
+	{
+		"Move Mesh" = "D\x00e9placer le mesh"
+		"Apply to skeleton" = Appliquer au squelette
+		"Position:" = "Position:"
+		OK = OK
+		Cancel = Annuler
+	}
+	group MeshRotateAxesForm
+	{
+		"Rotate Mesh" = Faire pivoter le mesh
+		"Apply to skeleton" = Appliquer au squelette
+		"Angle:" = "Angle:"
+		"Axis:" = "Axe:"
+		"-90" = -90
+		"+90" = +90
+		OK = OK
+		Cancel = Annuler
+	}
+	group MeshScaleAxesForm
+	{
+		"Scale Mesh" = "Changer l\'\x00e9chelle du mesh"
+		"Apply to skeleton" = Appliquer au squelette
+		"Scale:" = "Echelle:"
+		OK = OK
+		Cancel = Annuler
+	}
+	group MeshGenerateLODsForm
+	{
+		"Generate LODs" = "G\x00e9n\x00e9rer les niveaux de d\x00e9tail (LODs)"
+		"Reduction (%):" = "R\x00e9duction (%):"
+		"Distance:" = "Distance:"
+		"Count:" = "Nombre:"
+		Cancel = Annuler
+		OK = OK
+	}
+	group MeshChannelsForm
+	{
+		"Mesh Vertex Channels" = Canaux de sommet du mesh
+		"Vertex data:" = "Donn\x00e9e du vertex:"
+		Close = Fermer
+		"Channels:" = "Canaux:"
+		"Vertex datas:" = "Donn\x00e9es de vertex:"
+		Compress = Compresser
+		"Tangent vectors" = Vecteurs tangents
+		"UV Unwrap" = "D\x00e9faire les UV"
+		"Vertex buffers:" = "Tampons de vertex:"
+		"Remove the duplicated vertices" = Enlever les duplicatas de vertices
+		Delete = Supprimer
+		Generate = "G\x00e9n\x00e9rer"
+		"Warning: Currently this tool is very simple and have bugs. Only for tests." = "Avertissement: cet outil est pour l\'instant tr\x00e8s simple et comporte des bogues. A utiliser seulement pour des tests."
+		"Automatic generation:" = "G\x00e9n\x00e9ration automatique:"
+		"Mark/Unmark Channel" = "(D\x00e9)cocher le canal"
+		"SubMesh {0}: {1} vertices, {2} faces" = "Sous-mesh {0}: {1} vertices, {2} faces"
+		"Are you sure you want to mark selected channel as unwrapped texture coordinates channel?" = "Etes-vous s\x00fbr de vouloir cocher le canal s\x00e9lectionn\x00e9 comme canal pour les coordonn\x00e9es des textures non d\x00e9finies?"
+		"Are you sure you want to unmark unwrapped texture coordinates channel?" = "Etes-vous s\x00fbr de vouloir d\x00e9cocher le canal pour les coordonn\x00e9es des textures non d\x00e9finies?"
+		"Are you sure you want to delete channel \"{0}\"?" = "Etes-vous s\x00fbr de vouloir supprimer le canal \"{0}\"?"
+		"Are you sure you want to delete tangent vectors?" = "Etes-vous s\x00fbr de vouloir supprimer les vecteurs tangents?"
+		"Are you sure you want to generate tangent vectors?" = "Etes-vous s\x00fbr de vouloir g\x00e9n\x00e9rer des vecteurs tangents?"
+		"\"TextureCoordinates\" vertex element is not exists." = "L\'\x00e9l\x00e9ment vertex \"TextureCoordinates\" n\'existe pas."
+		"\"Normal\" vertex element is not exists." = "L\'\x00e9l\x00e9ment vertex \"Normal\" n\'existe pas."
+		"Animated meshes are not supported." = "Les meshs anim\x00e9s ne sont pas support\x00e9s."
+		"The current implementation of the UVUnwrap tool needs at least one texture coordinates channel." = "L\'impl\x00e9mentation actuelle de l\'outil UVUnwrap requiert au moins un canal de coordonn\x00e9es de texture."
+		"More than one submesh uses SharedVertexData. In this case calculation is not supported." = "Plus d\'un sous-mesh utilise des donn\x00e9es de vertex partag\x00e9es. Ce cas de calcul n\'est pas support\x00e9."
+		"There is no free texture coordinates channel: channels from 0 to 3 are already in use." = "Il n\'existe pas de canal de coordonn\x00e9es de texture libre: les canaux 1 \x00e0 3 sont d\x00e9j\x00e0 utilis\x00e9s."
+		"Are you sure you want to generate unwrapped texture coordinates channel for the sub meshes?" = "Etes-vous s\x00fbr de vouloir g\x00e9n\x00e9rer un canal de coordonn\x00e9es de texture non d\x00e9finie pour le sous-mesh?"
+		"Warning: Additional vertices will be added to the mesh." = "Avertissement: des vertices additionelles vont \x00eatre ajout\x00e9es au mesh."
+		"Warning: LODs will be removed." = "Avertissement: les niveaux de d\x00e9tails seront supprim\x00e9s."
+		"Are you sure you want to delete unwrapped texture coordinate channels?" = "Etes-vous s\x00fbr de vouloir supprimer?"
+		"More than one sub mesh with shared vertices is not supported." = "Le partage des vertices dans plus d\'un sous-mesh n\'est pas support\x00e9."
+		"Are you sure you want to remove the duplicated vertices?" = "Etes-vous s\x00fbr de vouloir supprimer les duplicatas de vertices?"
+		"{0} duplicated vertices were removed." = "{0} duplicatas de vertices ont \x00e9t\x00e9 supprim\x00e9s."
+		"No duplicated vertices." = Aucun duplicata de vertex.
+	}
+	group Mesh
+	{
+		EdgeList = Liste des bordures
+		SubMeshes = Sous-meshes
+		SkeletonName = Nom du squelette
+		ManualLODs = LODs manuels
+		General = "G\x00e9n\x00e9ral"
+		"Depth: {0}; Mesh name: {1}" = "Profondeur: {0} ; Nom du mesh: {1}"
+		FromDepth = Depuis la profondeur
+		MeshName = Nom du mesh
+		"SubMesh: {0} vertices, {1} faces" = "Sous-mesh: {0} vertices, {1} faces"
+		MaterialName = "Nom du mat\x00e9riel"
+		AllowCollision = Permettre les collisions
+		TextUserDictionary = Dictionnaire texte utilisateur
+	}
+	group TextBlockEditor
+	{
+		"(Root)" = (Racine)
+		"Text Block Editor" = Editeur de bloc de texte
+		Close = Fermer
+		"New Element" = "Nouvel \x00e9l\x00e9ment"
+		Edit = Edition
+		Delete = Supprimer
+		"Empty attribute name." = "Vider le nom d\'attribut."
+		"Doublicate attribute name \"{0}\"." = "Dupliquer le nom d\'attribut \"{0}\"."
+		"Are you sure you want to delete \"{0}\" element?" = "Etes-vous s\x00fbr de vouloir supprimer \"{0}\" \x00e9l\x00e9ments?"
+		"Block\'s Element" = Element du bloc
+		Cancel = Annuler
+		OK = OK
+		"Data:" = "Donn\x00e9es:"
+		"Name:" = "Nom:"
+		"Empty name." = Nom vide.
+	}
+	group GuiResourceEditor
+	{
+		Test = Test
+		"&Gui Editor" = Editeur de GUI
+		"&Controls Window" = "Fen\x00eatre des contr\x00f4les"
+		"{0} selected" = "{0} s\x00e9lectionn\x00e9s"
+		"Create New Control" = "Cr\x00e9er un nouveau contr\x00f4le"
+		"Show State \"{0}\"" = "Afficher l\'\x00e9tat \"{0}\""
+		"Bring to Front" = Amener au premier plan
+		"Send to Back" = "Envoyer en arri\x00e8re-plan"
+		"Cannot create control (Hierarchy loop)." = "Impossible de cr\x00e9er le contr\x00f4le (boucle hi\x00e9rarchique)."
+		"1 object was cloned" = "1 objet a \x00e9t\x00e9 cl\x00f4n\x00e9"
+		"{0} objects were cloned" = "{0} objets ont \x00e9t\x00e9 cl\x00f4n\x00e9s"
+		"Value {0}" = "Valeur {0}"
+		"Are you sure you want to delete selected controls?" = "Etes-vous s\x00fbr de vouloir supprimer ces contr\x00f4les?"
+		"Cannot delete root control." = "Impossible de supprimer le contr\x00f4le racine."
+		Stop = "Arr\x00eater"
+		"Test mode" = Mode test
+		"No control loaded" = "Pas de contr\x00f4le charg\x00e9"
+		"Unable to save file \"{0}\" ({1})." = "Impossible de sauvegarder le fichier \"{0}\" ({1})."
+		"Select Page {0}" = "S\x00e9lectionner la page {0}"
+		Delete = Supprimer
+		"Unable to load file \"{0}\"." = "Impossible de charger le fichier \"{0}\"."
+		"Demand base type \"{0}\" for \"{1}\" slot." = "Demander le type de base \"{0}\" pour la place \"{1}\"."
+	}
+	group GuiNewControlDialog
+	{
+		"(No special slot)" = "(Pas de place sp\x00e9ciale)"
+		"New Control" = "Nouveau contr\x00f4le"
+		"Parent control slot:" = "Place du contr\x00f4le parent:"
+		"Base UI Model:" = "Mod\x00e8le UI de base:"
+		Cancel = Annuler
+		OK = OK
+	}
+	group GuiControlsTreeView
+	{
+		"Base Templates" = Gabarits de base
+	}
+	group GuiEditorControlsForm
+	{
+		"Control Hierarchy" = "Hi\x00e9rarchie des contr\x00f4les"
+	}
+}

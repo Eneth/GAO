@@ -1,0 +1,65 @@
+groups
+{
+	group MainForm
+	{
+		"Default rendering device" = "Mat\x00e9riel utilis\x00e9 par d\x00e9faut"
+		"Recommended setting" = "Param\x00e8tres recommand\x00e9s"
+		"Current screen resolution" = "R\x00e9solution actuelle"
+		"Use all displays (multi-monitor mode)" = Utiliser tous les affichages (mode multi-moniteur)
+		Null = Aucun
+		Autodetect = "D\x00e9tecter automatiquement"
+		"NeoAxis Engine Configurator" = Outil de configuration - NeoAxis Engine
+		Render = Rendu
+		"Rendering device:" = "Mat\x00e9riel utilis\x00e9:"
+		"If \"Recommended setting\" option is selected shaders will be disabled on Intel videocards." = "L\'option \"Param\x00e8tres recommand\x00e9s\" d\x00e9sactivera les shaders sur les cartes graphiques int\x00e9gr\x00e9es Intel."
+		"Render technique:" = "Technique de rendu:"
+		"Filtering:" = "Filtrage:"
+		"Vertical sync" = Synchronisation verticale
+		"Full-scene antialiasing:" = "Antialiasing de la sc\x00e8ne enti\x00e8re:"
+		"(Disable it if you have black screen at startup)" = "(D\x00e9sactiver si l\'\x00e9cran de d\x00e9marrage reste noir)"
+		"Full screen" = "Plein \x00e9cran"
+		"Video mode:" = "R\x00e9solution:"
+		"Enable program to change display frequency in a full screen mode" = "Autoriser le programme \x00e0 changer la fr\x00e9quence d\'affichage en mode plein \x00e9cran"
+		"Render system:" = "Syst\x00e8me de rendu:"
+		Physics = Physique
+		"Allow hardware acceleration" = "Permettre l\'acc\x00e9l\x00e9ration mat\x00e9rielle"
+		"Physics system:" = "Moteur physique:"
+		Sound = Sons
+		"Sound system:" = "Moteur son:"
+		Localization = Localisation
+		"Localize toolset" = "Localiser les outils de d\x00e9veloppement"
+		"Localize engine" = Localiser le moteur de jeu
+		"Language:" = "Langue:"
+		"Low Dynamic Range (Standard)" = Low Dynamic Range (Standard)
+		"64-bit High Dynamic Range (HDR)" = 64-bit High Dynamic Range (HDR)
+		No = Non
+		Configurator = Outil de configuration
+		Shaders = Shaders
+		OK = OK
+		Cancel = Annuler
+		"Shader Model 2" = Shader Model 2
+		"Shader Model 3" = Shader Model 3
+		Yes = Oui
+		2 = 2
+		4 = 4
+		6 = 6
+		8 = 8
+		"Depth buffer access allows advanced features like Soft Particles." = "L\'acc\x00e8s \x00e0 la profondeur de champ permet des fonctionnalit\x00e9s avanc\x00e9es comme les particules fines."
+		"Depth buffer access:" = "Acc\x00e8s \x00e0 la profondeur de champ:"
+		"Maximum shader version:" = "Version de shader:"
+		"Fast Approximate Antialiasing (FXAA)" = Fast Approximate Antialiasing (FXAA)
+		"No shaders" = Pas de shaders
+		"Is not supported" = "N\'est pas support\x00e9"
+	}
+	group Renderer
+	{
+		"Recommended setting" = "Param\x00e8tres recommand\x00e9s"
+		Trilinear = "Trilin\x00e9aire"
+		"Anisotropic 2x" = Anisotropique 2x
+		"Anisotropic 4x" = Anisotropique 4x
+		"Anisotropic 8x" = Anisotropique 8x
+		"Anisotropic 16x" = Anisotropique 16x
+		"No pixel shaders" = Aucun pixel shaders
+		"No vertex shaders" = Aucun vertex shaders
+	}
+}

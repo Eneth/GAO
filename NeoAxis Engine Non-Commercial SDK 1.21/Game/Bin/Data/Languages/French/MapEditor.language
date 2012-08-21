@@ -1,0 +1,508 @@
+groups
+{
+	group Menu
+	{
+		"&File" = &Fichier
+		"&New..." = &Nouveau...
+		"Open..." = &Ouvrir...
+		Close = &Fermer
+		"&Save" = Enregi&strer
+		"Save &As..." = &Enregistrer sous...
+		"Scene File Import/Export" = "&Import/Export d\'une sc\x00e8ne"
+		"Import Objects..." = &Importer des objets...
+		"Export Selected Objects..." = "&Exporter les objets s\x00e9lectionn\x00e9s..."
+		"E&xit" = &Quitter
+		"&Edit" = &Edition
+		"&Undo" = &Annuler
+		"&Redo" = "&R\x00e9tablir"
+		Select = "&S\x00e9lectionner"
+		Move = "&D\x00e9placer"
+		Rotate = &Faire pivoter
+		Scale = "&Changer l\'\x00e9chelle"
+		"&Clone" = "&Cl\x00f4ner"
+		"Delete..." = &Supprimer...
+		"Find..." = &Rechercher...
+		"Focus Camera To Object" = "&Faire pointer la cam\x00e9ra sur l\'objet"
+		"&View" = &Affichage
+		"&Entity Types Window" = "Fen\x00eatre des &types d\'entit\x00e9s"
+		"&Map Entities Window" = "Fen\x00eatre des &entit\x00e9s"
+		"&Properties Window" = "Fen\x00eatre des &propri\x00e9t\x00e9s"
+		"&Output Window" = "Fen\x00eatre de &sortie"
+		"&World" = &Monde
+		"&Logic Editor" = &Editeur de logique
+		"&Profiling" = &Profiling
+		"Draw Static Geometry" = "Afficher la &g\x00e9om\x00e9trie statique"
+		"Draw Models" = "Afficher les &mod\x00e8les"
+		"Draw Effects" = Afficher les &effets
+		"Draw Post Effects" = Afficher les effets &post-rendu
+		"Enable &Dynamic Lighting" = "Activer l\'\x00e9clairage &dynamique"
+		"Allow Hardware Instancing" = "Pe&rmettre l\'instantiation via hardware"
+		"Draw Wireframe" = Afficher le ma&illage
+		"Draw Static Physics" = Afficher la p&hysique statique
+		"Draw Dynamic Physics" = Afficher la ph&ysique dynamique
+		"Draw Scene Graph Info" = "Afficher les infos du graphe de &sc\x00e8ne"
+		"Draw Map Object Bounds" = "Afficher les e&xtr\x00eamit\x00e9s des objets de la carte"
+		"Draw Scene Node Bounds" = "Afficher les ex&tr\x00eamit\x00e9s des sc\x00e8nes"
+		"Draw Static Mesh Object Bounds" = "Afficher les extr\x00eamit\x00e9s des &objets mesh statiques"
+		"Draw Zones, Portals, Occluders" = Afficher les &zones, les portails et les occluders
+		"Draw Lights" = "Afficher les &lumi\x00e8res"
+		"Draw Game Specific Debug Geometry" = "Afficher la g\x00e9om\x00e9trie de d\x00e9bogage sp\x00e9cifique au &jeu"
+		"Frustum Test Mode" = Test de Fr&ustum Culling
+		"Draw Shadow Debugging (PSSM)" = "Afficher le d\x00e9bogage des ombres (&PSSM)"
+		Advanced = "&Avanc\x00e9"
+		"Entity World Explorer..." = "&Explorateur d\'entit\x00e9s..."
+		"&Tools" = &Outils
+		"Run Simulation" = &Lancer la simulation
+		"&Options..." = &Options...
+		"&Help" = Ai&de
+		"Overview of Map Editor" = "&Aper\x00e7u de l\'\x00e9diteur de carte"
+		Documentation = &Documentation
+		"&About..." = A &propos...
+		"Extensions Toolbar" = "Barre d\'&outils des extensions"
+		"Status Bar" = &Barre de statut
+		"Move Selected Objects To Camera" = "D\x00e9placer les objets s\x00e9lectionn\x00e9s \x00e0 la cam\x00e9ra"
+		"&Add-ons" = 
+	}
+	group FindForm
+	{
+		"Find Entities" = "Rechercher des entit\x00e9s"
+		"Example: Box*." = "Exemple: Box*."
+		"Entity type:" = "Type d\'entit\x00e9:"
+		"Entity class:" = "Classe de l\'entit\x00e9:"
+		"Entity name pattern:" = "Sch\x00e9ma de nom de l\'entit\x00e9:"
+		Cancel = Annuler
+		Find = Rechercher
+	}
+	group Various
+	{
+		"{0} selected" = "{0} s\x00e9lectionn\x00e9s"
+		"{0} objects were cloned" = "{0} objets ont \x00e9t\x00e9 cl\x00f4n\x00e9s"
+		"Are you sure you want to delete entities?" = "Etes-vous s\x00fbr de vouloir supprimer ces entit\x00e9s?"
+		"Map Editor" = Editeur de carte
+		"1 object was cloned" = "1 objet a \x00e9t\x00e9 cl\x00f4n\x00e9"
+		"Creating \"{0}\" entity." = "Cr\x00e9ation de l\'entit\x00e9 \"{0}\""
+		"Layer \"{0}\"." = "Calque \"{0}\"."
+		"(Click here to create)" = "(Cliquer ici pour cr\x00e9er l\'entit\x00e9)"
+		"No lights" = "Pas de lumi\x00e8re"
+		"{0} hidden" = "{0} cach\x00e9s"
+		"{0} invalid portals" = "{0} portails invalides"
+		"Cannot create entity, current layer is locked. Unlock current layer for editing." = "Impossible de cr\x00e9er l\'entit\x00e9, le calque actuel est v\x00e9rouill\x00e9. D\x00e9v\x00e9rouillez-le pour proc\x00e9der \x00e0 l\'\x00e9dition."
+		"Entity which must be unique on map is already created." = "L\'entit\x00e9 existe d\x00e9j\x00e0 sur la carte est doit rester unique."
+		"The Map entity cannot be deleted." = "L\'entit\x00e9 \"Map\" ne peut pas \x00eatre supprim\x00e9e."
+		"The Map entity cannot be cloned." = "L\'entit\x00e9 \"Map\" ne peut pas \x00eatre cl\x00f4n\x00e9e."
+		"Cannot clone uncloneable entity \"{0}\"." = "Impossible de cl\x00f4ner l\'entit\x00e9 \"{0}\" (incl\x00f4nable)."
+		"Map saved" = "Carte sauvegard\x00e9e"
+		"Simulation Running" = Simulation en cours
+		"Warning! On the some systems simulation mode can work unstable." = "Attention! Le mode simulation peut \x00eatre instable sur certains syst\x00e8mes."
+		"Map files (*.map)|*.map|All files (*.*)|*.*" = Fichiers carte (*.map)|*.map|Tous les fichiers (*.*)|*.*
+		"Scene files (*.scene)|*.scene|All files (*.*)|*.*" = "Fichiers sc\x00e8ne (*.scene)|*.scene|Tous les fichiers (*.*)|*.*"
+		"No selected objects." = "Pas d\'objet s\x00e9lectionn\x00e9."
+		"Unable to load file. You cannot load map outside \"Data\" directory." = "Impossible de charger le fichier. Vous ne pouvez pas charger une carte se trouvant hors du dossier \"Data\"."
+		"Unable to save file. You cannot save map outside \"Data\" directory." = "Impossible de sauvegarder le fichier. Vous ne pouvez pas sauvegarder une carte en dehors du dossier \"Data\"."
+		"Save map \"{0}\"?" = "Sauvegarder la carte \"{0}\"?"
+		"Simulation already running." = "Simulation d\x00e9j\x00e0 en cours."
+		"http://www.neoaxis.com/wiki/Documentation/Articles/Overview_of_Map_Editor" = "http://www.neoaxis.com/wiki/Documentation/Articles/Overview_of_Map_Editor"
+		"http://www.neoaxis.com/wiki/Documentation" = "http://www.neoaxis.com/wiki/Documentation"
+		"{0} objects have been exported." = "{0} objets ont \x00e9t\x00e9 export\x00e9s."
+		"{0} objects have been imported." = "{0} objets ont \x00e9t\x00e9 import\x00e9s."
+		"No map loaded." = "Pas de carte charg\x00e9e."
+		Warning = Avertissement
+		Error = Erreur
+		"(no selection)" = "(pas de s\x00e9lection)"
+		"http://www.neoaxis.com/wiki/Documentation/Articles/Overview_of_Logic_Editor" = "http://www.neoaxis.com/wiki/Documentation/Articles/Overview_of_Logic_Editor"
+		"Logic Editor" = Editeur de logique
+		True = Vrai
+		False = Faux
+		Untitled = Sans_titre
+	}
+	group OptionsDialog
+	{
+		Options = Options
+		"&Cancel" = &Annuler
+		"&OK" = &OK
+		General = "G\x00e9n\x00e9ral"
+		Camera = "Cam\x00e9ra"
+		Gizmo = Gizmo
+		Grid = Grille
+		"Sound Volume" = Volume des sons
+		"Show Triangle and Batch Count" = Afficher le nombre de triangles et de batches
+		"Show Splash Screen At Startup" = "Afficher l\'\x00e9cran de d\x00e9marrage"
+		"Show Objects Tips" = Afficher les conseils sur les objets
+		"Objects Tips Items" = "Objets d\'aide"
+		"Show FPS" = Afficher les FPS
+		"Maximum FPS" = Plafond max. FPS
+		"Run Simulation Parameters" = "Param\x00e8tres de la simulation"
+		"Material Scheme of Viewport" = "Sch\x00e9ma de mat\x00e9riel pour le viewport"
+		"Load Previous Map at Startup" = "Charger la derni\x00e8re carte au d\x00e9marrage"
+		"Double Click the Selection Radius" = "Rayon de s\x00e9l\x00e9ction lors du double clic"
+		Selection = "S\x00e9lection"
+		Viewport = Viewport
+		"Object Tips" = Conseils sur les objets
+		"Run Simulation" = Lancer la simulation
+		"Normal Velocity" = Vitesse normale
+		"Fast Velocity ( \"Shift\" Key )" = "Vitesse \x00e9lev\x00e9e (touche \"Shift\")"
+		"Rotate Sensitivity" = "Sensibilit\x00e9 du rotation"
+		"Movement Snapping" = "Crantage du d\x00e9placement"
+		"Rotation Snapping (degrees)" = "Crantage de la rotation (en d\x00e9gr\x00e9s)"
+		"Rotation Sensitivity" = "Sensibilit\x00e9 du rotation"
+		"Scaling Snapping (%)" = "Crantage de la mise \x00e0 l\'\x00e9chelle (%)"
+		Snapping = Crantage
+		Sensitivity = "Sensibilit\x00e9"
+		"Show Grid" = Afficher la grille
+		"Grid Height" = "El\x00e9vation de la grille"
+		"Grid Color" = Couleur de la grille
+		"Grid Step" = Taille des cases
+		"Grid Visibility Distance" = "Distance de visibilit\x00e9 de la grille"
+		Reset = "R\x00e9initialiser"
+		"Class Type" = Type de classe
+		"Text Color" = Couleur du texte
+		"Icon Color" = "Couleur de l\'ic\x00f4ne"
+		"Visible Distance" = "Distance d\'affichage"
+		"Icon Size" = "Taille de l\'ic\x00f4ne"
+		Icon = "Ic\x00f4ne"
+		"Show Text" = Afficher le texte
+		"Font Height" = Taille de la police
+		Text = Texte
+	}
+	group MapEntitiesForm
+	{
+		"Map Entities" = "Entit\x00e9s de la carte"
+		"Are you sure you want to delete layer \"{0}\"?" = "Etes-vous s\x00fbr de vouloir supprimer le calque \"{0}\"?"
+		"Entities in the layer will be saved." = "Les entit\x00e9s dans le calque seront sauv\x00e9es."
+		"You cannot rename a root layer." = Vous ne pouvez pas renommer un calque racine.
+		"You cannot remove a layer with a child layers in it." = "Vous ne pouvez pas enlever un calque en contenant d\'autres."
+		"Invalid layer name." = Nom de calque invalide.
+		"Layer with name \"{0}\" already exists." = "Un calque nomm\x00e9 \"{0}\" existe d\x00e9j\x00e0."
+		"New Layer" = Nouveau Calque
+		Visible = Visible
+		"Allow To Edit" = "Permettre l\'\x00e9dition"
+		"Select Entities" = "S\x00e9lectionner les entit\x00e9s"
+		"Move Selected Entities To This Layer" = "D\x00e9placer les entit\x00e9s s\x00e9lectionn\x00e9es dans ce calque"
+		Delete = Supprimer
+		Rename = Renommer
+	}
+	group EntityTypesForm
+	{
+		"Entity Types" = "Types d\'entit\x00e9s"
+		"By Bounds" = "Extr\x00eamit\x00e9s"
+		"By Bounds With Rotation" = "Extr\x00eamit\x00e9s (avec rotation)"
+		"By Center" = Point central
+		"Alignment of objects" = "M\x00e9thode de placement des objets"
+		"Automatic alignment of objects.\nI.e. property AlignmentMethod of object will be initialized." = "Alignement automatique des objets\nLa propri\x00e9t\x00e9 AlignementMethod de l\'objet sera initialis\x00e9e."
+		"Random rotation" = "Rotation al\x00e9atoire"
+	}
+	group PropertiesForm
+	{
+		Properties = "Propri\x00e9t\x00e9s"
+		Reset = "R\x00e9initialiser"
+	}
+	group ToolBar
+	{
+		New = Nouveau
+		Open = Ouvrir
+		Save = Enregistrer
+		Select = "S\x00e9lectionner"
+		Move = "D\x00e9placer"
+		Rotate = Faire pivoter
+		Scale = "Changer l\'\x00e9chelle"
+		World = Monde
+		"Movement Snapping" = "Crantage du d\x00e9placement"
+		"Rotation Snapping" = Crantage de la rotation
+		"Scaling Snapping" = "Crantage de la mise \x00e0 l\'\x00e9chelle"
+		"Show Grid" = Afficher la grille
+		"Focus Camera to Object" = "Faire pointer la cam\x00e9ra sur l\'objet"
+		"Update Alignment of Objects" = "Mettre \x00e0 jour l\'alignement de l\'objet"
+		Options = Options
+		"Run Simulation" = Lancer la simulation
+		Local = Local
+		"Gizmo\'s Coordinate Mode" = "Mode de coordonn\x00e9es du Gizmo"
+		"Lock Selected Objects To Camera" = "Verrouiller les objets s\x00e9lectionn\x00e9s \x00e0 la cam\x00e9ra"
+		"Move Selected Objects To Camera" = "D\x00e9placer les objets s\x00e9lectionn\x00e9s \x00e0 la cam\x00e9ra"
+		"Step Movement" = "Mouvement \x00e9tape"
+	}
+	group Gizmo
+	{
+		Move = "D\x00e9placer"
+		Rotate = Faire pivoter
+		Scale = "Changer l\'\x00e9chelle"
+		Select = "S\x00e9lectionner"
+	}
+	group NewMapForm
+	{
+		"Map directory with name \"{0}\" is already exists." = "Un dossier de carte portant le nom \"{0}\" existe d\x00e9j\x00e0."
+		"Invalid name." = Nom invalide.
+		"New Map" = Nouvelle carte
+		"Directory:" = "Dossier:"
+		Cancel = Annuler
+		Create = "Cr\x00e9er"
+	}
+	group EntityWorldExplorerForm
+	{
+		"Entity World Explorer" = "Explorateur d\'entit\x00e9s"
+	}
+	group OutputForm
+	{
+		Output = Sortie
+	}
+	group AboutBox
+	{
+		About = A propos
+	}
+	group StatusBar
+	{
+		Ready = "Pr\x00eat"
+	}
+	group ChooseExtendedPropertiesForm
+	{
+		"(Null)" = (Aucune)
+		"Choosing Extended Properties Class" = "Choix d\'une classe de propri\x00e9t\x00e9s \x00e9tendues"
+		Cancel = Annuler
+		OK = OK
+	}
+	group ChooseEntityForm
+	{
+		"(Null)" = (Aucune)
+		"Entity Choosing" = "Choix d\'une entit\x00e9"
+		Cancel = Annuler
+		OK = OK
+	}
+	group LogicEditor_Menu
+	{
+		"&File" = &Fichier
+		"Save Map" = &Enregistrer la carte
+		"&View" = &Affichage
+		"&Class List" = &Liste des classes
+		"&Output" = &Sortie
+		"&Tools" = &Outils
+		"Run Simulation" = &Lancer la simulation
+		"&Build Test" = &Compilation test
+		"&Help" = Ai&de
+		"Overview of Logic Editor" = "&Aper\x00e7u de l\'\x00e9diteur de logique"
+		Documentation = &Documentation
+		"&About..." = A &propos
+	}
+	group LogicEditor_ToolBar
+	{
+		"Build Test" = Compilation test
+		"Run Simulation" = Lancer la simulation
+	}
+	group LogicEditor_StatusBar
+	{
+		Ready = "Pr\x00eat"
+	}
+	group LogicClassListForm
+	{
+		"Class List" = Liste des classes
+		Classes = Classes
+		Edit = Edition
+		Delete = Supprimer
+		"Create Method" = "Cr\x00e9er une m\x00e9thode"
+		Method = "M\x00e9thode"
+		"Designer Type" = Mode designer
+		"Script Type" = Mode script
+		"Event \"{0}\"" = "Ev\x00e9nement \"{0}\""
+		"Create Variable" = "Cr\x00e9er une variable"
+		"Create Custom Script Code" = "Cr\x00e9er un script personnalis\x00e9"
+		"Create Class" = "Cr\x00e9er une classe"
+		"Delete class \"{0}\"?" = "Supprimer la classe \"{0}\"?"
+		"Delete method \"{0}\"?" = "Supprimer la m\x00e9thode \"{0}\"?"
+		"Delete variable \"{0}\"?" = "Supprimer la variable \"{0}\"?"
+		"Delete custom script code?" = "Supprimer le script personnalis\x00e9?"
+		"Method with name \"{0}\" is already exists." = "Une m\x00e9thode portant le nom \"{0}\" existe d\x00e9j\x00e0."
+		"Custom Script Code" = "Script personnalis\x00e9"
+	}
+	group LogicVariableForm
+	{
+		Variable = Variable
+		"Type:" = "Type:"
+		"Name:" = "Nom:"
+		OK = OK
+		Cancel = Annuler
+		"Invalid name." = Nom invalide.
+		"Variable with name \"{0}\" is already exists." = "Une variable portant le nom \"{0}\" existe d\x00e9j\x00e0."
+		Serialization = "S\x00e9rialisation"
+	}
+	group LogicClassForm
+	{
+		Class = Classe
+		"Entity class:" = "Classe d\'entit\x00e9:"
+		"Type:" = "Type:"
+		"Name:" = "Nom:"
+		OK = OK
+		Cancel = Annuler
+		"Invalid name." = Nom invalide.
+		"Please select entity class." = "Veuillez s\x00e9lectionner une classe d\'entit\x00e9."
+		"Class with name \"{0}\" is already exists." = "Une classe portant le nom \"{0}\" existe d\x00e9j\x00e0."
+	}
+	group LogicMethodDefinitionForm
+	{
+		"Method Definition" = "D\x00e9finition de la m\x00e9thode"
+		"Parameters:" = "Param\x00e8tres:"
+		"Return type:" = "Type de la valeur de retour:"
+		"Name:" = "Nom:"
+		Cancel = Annuler
+		OK = OK
+		"Invalid name." = Nom invalide.
+		"Method with name \"{0}\" is already exists." = "Une m\x00e9thode portant le nom \"{0}\" existe d\x00e9j\x00e0."
+		"Delete parameter \"{0}\"?" = "Supprimer le param\x00e8tre \"{0}\"?"
+		"Two parameters with equal name \"{0}\"." = "Deux param\x00e8tres portent un nom similaire: \"{0}\"."
+	}
+	group LogicMethodParameterForm
+	{
+		"Method Parameter" = "Param\x00e8tre de la m\x00e9thode"
+		"Name:" = "Nom:"
+		"Type:" = "Type:"
+		Cancel = Annuler
+		OK = OK
+		"Invalid name." = Nom invalide.
+	}
+	group LogicCustomScriptCodeDocument
+	{
+		"{0} (Custom Script Code)" = "{0} (Script personnalis\x00e9)"
+	}
+	group LogicEditorForm
+	{
+		"Build started" = "Compilation lanc\x00e9e"
+		"No script files" = Pas de fichiers de script
+		"Compile complete -- {0} errors, {1} warnings" = "Compilation termin\x00e9e -- {0} erreurs, {1} avertissements"
+	}
+	group LogicActionForm
+	{
+		"Choose Action" = Choisir une action
+		"(Return Type: \"{0}\")" = "(Type de la valeur de retour: \"{0}\")"
+		"(Call Method Of \"{0}\" Class)" = "(Appelle une m\x00e9thode de la classe \"{0}\")"
+		Cancel = Annuler
+		OK = OK
+		"Constant value" = Valeur constante
+	}
+	group LogicMethodDocument
+	{
+		"Actions:" = "Actions:"
+		Insert = "Ins\x00e9rer"
+		Copy = Copier
+		Paste = Coller
+		Delete = Supprimer
+		"Insert (After Current)" = "Ins\x00e9rer (apr\x00e8s l\'actuelle)"
+		"Before Current" = "Avant l\'actuelle"
+		"After Current" = "Apr\x00e8s l\'actuelle"
+		"Cannot edit signature of overridden method." = "Impossible d\'\x00e9diter le prototype d\'une m\x00e9thode r\x00e9\x00e9crite."
+	}
+	group EntityTypeChangeForm
+	{
+		"Error!" = Erreur!
+		"Unknown entity type specified \"{0}\", loading of map cannot continue. The base class is \"{1}\". Would you like to replace this unknown type with another type of entity?" = "Type d\'entit\x00e9 sp\x00e9cifi\x00e9 (\"{0}\") inconnu . La classe de base est \"{1}\". Le chargement de la carte ne peut continuer. Voulez-vous remplacer le type inconnu par une autre type d\'entit\x00e9?"
+		"Entity Type Replacement" = "Remplacement du type d\'entit\x00e9"
+		Cancel = Annuler
+		OK = OK
+		"New type:" = "Nouveau type:"
+		"..." = ...
+		"Please choose a new type." = Veuillez choisir un nouveau type.
+		"Change all same types" = Changer tous les types similaires
+	}
+	group ChooseResourceForm
+	{
+		"Resource Choosing" = Choix de ressource
+		OK = OK
+		Cancel = Annuler
+		"(Null)" = (Aucune)
+	}
+	group HeightmapTerrainForm
+	{
+		"Heightmap Terrain" = Heightmap Terrain
+		"Layers:" = "Calques:"
+		"Outer radius:" = "Rayon du cercle externe:"
+		"Hole:" = "Trous:"
+		"Paint:" = "Peindre:"
+		"Inner radius:" = "Rayon du cercle interne:"
+		"Geometry:" = "G\x00e9om\x00e9trie:"
+		"Shape:" = "Forme:"
+		"Tool:" = "Outils:"
+		"Strength:" = "Force:"
+		"Geometry Raise" = "Sur\x00e9lever la g\x00e9om\x00e9trie"
+		"Geometry Lower" = "Abaisser la g\x00e9om\x00e9trie"
+		"Geometry Smooth" = "Lisser la g\x00e9om\x00e9trie"
+		"Geometry Flatten" = "Applanir la g\x00e9om\x00e9trie"
+		Paint = Peindre
+		Clear = Effacer
+		"Paint Smooth" = Peindre avec lissage
+		"Paint Flatten" = Peindre avec aplat
+		"Add Hole" = Ajouter un trou
+		"Remove Hole" = Enlever un trou
+		"Circle Shape" = Forme arrondie
+		"Square Shape" = "Forme carr\x00e9e"
+	}
+	group HeightmapTerrainExtendedFunctionalityDescriptor
+	{
+		Edit = Edition
+		"Ambient Occlusion" = Occlusion ambiante
+	}
+	group HeightmapTerrainArea
+	{
+		"Warning! Shader Model 2 is not supported by your hardware or disabled." = "Avertissement! Les shaders mod\x00e8le 2 sont d\x00e9sactiv\x00e9s ou ne sont pas support\x00e9s par votre mat\x00e9riel."
+		"Not all terrain features are enabled." = "Toutes les fonctionnalit\x00e9s du terrain ne sont pas activ\x00e9es."
+		"Heightmap terrain: Editing mode" = "Heightmap terrain: mode \x00e9dition"
+		"Warning! Invalid heightmap terrain tiles detected. Overflow in paint layers, exists more than 5 layers in one place. This is restriction of terrain\'s implementation." = "Avertissement! Cases invalides d\x00e9tect\x00e9es dans le heightmap terrain. Surcharge des calques de peinture ; plus de 5 calques superpos\x00e9s \x00e0 un endroit (limite due \x00e0 l\'impl\x00e9mentation du syst\x00e8me de terrain)."
+	}
+	group HeightmapTerrainAOForm
+	{
+		"Map size: {0}x{0}" = "Taille de la carte: {0}x{0}"
+		"Iteration count: {0}" = "Nombre d\'it\x00e9rations: {0}"
+		"Ray length: {0}" = "Longueur du faisceau: {0}"
+		"Power: {0}" = "Puissance: {0}"
+		"Blur: {0}" = "Flou: {0}"
+		"Are you sure you want to break calculation?" = "Etes vous s\x00fbr de vouloir interrompre les calculs?"
+		"Calculation is successfully finished!" = "Calculs termin\x00e9s!"
+		"Unable to calculate Ambient Occlusion. Map size of Ambient Occlusion must be greater or equal than size of heightmap (HeightmapSize property)." = "Impossible de calculer l\'occlusion ambiante. La taille de la carte pour l\'occlusion ambiante doit \x00eatre plus grande ou \x00e9gale \x00e0 la taille du heightmap terrain (propri\x00e9t\x00e9 HeightmapSize)."
+		"Terrain Ambient Occlusion Calculation Tool" = "Outil de calcul de l\'occlusion ambiante"
+		"Progress:" = "Avancement:"
+		"Settings:" = "Param\x00e8tres:"
+		"&Close" = &Fermer
+		"&Start" = "&D\x00e9marrer"
+		Yes = Oui
+		No = Non
+	}
+	group CollectionTypeConverter
+	{
+		"(Collection)" = (Collection)
+	}
+	group DecorativeObjectManagerForm
+	{
+		Paint = Peindre
+		Erase = Effacer
+		"Decorative Object Manager" = "Manager des objets d\x00e9coratifs"
+		"End Editing" = "Fermer l\'\x00e9dition"
+		"Tool:" = "Outils:"
+		"Radius:" = "Rayon:"
+		"Delete All" = Tout supprimer
+		Update = "Mettre \x00e0 jour"
+		"Are you sure you want to delete all \"{0}\" objects?" = "Etes-vous s\x00fbr de vouloir supprimer tous les \"{0}\" objets?"
+		Available = Disponible
+		Created = "Cr\x00e9\x00e9"
+	}
+	group DecorativeObjectManagerArea
+	{
+		"Decorative object manager: Editing mode" = "Manager pour les objets d\x00e9coratifs: mode \x00e9dition"
+	}
+	group DecorativeObjectManagerExtendedFunctionalityDescriptor
+	{
+		Edit = Edition
+	}
+	group StepMovementUserControl
+	{
+		"-" = -
+		"-x" = -x
+		"+y" = +y
+		"-z" = -z
+		"-y" = -y
+		"+x" = +x
+		"+z" = +z
+		"+" = +
+		"Scale:" = "\x00c9chelle:"
+		"Move:" = "D\x00e9placer:"
+		"Step:" = "Marche:"
+		"Rotate:" = "Rotate:"
+		"Step (degrees):" = "\x00c9tape (en degr\x00e9s):"
+		"Step (%):" = "\x00c9tape (%):"
+		Reset = "R\x00e9tablir"
+	}
+}

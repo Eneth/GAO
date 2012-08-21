@@ -1,0 +1,17 @@
+highLevelMaterial ScrollTextureTest
+{
+	template = ShaderBaseMaterial
+	diffuse1Map
+	{
+		texture = "_Tests\\ScrollTexture\\ScrollTextureTest.jpg"
+		transform
+		{
+			scale = 0.0625 1
+			animation
+			{
+				scrollSpeed = 1 0
+				scrollRound = 0.0625 0
+			}
+		}
+	}
+}

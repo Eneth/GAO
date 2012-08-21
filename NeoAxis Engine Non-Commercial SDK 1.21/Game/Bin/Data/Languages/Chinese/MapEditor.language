@@ -1,0 +1,490 @@
+groups
+{
+	group Menu
+	{
+		"&File" = "&F\x6587\x4ef6"
+		"&New..." = "&N\x65b0\x5efa"
+		"Open..." = "\x6253\x5f00"
+		Close = "\x5173\x95ed"
+		"&Save" = "&S\x4fdd\x5b58"
+		"Save &As..." = "\x53e6\x5b58\x4e3a"
+		"Scene File Import/Export" = "\x573a\x666f\x6587\x4ef6\x5bfc\x5165/\x5bfc\x51fa"
+		"Import Objects..." = "\x5bfc\x5165\x5bf9\x8c61"
+		"Export Selected Objects..." = "\x5bfc\x51fa\x9009\x5b9a\x5bf9\x8c61"
+		"E&xit" = "&x\x9000\x51fa"
+		"&Edit" = "&E\x7f16\x8f91"
+		"&Undo" = "&U\x64a4\x9500"
+		"&Redo" = "&R\x91cd\x505a"
+		Select = "\x9009\x62e9"
+		Move = "\x79fb\x52a8"
+		Rotate = "\x65cb\x8f6c"
+		Scale = "\x7f29\x653e"
+		"&Clone" = "&C\x514b\x9686"
+		"Delete..." = "\x5220\x9664"
+		"Find..." = "\x67e5\x627e"
+		"Focus Camera To Object" = "\x6444\x50cf\x673a\x805a\x7126\x4e8e\x5bf9\x8c61"
+		"&View" = "&V\x67e5\x770b"
+		"&Entity Types Window" = "&E\x5b9e\x4f53\x7c7b\x578b\x7a97"
+		"&Map Entities Window" = "&M\x5730\x56fe\x5b9e\x4f53\x7a97"
+		"&Properties Window" = "&P\x5c5e\x6027\x7a97"
+		"&Output Window" = "&O\x8f93\x51fa\x7a97"
+		"&World" = "&W\x4e16\x754c"
+		"&Logic Editor" = "&L\x903b\x8f91\x7f16\x8f91\x5668"
+		"&Profiling" = "&P\x7a0b\x5e8f\x6982\x8981\x5206\x6790"
+		"Draw Static Geometry" = "\x663e\x793a\x9759\x6001\x96c6\x5408\x4f53"
+		"Draw Models" = "\x663e\x793a\x6a21\x578b"
+		"Draw Effects" = "\x663e\x793a\x6548\x679c"
+		"Draw Post Effects" = "\x663e\x793a\x540e\x671f\x6548\x679c"
+		"Enable &Dynamic Lighting" = "&D\x5f00\x542f\x52a8\x6001\x5149\x7167"
+		"Allow Hardware Instancing" = "\x5141\x8bb8\x786c\x4ef6\x4f8b\x8bc1"
+		"Draw Wireframe" = "\x663e\x793a\x7ebf\x6846"
+		"Draw Static Physics" = "\x663e\x793a\x9759\x6001\x7269\x7406"
+		"Draw Dynamic Physics" = "\x663e\x793a\x52a8\x6001\x7269\x7406"
+		"Draw Scene Graph Info" = "\x663e\x793a\x573a\x666f\x56fe\x4fe1\x606f"
+		"Draw Map Object Bounds" = "\x663e\x793a\x5730\x56fe\x5bf9\x8c61\x8fb9\x754c"
+		"Draw Scene Node Bounds" = "\x663e\x793a\x573a\x666f\x8282\x70b9\x8fb9\x754c"
+		"Draw Static Mesh Object Bounds" = "\x663e\x793a\x9759\x6001\x7f51\x683c\x5bf9\x8c61\x8fb9\x754c"
+		"Draw Zones, Portals, Occluders" = "\x663e\x793a\x533a\x57df,\x5165\x53e3,\x906e\x7f69"
+		"Draw Lights" = "\x663e\x793a\x706f\x5149"
+		"Draw Game Specific Debug Geometry" = "\x7279\x5b9a\x6e38\x620f\x7684\x8c03\x8bd5\x6a21\x578b"
+		"Frustum Test Mode" = "\x526a\x88c1\x6d4b\x8bd5\x6a21\x5f0f"
+		"Draw Shadow Debugging (PSSM)" = "\x663e\x793a\x9634\x5f71\x9664\x9519"
+		Advanced = "\x9ad8\x7ea7"
+		"Entity World Explorer..." = "\x5b9e\x4f53\x4e16\x754c\x6f2b\x6e38"
+		"&Tools" = "&T\x5de5\x5177"
+		"Run Simulation" = "\x8fdb\x884c\x6a21\x62df"
+		"&Options..." = "&O\x9009\x9879"
+		"&Help" = "&H\x5e2e\x52a9"
+		"Overview of Map Editor" = "\x5730\x56fe\x7f16\x8f91\x5668\x6982\x89c8"
+		Documentation = "\x6587\x6863"
+		"&About..." = "&A\x5173\x4e8e"
+		"Extensions Toolbar" = "\x6269\x5c55\x5de5\x5177\x680f"
+		"Status Bar" = "\x72b6\x6001\x680f"
+		"Move Selected Objects To Camera" = 
+		"&Add-ons" = "\x9644\x52a0\x7ec4\x4ef6"
+	}
+	group FindForm
+	{
+		"Find Entities" = "\x67e5\x627e\x5b9e\x4f53"
+		"Example: Box*." = "\x6837\x672c\x76d2*."
+		"Entity type:" = "\x5b9e\x4f53\x7c7b\x578b"
+		"Entity class:" = "\x5b9e\x4f53\x7c7b\x522b"
+		"Entity name pattern:" = "\x5b9e\x4f53\x540d\x79f0\x6837\x5f0f"
+		Cancel = "\x53d6\x6d88"
+		Find = "\x67e5\x627e"
+	}
+	group Various
+	{
+		"{0} selected" = "{0} \x9009\x62e9"
+		"{0} objects were cloned" = "{0} \x4e2a\x5bf9\x8c61\x5df2\x88ab\x514b\x9686"
+		"Are you sure you want to delete entities?" = "\x4f60\x786e\x5b9a\x8981\x5220\x9664\x8fd9\x4e9b\x5b9e\x4f53\x5417?"
+		"Map Editor" = "\x5730\x56fe\x7f16\x8f91\x5668"
+		"1 object was cloned" = "1\x4e2a\x5bf9\x8c61\x5df2\x88ab\x514b\x9686"
+		"Creating \"{0}\" entity." = "\x521b\x5efa\"{0}\"\x5b9e\x4f53"
+		"Layer \"{0}\"." = "\x5c42 \"{0}\"."
+		"(Click here to create)" = "(\x70b9\x6b64\x521b\x5efa)"
+		"No lights" = "\x65e0\x5149\x7167"
+		"{0} hidden" = "{0} \x5f71\x85cf"
+		"{0} invalid portals" = "{0} \x65e0\x6548\x5165\x53e3"
+		"Cannot create entity, current layer is locked. Unlock current layer for editing." = "\x65e0\x6cd5\x521b\x5efa\x5b9e\x4f53,\x5f53\x524d\x5c42\x7ea7\x5df2\x88ab\x9501\x5b9a.\x8bf7\x5148\x89e3\x9501\x5f53\x671f\x5c42\x7ea7"
+		"Entity which must be unique on map is already created." = "\x5728\x5df2\x521b\x5efa\x7684\x5730\x56fe\x4e0a\x5b9e\x4f53\x5fc5\x987b\x552f\x4e00"
+		"The Map entity cannot be deleted." = "\x5730\x56fe\x5b9e\x4f53\x65e0\x6cd5\x88ab\x5220\x9664"
+		"The Map entity cannot be cloned." = "\x5730\x56fe\x5b9e\x4f53\x65e0\x6cd5\x514b\x9686"
+		"Cannot clone uncloneable entity \"{0}\"." = "\x4e0d\x80fd\x514b\x9686\x5b9e\x4f53\"{0}\"."
+		"Map saved" = "\x5730\x56fe\x5df2\x4fdd\x5b58"
+		"Simulation Running" = "\x6a21\x62df\x8fd0\x884c\x4e2d"
+		"Warning! On the some systems simulation mode can work unstable." = "\x8b66\x544a!\x5728\x4e00\x4e9b\x7cfb\x7edf\x4e2d\x6a21\x62df\x6a21\x5f0f\x4e0d\x7a33\x5b9a"
+		"Map files (*.map)|*.map|All files (*.*)|*.*" = "\x5730\x56fe\x6587\x4ef6 (*.map)|*.map|\x6240\x6709\x6587\x4ef6 (*.*)|*.*"
+		"Scene files (*.scene)|*.scene|All files (*.*)|*.*" = "\x573a\x666f\x6587\x4ef6 (*.scene)|*.scene|\x6240\x6709\x6587\x4ef6 (*.*)|*.*"
+		"No selected objects." = "\x6ca1\x6709\x9009\x4e2d\x7684\x5bf9\x8c61"
+		"Unable to load file. You cannot load map outside \"Data\" directory." = "\x4e0d\x80fd\x8f7d\x5165\x6587\x4ef6.\x4f60\x4e0d\x5ae9\x4ece\"Data\"\x76ee\x5f55\x5916\x8f7d\x5165\x5730\x56fe"
+		"Unable to save file. You cannot save map outside \"Data\" directory." = "\x4e0d\x80fd\x4fdd\x5b58\x6587\x4ef6.\x4f60\x4e0d\x80fd\x5427\x5730\x56fe\x4fdd\x5b58\x5728\"Data\"\x76ee\x5f55\x5916"
+		"Save map \"{0}\"?" = "\x4fdd\x5b58\x5730\x56fe \"{0}\"?"
+		"Simulation already running." = "\x6a21\x62df\x6b63\x5728\x8fd0\x884c"
+		"http://www.neoaxis.com/wiki/Documentation/Articles/Overview_of_Map_Editor" = "http://www.neoaxis.com/wiki/Documentation/Articles/Overview_of_Map_Editor"
+		"http://www.neoaxis.com/wiki/Documentation" = "http://www.neoaxis.com/wiki/Documentation"
+		"{0} objects have been exported." = "{0}\x5bf9\x8c61\x5df2\x7ecf\x88ab\x5bfc\x51fa"
+		"{0} objects have been imported." = "\x5bf9\x8c61\x5df2\x7ecf\x88ab\x5bfc\x5165"
+		"No map loaded." = "\x6ca1\x6709\x5730\x56fe\x88ab\x8f7d\x5165"
+		Warning = "\x8b66\x544a"
+		Error = "\x9519\x8bef"
+		"(no selection)" = "(\x6ca1\x6709\x9009\x4e2d)"
+		"http://www.neoaxis.com/wiki/Documentation/Articles/Overview_of_Logic_Editor" = "http://www.neoaxis.com/wiki/Documentation/Articles/Overview_of_Logic_Editor"
+		"Logic Editor" = "\x903b\x8f91\x7f16\x8f91\x5668"
+		True = "\x662f"
+		False = "\x5426"
+		Untitled = "\x65e0\x540d\x79f0"
+	}
+	group OptionsDialog
+	{
+		Options = "\x9009\x9879"
+		"&Cancel" = "&C\x53d6\x6d88"
+		"&OK" = 
+		General = "\x4e00\x822c"
+		Camera = "\x6444\x50cf\x673a"
+		Gizmo = "\x7ebf\x6846"
+		Grid = "\x6805\x683c"
+		"Sound Volume" = "\x97f3\x91cf"
+		"Show Triangle and Batch Count" = "\x663e\x793a\x4e09\x89d2\x6570\x548c\x7ec4"
+		"Show Splash Screen At Startup" = "\x5728\x5f00\x59cb\x7684\x65f6\x5019\x663e\x793a\x6c61\x6e85\x5c4f"
+		"Show Objects Tips" = "\x663e\x793a\x5bf9\x8c61\x63d0\x793a"
+		"Objects Tips Items" = "\x5bf9\x8c61\x6280\x5de7\x9879\x76ee"
+		"Show FPS" = "\x663e\x793a\x5e27\x7387"
+		"Maximum FPS" = "\x6700\x5927\x5e27\x7387"
+		"Run Simulation Parameters" = "\x8fd0\x884c\x6a21\x62df\x53c2\x6570"
+		"Material Scheme of Viewport" = "\x89c6\x53e3\x6750\x8d28\x65b9\x6848"
+		"Load Previous Map at Startup" = "\x5728\x5f00\x59cb\x65f6\x8f7d\x5165\x4e0a\x6b21\x7684\x5730\x56fe"
+		"Double Click the Selection Radius" = "\x53cc\x51fb\x9009\x62e9\x534a\x5f84"
+		Selection = "\x9009\x62e9"
+		Viewport = "\x89c6\x53e3"
+		"Object Tips" = "\x5bf9\x8c61\x63d0\x793a"
+		"Run Simulation" = "\x8fd0\x884c\x6a21\x62df"
+		"Normal Velocity" = "\x6b63\x5e38\x901f\x7387"
+		"Fast Velocity ( \"Shift\" Key )" = "\x8f83\x5feb\x901f\x7387(\x6309\x4f4fShift)"
+		"Rotate Sensitivity" = "\x8f6c\x52a8\x7075\x654f\x5ea6"
+		"Movement Snapping" = "\x6309\x683c\x79fb\x52a8"
+		"Rotation Snapping (degrees)" = "\x6309\x5ea6\x65cb\x8f6c"
+		"Rotation Sensitivity" = "\x65cb\x8f6c\x7075\x654f\x5ea6"
+		"Scaling Snapping (%)" = "\x6309%\x5ea6\x7f29\x653e"
+		Snapping = "\x683c"
+		Sensitivity = "\x7075\x654f\x5ea6"
+		"Show Grid" = "\x663e\x793a\x6805\x683c"
+		"Grid Height" = "\x6805\x683c\x9ad8\x5ea6"
+		"Grid Color" = "\x6805\x683c\x989c\x8272"
+		"Grid Step" = "\x6805\x683c\x6b65\x6570"
+		"Grid Visibility Distance" = "\x6805\x683c\x53ef\x89c6\x8ddd\x79bb"
+		Reset = "\x91cd\x7f6e"
+		"Class Type" = "\x7c7b\x578b"
+		"Text Color" = "\x6587\x672c\x989c\x8272"
+		"Icon Color" = "\x56fe\x6807\x989c\x8272"
+		"Visible Distance" = "\x53ef\x89c6\x8ddd\x79bb"
+		"Icon Size" = "\x56fe\x6807\x5927\x5c0f"
+		Icon = "\x56fe\x6807"
+		"Show Text" = "\x663e\x793a\x6587\x672c"
+		"Font Height" = "\x5b57\x4f53\x9ad8\x5ea6"
+		Text = "\x6587\x672c"
+	}
+	group MapEntitiesForm
+	{
+		"Map Entities" = "\x5730\x56fe\x5b9e\x4f53"
+		"Are you sure you want to delete layer \"{0}\"?" = "\x4f60\x786e\x5b9a\x8981\x5220\x9664\x5c42\x7ea7 \"{0}\"?"
+		"Entities in the layer will be saved." = "\x5728\x6b64\x5c42\x7ea7\x7684\x5b9e\x4f53\x5c06\x88ab\x4fdd\x5b58"
+		"You cannot rename a root layer." = "\x4f60\x4e0d\x80fd\x91cd\x547d\x540d\x6839\x5c42\x7ea7"
+		"You cannot remove a layer with a child layers in it." = "\x4f60\x4e0d\x80fd\x79fb\x52a8\x542b\x6709\x5b50\x5c42\x7ea7\x7684\x5c42\x7ea7"
+		"Invalid layer name." = "\x65e0\x6548\x66fe\x5c42\x7ea7\x540d"
+		"Layer with name \"{0}\" already exists." = "\x5c42\x7ea7\x540d\"{0}\"\x5df2\x5b58\x5728"
+		"New Layer" = "\x65b0\x5c42\x7ea7"
+		Visible = "\x53ef\x89c1"
+		"Allow To Edit" = "\x5141\x8bb8\x7f16\x8f91"
+		"Select Entities" = "\x9009\x62e9\x5b9e\x4f53"
+		"Move Selected Entities To This Layer" = "\x79fb\x52a8\x5df2\x9009\x62e9\x7684\x5b9e\x4f53\x5230\x6b64\x5c42\x7ea7"
+		Delete = "\x5220\x9664"
+		Rename = "\x91cd\x547d\x540d"
+	}
+	group EntityTypesForm
+	{
+		"Entity Types" = "\x5b9e\x4f53\x7c7b\x578b"
+		"By Bounds" = "\x4ee5\x8fb9\x754c"
+		"By Bounds With Rotation" = "\x4ee5\x8f6c\x52a8\x8fb9\x754c"
+		"By Center" = "\x4ee5\x4e2d\x5fc3"
+		"Alignment of objects" = "\x6821\x51c6\x5bf9\x8c61"
+		"Automatic alignment of objects.\nI.e. property AlignmentMethod of object will be initialized." = "\x81ea\x52a8\x6821\x51c6\x5bf9\x8c61.\x4f8b\x5982:\x5bf9\x8c61\x6821\x51c6\x65b9\x6cd5\x4f1a\x521d\x59cb\x5316"
+		"Random rotation" = "\x968f\x673a\x65cb\x8f6c"
+	}
+	group PropertiesForm
+	{
+		Properties = "\x5c5e\x6027"
+		Reset = "\x91cd\x7f6e"
+	}
+	group ToolBar
+	{
+		New = "\x65b0\x5efa"
+		Open = "\x6253\x5f00"
+		Save = "\x4fdd\x5b58"
+		Select = "\x9009\x62e9"
+		Move = "\x79fb\x52a8"
+		Rotate = "\x65cb\x8f6c"
+		Scale = "\x7f29\x653e"
+		World = "\x4e16\x754c"
+		"Movement Snapping" = "\x6309\x683c\x79fb\x52a8"
+		"Rotation Snapping" = "\x6309\x683c\x65cb\x8f6c"
+		"Scaling Snapping" = "\x6309\x683c\x7f29\x653e"
+		"Show Grid" = "\x663e\x793a\x6805\x683c"
+		"Focus Camera to Object" = "\x6444\x50cf\x673a\x805a\x7126\x4e8e\x5bf9\x8c61"
+		"Update Alignment of Objects" = "\x66f4\x65b0\x6821\x51c6\x5bf9\x8c61"
+		Options = "\x9009\x9879"
+		"Run Simulation" = "\x8fd0\x884c\x6a21\x62df"
+		Local = "\x672c\x5730"
+		"Gizmo\'s Coordinate Mode" = "\x7ebf\x6846\x5750\x6807\x6a21\x5f0f"
+		"Step Movement" = 
+		"Move Selected Objects To Camera" = 
+		"Lock Selected Objects To Camera" = 
+	}
+	group Gizmo
+	{
+		Move = "\x79fb\x52a8"
+		Rotate = "\x65cb\x8f6c"
+		Scale = "\x7f29\x653e"
+		Select = "\x9009\x62e9"
+	}
+	group NewMapForm
+	{
+		"Map directory with name \"{0}\" is already exists." = "\x5730\x56fe\x76ee\x5f55\x540d\"{0}\"\x5df2\x5b58\x5728."
+		"Invalid name." = "\x65e0\x6548\x540d\x79f0"
+		"New Map" = "\x65b0\x5efa\x5730\x56fe"
+		"Directory:" = "\x76ee\x5f55"
+		Cancel = "\x53d6\x6d88"
+		Create = "\x521b\x5efa"
+	}
+	group EntityWorldExplorerForm
+	{
+		"Entity World Explorer" = "\x5b9e\x4f53\x4e16\x754c\x6f2b\x6e38"
+	}
+	group OutputForm
+	{
+		Output = "\x8f93\x51fa"
+	}
+	group AboutBox
+	{
+		About = "\x5173\x4e8e"
+	}
+	group StatusBar
+	{
+		Ready = "\x51c6\x5907"
+	}
+	group ChooseExtendedPropertiesForm
+	{
+		"(Null)" = "(\x7a7a)"
+		"Choosing Extended Properties Class" = "\x9009\x62e9\x6269\x5c55\x5c5e\x6027\x7c7b"
+		Cancel = "\x53d6\x6d88"
+		OK = 
+	}
+	group ChooseEntityForm
+	{
+		"(Null)" = "(\x7a7a)"
+		"Entity Choosing" = "\x5b9e\x4f53\x9009\x62e9"
+		Cancel = "\x53d6\x6d88"
+		OK = 
+	}
+	group LogicEditor_Menu
+	{
+		"&File" = "&F\x6587\x4ef6"
+		"Save Map" = "\x4fdd\x5b58\x5730\x56fe"
+		"&View" = "&V\x67e5\x770b"
+		"&Class List" = "&C\x7c7b\x522b\x5217\x8868"
+		"&Output" = "&O\x8f93\x51fa"
+		"&Tools" = "&T\x5de5\x5177"
+		"Run Simulation" = "\x8fd0\x884c\x6a21\x62df"
+		"&Build Test" = "&B\x6784\x5efa\x6d4b\x8bd5"
+		"&Help" = "&H\x5e2e\x52a9"
+		"Overview of Logic Editor" = "\x903b\x8f91\x7f16\x8f91\x5668\x6982\x89c8"
+		Documentation = "\x6587\x6863"
+		"&About..." = "&A\x5173\x4e8e"
+	}
+	group LogicEditor_ToolBar
+	{
+		"Build Test" = "\x6784\x5efa\x6d4b\x8bd5"
+		"Run Simulation" = "\x8fd0\x884c\x6a21\x62df"
+	}
+	group LogicEditor_StatusBar
+	{
+		Ready = "\x51c6\x5907"
+	}
+	group LogicClassListForm
+	{
+		"Class List" = "\x7c7b\x522b\x5217\x8868"
+		Classes = "\x5206\x7c7b"
+		Edit = "\x7f16\x8f91"
+		Delete = "\x5220\x9664"
+		"Create Method" = "\x521b\x5efa\x65b9\x6cd5"
+		Method = "\x65b9\x6cd5"
+		"Designer Type" = "\x8bbe\x8ba1\x7c7b\x578b"
+		"Script Type" = "\x811a\x672c\x7c7b\x578b"
+		"Event \"{0}\"" = "\x4e8b\x4ef6 \"{0}\""
+		"Create Variable" = "\x521b\x5efa\x53d8\x91cf"
+		"Create Custom Script Code" = "\x521b\x5efa\x81ea\x5b9a\x4e49\x811a\x672c\x4ee3\x7801"
+		"Create Class" = "\x521b\x5efa\x7c7b"
+		"Delete class \"{0}\"?" = "\x5220\x9664\x7c7b \"{0}\"?"
+		"Delete method \"{0}\"?" = "\x5220\x9664\x65b9\x6cd5 \"{0}\"?"
+		"Delete variable \"{0}\"?" = "\x5220\x9664\x53d8\x91cf \"{0}\"?"
+		"Delete custom script code?" = "\x5220\x9664\x81ea\x5b9a\x4e49\x811a\x672c\x4ee3\x7801?"
+		"Method with name \"{0}\" is already exists." = "\x65b9\x6cd5\x540d\x79f0\"{0}\"\x5df2\x7ecf\x5b58\x5728."
+		"Custom Script Code" = "\x81ea\x5b9a\x4e49\x811a\x672c\x4ee3\x7801"
+	}
+	group LogicVariableForm
+	{
+		Variable = "\x53d8\x91cf"
+		"Type:" = "\x7c7b\x578b"
+		"Name:" = "\x540d\x79f0"
+		OK = 
+		Cancel = "\x53d6\x6d88"
+		"Invalid name." = "\x65e0\x6548\x540d\x79f0"
+		"Variable with name \"{0}\" is already exists." = "\x53d8\x91cf\x540d\x79f0\"{0}\"\x5df2\x7ecf\x5b58\x5728."
+		Serialization = "\x5e8f\x5217\x5316"
+	}
+	group LogicClassForm
+	{
+		Class = "\x7c7b"
+		"Entity class:" = "\x5b9e\x4f53\x7c7b"
+		"Type:" = "\x7c7b\x578b"
+		"Name:" = "\x540d\x79f0"
+		OK = 
+		Cancel = "\x53d6\x6d88"
+		"Invalid name." = "\x65e0\x6548\x540d\x79f0"
+		"Please select entity class." = "\x8bf7\x9009\x62e9\x5b9e\x4f53\x7c7b"
+		"Class with name \"{0}\" is already exists." = "\x7c7b\x540d\x79f0\"{0}\"\x5df2\x7ecf\x5b58\x5728."
+	}
+	group LogicMethodDefinitionForm
+	{
+		"Method Definition" = "\x65b9\x6cd5\x5b9a\x4e49"
+		"Parameters:" = "\x53c2\x6570"
+		"Return type:" = "\x8fd4\x56de\x7c7b\x578b"
+		"Name:" = "\x540d\x79f0"
+		Cancel = "\x53d6\x6d88"
+		OK = 
+		"Invalid name." = "\x65e0\x6548\x540d\x79f0"
+		"Method with name \"{0}\" is already exists." = "\x65b9\x6cd5\x540d\x79f0\"{0}\"\x5df2\x7ecf\x5b58\x5728"
+		"Delete parameter \"{0}\"?" = "\x5220\x9664\x53c2\x6570 \"{0}\"?"
+		"Two parameters with equal name \"{0}\"." = "\x4e2a\x53c2\x6570\x6709\x76f8\x540c\x7684\x540d\x79f0 \"{0}\"."
+	}
+	group LogicMethodParameterForm
+	{
+		"Method Parameter" = "\x65b9\x6cd5\x53c2\x6570"
+		"Name:" = "\x540d\x79f0"
+		"Type:" = "\x7c7b\x578b"
+		Cancel = "\x53d6\x6d88"
+		OK = 
+		"Invalid name." = "\x65e0\x6548\x540d\x79f0"
+	}
+	group LogicCustomScriptCodeDocument
+	{
+		"{0} (Custom Script Code)" = "{0} (\x81ea\x5b9a\x4e49\x811a\x672c\x4ee3\x7801)"
+	}
+	group LogicEditorForm
+	{
+		"Build started" = "\x6784\x5efa\x5f00\x59cb"
+		"No script files" = "\x6ca1\x6709\x811a\x672c\x6587\x4ef6"
+		"Compile complete -- {0} errors, {1} warnings" = "\x7f16\x8f91\x5b8c\x6210 -- {0}\x9519\x8bef,{1}\x8b66\x544a"
+	}
+	group LogicActionForm
+	{
+		"Choose Action" = "\x9009\x62e9\x52a8\x4f5c"
+		"(Return Type: \"{0}\")" = "(\x8fd4\x56de\x7c7b\x578b: \"{0}\")"
+		"(Call Method Of \"{0}\" Class)" = "(\x901a\x77e5\x7c7b\x578b\x65b9\x6cd5\x201c{0}\x201d)"
+		Cancel = "\x53d6\x6d88"
+		OK = 
+		"Constant value" = "\x5e38\x6570\x503c"
+	}
+	group LogicMethodDocument
+	{
+		"Actions:" = "\x52a8\x4f5c"
+		Insert = "\x63d2\x5165"
+		Copy = "\x62f7\x8d1d"
+		Paste = "\x7c98\x8d34"
+		Delete = "\x5220\x9664"
+		"Insert (After Current)" = "\x5728\x5f53\x524d\x540e\x63d2\x5165"
+		"Before Current" = "\x5728\x5f53\x524d\x4e4b\x524d"
+		"After Current" = "\x5728\x5f53\x524d\x4e4b\x540e"
+		"Cannot edit signature of overridden method." = "\x65e0\x6cd5\x7f16\x8f91\x7b7e\x540d\x7684\x624b\x52a8\x65b9\x6cd5"
+	}
+	group EntityTypeChangeForm
+	{
+		"Error!" = "\x9519\x8bef!"
+		"Unknown entity type specified \"{0}\", loading of map cannot continue. The base class is \"{1}\". Would you like to replace this unknown type with another type of entity?" = "\x672a\x77e5\x5177\x4f53\x5b9e\x4f53\x7c7b\x578b\"{0}\",\x65e0\x6cd5\x7ee7\x7eed\x8f7d\x5165\x5730\x56fe.\x57fa\x7840\x7c7b\x4e3a\"{1}\".\x662f\x5426\x8981\x66ff\x6362\x672a\x77e5\x7c7b\x578b\x4e3a\x53e6\x5916\x7c7b\x578b\x7684\x5b9e\x4f53?"
+		"Entity Type Replacement" = "\x5b9e\x4f53\x7c7b\x578b\x66ff\x6362"
+		Cancel = "\x53d6\x6d88"
+		OK = 
+		"New type:" = "\x65b0\x7c7b\x578b"
+		"..." = 
+		"Please choose a new type." = "\x8bf7\x9009\x62e9\x4e00\x4e2a\x65b0\x7c7b\x578b"
+		"Change all same types" = "\x6539\x53d8\x6240\x6709\x76f8\x540c\x7c7b\x578b"
+	}
+	group ChooseResourceForm
+	{
+		"Resource Choosing" = "\x8d44\x6e90\x9009\x62e9"
+		OK = 
+		Cancel = "\x53d6\x6d88"
+		"(Null)" = "(\x7a7a)"
+	}
+	group HeightmapTerrainForm
+	{
+		"Heightmap Terrain" = "\x9ad8\x5ea6\x56fe\x5730\x5f62"
+		"Layers:" = "\x5c42\x7ea7"
+		"Outer radius:" = "\x5916\x534a\x5f84"
+		"Hole:" = "\x5b54"
+		"Paint:" = "\x7ed8\x5236"
+		"Inner radius:" = "\x5185\x534a\x5f84"
+		"Geometry:" = "\x51e0\x4f55"
+		"Shape:" = "\x5916\x5f62"
+		"Tool:" = "\x5de5\x5177"
+		"Strength:" = "\x529b\x5ea6"
+		"Geometry Raise" = "\x51e0\x4f55\x4e0a\x5347"
+		"Geometry Lower" = "\x51e0\x4f55\x4e0b\x964d"
+		"Geometry Smooth" = "\x51e0\x4f55\x5e73\x6ed1"
+		"Geometry Flatten" = "\x51e0\x4f55\x5e73\x5766\x5316"
+		Paint = "\x7ed8\x5236"
+		Clear = "\x6e05\x9664"
+		"Paint Smooth" = "\x7ed8\x5236\x5e73\x6ed1"
+		"Paint Flatten" = "\x7ed8\x5236\x5e73\x5766"
+		"Add Hole" = "\x6dfb\x52a0\x5b54"
+		"Remove Hole" = "\x53bb\x9664\x5b54"
+		"Circle Shape" = "\x73af\x5f62"
+		"Square Shape" = "\x65b9\x5f62"
+	}
+	group HeightmapTerrainExtendedFunctionalityDescriptor
+	{
+		Edit = "\x7f16\x8f91"
+		"Ambient Occlusion" = "\x73af\x5883\x5149\x906e\x853d"
+	}
+	group HeightmapTerrainArea
+	{
+		"Warning! Shader Model 2 is not supported by your hardware or disabled." = "\x8b66\x544a!\x4f60\x7684\x786c\x4ef6\x4e0d\x652f\x6301\x7740\x8272\x6a21\x5f0f2\x6216\x88ab\x7981\x7528"
+		"Not all terrain features are enabled." = "\x5730\x5f62\x529f\x80fd\x6ca1\x6709\x5168\x90e8\x5f00\x542f"
+		"Heightmap terrain: Editing mode" = "\x9ad8\x5ea6\x56fe\x5730\x5f62:\x7f16\x8f91\x6a21\x5f0f"
+		"Warning! Invalid heightmap terrain tiles detected. Overflow in paint layers, exists more than 5 layers in one place. This is restriction of terrain\'s implementation." = "\x8b66\x544a!\x68c0\x6d4b\x5230\x65e0\x6548\x9ad8\x5ea6\x56fe\x5730\x5f62\x533a\x5757.\x7ed8\x5236\x5c42\x6ea2\x51fa,\x4e00\x4e2a\x533a\x57df\x5185\x8d85\x8fc75\x4e2a\x5c42\x7ea7.\x8fd9\x662f\x5730\x5f62\x7684\x9650\x5236."
+	}
+	group HeightmapTerrainAOForm
+	{
+		"Map size: {0}x{0}" = "\x5730\x56fe\x5927\x5c0f: {0}x{0}"
+		"Iteration count: {0}" = "\x5faa\x73af\x6570: {0}"
+		"Ray length: {0}" = "\x8f90\x5c04\x957f\x5ea6: {0}"
+		"Power: {0}" = "\x529b\x5ea6: {0}"
+		"Blur: {0}" = "\x6a21\x7cca: {0}"
+		"Are you sure you want to break calculation?" = "\x4f60\x786e\x5b9a\x8981\x4e2d\x65ad\x8ba1\x7b97?"
+		"Calculation is successfully finished!" = "\x8ba1\x7b97\x6210\x529f\x5b8c\x6210!"
+		"Unable to calculate Ambient Occlusion. Map size of Ambient Occlusion must be greater or equal than size of heightmap (HeightmapSize property)." = "\x65e0\x6cd5\x8ba1\x7b97\x73af\x5883\x5149\x906e\x853d.\x5730\x56fe\x5927\x5c0f\x5fc5\x987b\x6bd4\x9ad8\x5ea6\x5927\x6216\x76f8\x7b49(\x9ad8\x5ea6\x56fe\x5927\x5c0f)"
+		"Terrain Ambient Occlusion Calculation Tool" = "\x5730\x5f62\x73af\x5883\x5149\x906e\x853d\x8ba1\x7b97\x5de5\x5177"
+		"Progress:" = "\x8fdb\x5ea6"
+		"Settings:" = "\x8bbe\x7f6e"
+		"&Close" = "&C\x5173\x95ed"
+		"&Start" = "&S\x5f00\x59cb"
+		Yes = "\x662f"
+		No = "\x5426"
+	}
+	group CollectionTypeConverter
+	{
+		"(Collection)" = "(\x96c6\x5408)"
+	}
+	group DecorativeObjectManagerForm
+	{
+		Paint = "\x7ed8\x5236"
+		Erase = "\x64e6\x9664"
+		"Decorative Object Manager" = "\x88c5\x9970\x5bf9\x8c61\x7ba1\x7406\x5668"
+		"End Editing" = "\x7ed3\x675f\x7f16\x8f91"
+		"Tool:" = "\x5de5\x5177"
+		"Radius:" = "\x534a\x5f84"
+		"Delete All" = "\x5168\x90e8\x5220\x9664"
+		Update = "\x66f4\x65b0"
+		"Are you sure you want to delete all \"{0}\" objects?" = "\x4f60\x786e\x5b9a\x8981\x5220\x9664\x6240\x6709\"{0}\"\x5bf9\x8c61\x5417?"
+		Available = "\x53ef\x7528"
+		Created = "\x521b\x5efa"
+	}
+	group DecorativeObjectManagerArea
+	{
+		"Decorative object manager: Editing mode" = "\x88c5\x9970\x5bf9\x8c61\x7ba1\x7406\x5668:\x7f16\x8f91\x6a21\x5f0f"
+	}
+	group DecorativeObjectManagerExtendedFunctionalityDescriptor
+	{
+		Edit = "\x7f16\x8f91"
+	}
+}

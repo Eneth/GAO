@@ -1,0 +1,125 @@
+language
+{
+	toolsUICulture = fr-FR
+	fileRedirections
+	{
+		"(__remove_brackets_for_example__)Sounds\\ButtonClick.ogg" = "Sounds\\Explode.ogg"
+	}
+	textTranslations
+	{
+		UISystem
+		{
+			"Press Space to play" = Appuyez sur Espace pour jouer
+			"Always run" = "Courir par d\x00e9faut"
+			"Allow to connect during game" = Autoriser une connexion en milieu de partie
+			Chat = Chat
+			Users = Utilisateurs
+			Map = Carte
+			"Movement controls and buttons for interaction can be located in the Options menu." = "Les touches de contr\x00f4le peuvent \x00eatre trouv\x00e9es dans le menu des options."
+			"Use arrow keys for pushing the ball" = "Utilisez les fl\x00e8ches pour diriger la boule"
+			"Press \"F7\" for free camera" = "Appuyez sur \"F7\" pour passer en mode cam\x00e9ra libre"
+			"Camera height" = "Hauteur de la cam\x00e9ra"
+			"Camera distance" = "Distance de la cam\x00e9ra"
+			"Material scheme" = "Sch\x00e9ma de mat\x00e9riel"
+			Custom = "Personnalis\x00e9"
+			"(None)" = (Aucune)
+			"Warning! Shader Model 3 is not supported by your hardware or disabled, not all features are enabled." = "Avertissement ! Les shaders mod\x00e8le 3 sont d\x00e9sactiv\x00e9s ou non support\x00e9 par votre mat\x00e9riel, par cons\x00e9quent toutes les fonctionnalit\x00e9s ne sont pas activ\x00e9es."
+			Energy = Energie
+			Health = "Sant\x00e9"
+			Items = Objets
+			Shadowmaps = Shadowmaps
+			"Load/Save" = Sauvegardes
+			"Zones, portals, occluders" = Zones, portails et occluders
+			"World saving..." = Sauvegarde du monde...
+			"World loading..." = Chargement du monde...
+			"World load/save" = "Charger/Sauvegarder le monde"
+			"Welcome to the" = Bienvenue sur le
+			Welcome = Bienvenue
+			"Water reflection level" = "Niveaux de r\x00e9flexion de l\'eau"
+			Video = "Vid\x00e9o"
+			Vertical = Verticalement
+			"User name" = "Nom d\'utilisateur"
+			"Use map settings" = "Utiliser les param\x00e8tres de la carte"
+			"Static physics" = Physique statique
+			"Static geometry" = "G\x00e9om\x00e9trie statique"
+			"Start game" = "D\x00e9marrer"
+			"Sound volume" = Volume des sons
+			Sound = Sons
+			Size = Taille
+			"Show system cursor" = "Utiliser le curseur syst\x00e8me"
+			"Show FPS" = Afficher le nombre de FPS
+			"Show decorative objects" = "Afficher les objets d\x00e9coratifs"
+			Shadows = Ombres
+			"Shadow technique" = "Technique d\'ombrage"
+			"Shadow far distance" = "Distance d\'affichage"
+			"Shadow cubic texture size" = Taille des textures cubiques pour les ombres
+			"Shadow cubic texture count" = Nombre de textures cubiques pour les ombres
+			"Shadow color" = Couleur des ombres
+			"Shadow 2D texture size" = Taille des textures 2D pour les ombres
+			"Shadow 2D texture count" = Nombre de textures 2D pour les ombres
+			Save = Sauvegarder
+			"Run Demo" = "Lancer d\x00e9mo"
+			Run = Lancer
+			Resume = Reprendre
+			Resolution = "R\x00e9solution"
+			Regions = "R\x00e9gions"
+			ReflectAll = "Tout refl\x00e9ter"
+			Profiler = Profiler
+			Previous = "Pr\x00e9c\x00e9dent"
+			"Post effects" = Effets post-rendu
+			Play = Jouer
+			Path = Chemin
+			Options = Options
+			Open = Ouvrir
+			OnlyStaticGeometry = "G\x00e9om\x00e9trie statique uniquement"
+			OnlySky = Ciel uniquement
+			OnlyModels = "Mod\x00e8les uniquement"
+			None = Aucun
+			Next = Suivant
+			"Music volume" = Volume de la musique
+			"Multiplayer login" = Connexion au mode multijoueur
+			Multiplayer = Multijoueur
+			"Mouse sensitivity:" = "Sensibilit\x00e9 de la souris:"
+			Models = "Mod\x00e8les"
+			Message = Message
+			Menu = Menu
+			"Max count" = Nombre maximum
+			Maps = Cartes
+			"Map loading..." = Chargement de la carte...
+			"Main menu" = Menu principal
+			Loop = Boucle
+			Load = Charger
+			Lights = "Lumi\x00e8res"
+			"Invert vertical" = Inversion verticale
+			Horizontal = Horizontalement
+			Help = Aide
+			"Gui Test" = Test GUI
+			Gui = Interface graphique utilisateur (GUI)
+			Gamma = Gamma
+			"Game specific debug geometry" = "G\x00e9om\x00e9trie de d\x00e9bogage sp\x00e9cifique au jeu"
+			"Full screen" = "Plein \x00e9cran"
+			"Exit to menu" = Retour au menu
+			"Exit from" = Sortir de
+			Exit = Quitter
+			"Engine loading..." = Chargement du moteur...
+			Enabled = "Activ\x00e9"
+			Effects = Effets
+			"Dynamic physics" = Physique dynamique
+			Devices = "P\x00e9riph\x00e9riques"
+			Defaults = "Par d\x00e9faut"
+			"Debug draw options" = "Options de l\'affichage du d\x00e9bogueur"
+			Debug = "D\x00e9bogage"
+			"Create server" = "Cr\x00e9er un serveur"
+			Controls = "Contr\x00f4les"
+			"Connect to" = "Se connecter \x00e0"
+			Connect = Se connecter
+			Close = Fermer
+			Camera = "Cam\x00e9ra"
+			"Bits per pixel" = Bits par pixel
+			"Autorun map:" = "Carte par d\x00e9faut au lancement:"
+			"Apply to the screen GUI" = "Appliquer \x00e0 l\'interface graphique utilisateur (GUI)"
+			About = A propos
+			"- Welcome -" = - Bienvenue -
+		}
+	}
+}

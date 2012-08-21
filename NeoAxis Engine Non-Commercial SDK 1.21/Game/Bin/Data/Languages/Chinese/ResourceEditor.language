@@ -1,0 +1,807 @@
+groups
+{
+	group Menu
+	{
+		"&File" = "&F\x6587\x4ef6"
+		"&Edit" = "&E\x7f16\x8f91"
+		"Close Editing" = "\x5173\x95ed\x7f16\x8f91\x6a21\x5f0f"
+		Save = "\x4fdd\x5b58"
+		"E&xit" = "&x\x9000\x51fa"
+		Select = "\x9009\x62e9"
+		Move = "\x79fb\x52a8"
+		Rotate = "\x65cb\x8f6c"
+		Scale = "\x7f29\x653e"
+		"&View" = "&V\x89c6\x56fe"
+		"&Resources Window" = "&R\x8d44\x6e90\x7a97\x53e3"
+		"&Properties Window" = "&P\x5c5e\x6027\x7a97\x53e3"
+		"&Output" = "&O\x8f93\x51fa\x7a97\x53e3"
+		"&Tools" = "&T\x5de5\x5177"
+		"&Options..." = "&O\x8bbe\x7f6e..."
+		"&Help" = "&H\x5e2e\x52a9"
+		"Overview of Resource Editor" = "\x8d44\x6e90\x7f16\x8f91\x5668\x6982\x51b5"
+		Documentation = "\x6587\x6863"
+		"&About..." = "&A\x5173\x4e8e"
+		Resources = "\x8d44\x6e90"
+		"Resources Window" = "\x8d44\x6e90\x7a97\x53e3"
+		"&Output Window" = "&O\x8f93\x51fa\x7a97\x53e3"
+		"Status Bar" = "\x72b6\x6001\x680f"
+		"&Undo" = "&U\x64a4\x9500"
+		"&Redo" = "&R\x91cd\x505a"
+		"&Clone" = "&C\x514b\x9686"
+		"Delete..." = "\x5220\x9664"
+		"&Free Camera For Editing" = 
+		"&Add-ons" = "\x9644\x52a0\x7ec4\x4ef6"
+	}
+	group ToolBar
+	{
+		Edit = "\x7f16\x8f91"
+		"Close Editing" = "\x5173\x95ed\x7f16\x8f91"
+		Save = "\x4fdd\x5b58"
+		Select = "\x9009\x62e9"
+		World = "\x4e16\x754c"
+		"Movement Snapping" = "\x6309\x683c\x79fb\x52a8"
+		"Rotation Snapping" = "\x6309\x683c\x65cb\x8f6c"
+		"Scaling Snapping" = "\x6309\x683c\x7f29\x653e"
+		Options = "\x9009\x9879"
+		Local = "\x672c\x5730"
+		Move = "\x79fb\x52a8"
+		Rotate = "\x65cb\x8f6c"
+		Scale = "\x5c3a\x5bf8"
+		"Gizmo\'s Coordinate Mode" = "\x7ebf\x6846\x5750\x6807\x6a21\x5f0f"
+		"Free Camera On Editing" = 
+	}
+	group PropertiesForm
+	{
+		Properties = "\x5c5e\x6027"
+		Reset = "\x91cd\x7f6e"
+	}
+	group Various
+	{
+		"Resource Editor" = "\x8d44\x6e90\x7f16\x8f91\x5668"
+		"http://www.neoaxis.com/wiki/Documentation/Articles/Overview_of_Resource_Editor" = "http://www.neoaxis.com/wiki/Documentation/Articles/Overview_of_Resource_Editor"
+		"http://www.neoaxis.com/wiki/Documentation" = "http://www.neoaxis.com/wiki/Documentation"
+		"NeoAxis Resource Editor" = "\x8d44\x6e90\x7f16\x8f91\x5668"
+		Warning = "\x8b66\x544a"
+		Error = "\x9519\x8bef"
+		"Archive file." = "\x6863\x6848\x6587\x4ef6"
+		"Not an registered resource file type." = "\x975e\x6ce8\x518c\x7c7b\x578b\x6587\x4ef6"
+		"This file is inside an archive. Unable to edit it." = "\x8fd9\x4e2a\x6587\x4ef6\x5728\x6863\x6848\x5185,\x65e0\x6cd5\x7f16\x8f91"
+		"This file is inside an archive." = "\x8fd9\x4e2a\x6587\x4ef6\x5728\x6863\x6848\x5185"
+		"Save resource \"{0}\"?" = "\x4fdd\x5b58\x8d44\x6e90 \"{0}\"?"
+		"Editing mode is not supported for this file." = "\x7f16\x8f91\x6a21\x5f0f\x4e0d\x652f\x6301\x6b64\x6587\x4ef6"
+		"Particle System" = "\x7c92\x5b50\x7cfb\x7edf"
+		"Physics Model" = "\x7269\x7406\x7cfb\x7edf"
+		"Entity Type" = "\x5b9e\x4f53\x7c7b\x578b"
+		Material = "\x6750\x8d28"
+		"UI Model" = "\x754c\x9762\x6a21\x578b"
+		"Font Definition" = "\x5b57\x4f53\x5b9a\x4e49"
+		Language = "\x8bed\x8a00"
+		"True Type Font" = "\x5b57\x4f53"
+		Mesh = "\x7f51\x683c"
+		Texture = "\x7eb9\x7406"
+		Sound = "\x58f0\x97f3"
+		Video = "\x5f55\x50cf"
+		Skeleton = "\x9aa8\x9abc"
+		True = "\x662f"
+		False = "\x5426"
+		"Animation Tree" = "\x52a8\x753b\x6811"
+	}
+	group AboutBox
+	{
+		About = "\x5173\x4e8e"
+	}
+	group OptionsDialog
+	{
+		"&Cancel" = "&C\x53d6\x6d88"
+		"&OK" = 
+		"Ambient Light Color" = "\x73af\x5883\x5149\x989c\x8272"
+		"Animation Tree Editor" = "\x52a8\x753b\x6811\x7f16\x8f91"
+		"Background Color" = "\x80cc\x666f\x989c\x8272"
+		"Entity Type Editor" = "\x5b9e\x4f53\x7c7b\x578b\x7f16\x8f91\x5668"
+		"Font Definition Editor" = "\x5b57\x4f53\x5b9a\x4e49\x7f16\x8f91\x5668"
+		General = "\x4e00\x822c"
+		"General Background Color" = "\x4e00\x822c\x80cc\x666f\x989c\x8272"
+		Gizmo = "\x7ebf\x6846"
+		"Grid Color" = "\x6805\x683c\x989c\x8272"
+		"Grid Height" = "\x6805\x683c\x9ad8\x5ea6"
+		"Grid Step" = "\x6805\x683c\x6b65\x6570"
+		"Gui Editor" = "\x56fe\x5f62\x7528\x6237\x754c\x9762\x7f16\x8f91\x5668"
+		"Hide Directories And Files" = "\x9690\x85cf\x76ee\x5f55\x548c\x6587\x4ef6"
+		"Invert Mouse Wheel" = "\x7ffb\x8f6c\x9f20\x6807\x6eda\x8f6e"
+		"Light 1" = "\x5149\x7ebf1"
+		"Light 2" = "\x5149\x7ebf2"
+		"Light 3" = "\x5149\x7ebf3"
+		"Light Ambient" = "\x5149\x7167\x73af\x5883"
+		"Light Diffuse Color 1" = "\x5149\x7167\x6f2b\x53cd\x5c04\x989c\x82721"
+		"Light Diffuse Color 2" = "\x5149\x7167\x6f2b\x53cd\x5c04\x989c\x82722"
+		"Light Diffuse Color 3" = "\x5149\x7167\x6f2b\x53cd\x5c04\x989c\x82723"
+		"Light Position 1" = "\x5149\x7167\x4f4d\x7f6e1"
+		"Light Position 2" = "\x5149\x7167\x4f4d\x7f6e2"
+		"Light Position 3" = "\x5149\x7167\x4f4d\x7f6e3"
+		"Light Specular Color 1" = "\x9ad8\x5149\x989c\x82721"
+		"Light Specular Color 2" = "\x9ad8\x5149\x989c\x82722"
+		"Light Specular Color 3" = "\x9ad8\x5149\x989c\x82723"
+		"Material Editor" = "\x6750\x8d28\x7f16\x8f91\x5668"
+		"Material Scheme of Viewport" = "\x6750\x8d28\x65b9\x6848\x89c6\x53e3"
+		"Maximum FPS" = "\x6700\x5927FPS"
+		"Mesh Editor" = "\x7f51\x683c\x7f16\x8f91\x5668"
+		"Movement Snapping" = "\x6309\x683c\x79fb\x52a8"
+		Options = "\x9009\x9879"
+		"Particle System Editor" = "\x7c92\x5b50\x7cfb\x7edf\x7f16\x8f91\x5668"
+		"Physics Model Editor" = "\x7269\x7406\x6a21\x578b\x7f16\x8f91\x5668"
+		"Preview Mesh Name" = "\x9884\x89c8\x7f51\x683c\x540d\x79f0"
+		"Preview Text" = "Preview Text\x9884\x89c8\x6587\x672c"
+		Reset = "\x91cd\x7f6e"
+		"Rotation Sensitivity" = "\x65cb\x8f6c\x7075\x654f\x5ea6"
+		"Rotation Snapping (degrees)" = "\x6309\x5ea6\x65cb\x8f6c"
+		"Scaling In Test Mode" = "\x5728\x6587\x672c\x6a21\x5f0f\x4e0b\x7f29\x653e"
+		"Scaling Snapping (%)" = "\x6309%\x7f29\x653e"
+		Sensitivity = "\x7075\x654f\x5ea6"
+		"Show Axes" = "\x663e\x793a\x8f74\x5411"
+		"Show Grid" = "\x663e\x793a\x6805\x683c"
+		"Show Splash Screen At Startup" = "\x5728\x5f00\x59cb\x7684\x65f6\x5019\x663e\x793a\x6c61\x6e85\x5c4f"
+		"Sky Box" = "\x5929\x9645\x76d2"
+		Snapping = "\x7c98\x6ede\x683c"
+		"Sound / Video Editor" = "\x58f0\x97f3/\x89c6\x9891\x7f16\x8f91\x5668"
+		"Sound Volume" = "\x97f3\x91cf"
+		"Test Mode" = "\x6587\x672c\x6a21\x5f0f"
+		"Texture Editor" = "\x7eb9\x7406\x7f16\x8f91\x5668"
+		Viewport = "\x89c6\x53e3"
+		"Model Import Editor" = 
+		Camera = 
+		"Normal Velocity" = 
+		"Rotate Sensitivity" = 
+		"Field Of View (FOV)" = 
+		"Fast Velocity ( \"Shift\" Key )" = 
+		"Far Clip Distance" = 
+		"Near Clip Distance" = 
+		Settings = 
+		Controlling = 
+	}
+	group OutputForm
+	{
+		Output = "\x8f93\x51fa"
+	}
+	group Gizmo
+	{
+		Move = "\x79fb\x52a8"
+		Rotate = "\x65cb\x8f6c"
+		Scale = "\x7f29\x653e"
+		Select = "\x9009\x62e9"
+	}
+	group ResourcesForm
+	{
+		Resources = "\x8d44\x6e90"
+		"New Directory" = "\x65b0\x76ee\x5f55"
+		"New Resource" = "\x65b0\x8d44\x6e90"
+		"Open Folder in Explorer" = "\x5728\x6d4f\x89c8\x5668\x4e2d\x6253\x5f00"
+		"Sort by" = "\x6392\x5e8f"
+		Name = "\x540d\x79f0"
+		"Date modified" = "\x4fee\x6539\x65e5\x671f"
+		Type = "\x7c7b\x578b"
+		Size = "\x5c3a\x5bf8"
+		Ascending = "\x4e0a\x5347"
+		Properties = "\x5c5e\x6027"
+		"Are you sure you want to delete \"{0}\"?" = "\x4f60\x786e\x5b9a\x8981\x5220\x9664\"{0}\"\x5417?"
+		"Are you sure you want to delete these {0} items?" = "\x4f60\x786e\x5b9a\x8981\x5220\x9664\x8fd9\x4e9b{0}\x9879\x76ee\x5417\xff1f"
+		"File \"{0}\" cannot be moved or copied because it\'s inside archive." = "\x6587\x4ef6\"{0}\"\x5728\x6863\x6848\x4e2d\x4e0d\x80fd\x88ab\x79fb\x52a8\x6216\x62f7\x8d1d"
+		Cut = "\x526a\x5207"
+		Copy = "\x590d\x5236"
+		Delete = "\x5220\x9664"
+		Rename = "\x91cd\x547d\x540d"
+		"Close Editing" = "\x5173\x95ed\x7f16\x8f91"
+		Edit = "\x7f16\x8f91"
+		"Open in External Program" = "\x5728\x5916\x90e8\x7a0b\x5e8f\x4e2d\x6253\x5f00"
+		Paste = "\x7c98\x8d34"
+		Refresh = 
+	}
+	group NewResourceDialog
+	{
+		"New Resource" = "\x65b0\x8d44\x6e90"
+		Cancel = "\x53d6\x6d88"
+		Continue = "\x7ee7\x7eed"
+		Material = "\x6750\x8d28"
+	}
+	group PhysicsModelNewResourceDialog
+	{
+		"Name:" = "\x540d\x79f0"
+		"Invalid name." = "\x65e0\x6548\x540d\x79f0"
+		"A resource with the name you have specified already exists. Please specify another name." = "\x8d44\x6e90\x540d\x5df2\x5b58\x5728\x3002\x8bf7\x91cd\x547d\x540d."
+		"New Physics Model" = "\x65b0\x7269\x7406\x6a21\x578b"
+		"Please specify fields." = "\x8bf7\x6307\x5b9a\x8303\x56f4"
+	}
+	group EntityTypeNewResourceDialog
+	{
+		Data = "\x65e5\x671f"
+		"..." = 
+		"Class:" = "\x7c7b\x522b"
+		"Name:" = "\x540d\x79f0"
+		"Please specify fields." = "\x8bf7\x6307\x5b9a\x8303\x56f4"
+		"Invalid name." = "\x65e0\x6548\x540d\x79f0"
+		"A resource with the name you have specified already exists. Please specify another name." = "\x8d44\x6e90\x540d\x5df2\x5b58\x5728\xff0c\x8bf7\x91cd\x547d\x540d"
+		"New Entity Type" = "\x65b0\x5b9e\x4f53\x7c7b\x578b"
+		"A file with the name you have specified already exists. Please specify another name." = "\x6587\x4ef6\x540d\x5df2\x5b58\x5728\xff0c\x8bf7\x91cd\x547d\x540d"
+	}
+	group Wizard
+	{
+		Cancel = "\x53d6\x6d88"
+		"&Next >" = "&N >\x4e0b\x4e00\x4e2a"
+		"< &Back" = "< &B\x4e0a\x4e00\x4e2a"
+		"Fi&nish" = "&n\x5b8c\x6210"
+	}
+	group FontDefinitionNewResourceDialog
+	{
+		"New Font Definition" = "\x65b0\x5b57\x4f53\x5b9a\x4e49"
+		"Please specify fields." = "\x8bf7\x6307\x5b9a\x8303\x56f4"
+		"Language:" = "\x8bed\x8a00"
+		"Name:" = "\x540d\x79f0"
+		"Invalid name." = "\x65e0\x6548\x540d\x79f0"
+		"Invalid language name." = "\x65e0\x6548\x8bed\x8a00\x540d\x79f0"
+		"A font with the file name \"{0}\" is already exists." = "\x5b57\x4f53\x6587\x4ef6\x540d\"{0}\"\x5df2\x7ecf\x5b58\x5728"
+	}
+	group GuiModelNewResourceDialog
+	{
+		"New UI Model" = "\x65b0UI\x6a21\x578b"
+		"Please specify fields." = "\x8bf7\x6307\x5b9a\x8303\x56f4"
+		"Base UI Model:" = "\x57fa\x7840UI\x6a21\x578b"
+		"Name:" = "\x540d\x79f0"
+		"Invalid name." = "\x65e0\x6548\x540d\x79f0"
+		"Please select a base UI Model." = "\x8bf7\x9009\x62e9\x4e00\x4e2a\x57fa\x7840UI\x6a21\x578b"
+		"A resource with the name you have specified already exists. Please specify another name." = "\x8d44\x6e90\x540d\x5df2\x5b58\x5728\xff0c\x8bf7\x91cd\x547d\x540d"
+	}
+	group MaterialNewResourceDialog
+	{
+		"New Material" = "\x65b0\x6750\x8d28"
+		"Please specify fields." = "\x8bf7\x6307\x5b9a\x8303\x56f4"
+		"Type:" = "\x7c7b\x578b"
+		"Name:" = "\x540d\x79f0"
+		"Invalid name." = "\x65e0\x6548\x540d\x79f0"
+		"A resource with the name you have specified already exists. Please specify another name." = "\x8d44\x6e90\x540d\x5df2\x5b58\x5728\xff0c\x8bf7\x91cd\x547d\x540d"
+		"Base template for shader materials (Diffuse, Specular, Emission, Cubemap reflections, Normal mapping, Parallax mapping)." = "\x7740\x8272\x6750\x8d28\x7684\x57fa\x7840\x6a21\x677f(\x6f2b\x53cd\x5c04\xff0c\x9ad8\x5149\xff0c\x6563\x5c04\xff0c\x7acb\x65b9\x4f53\x8d34\x56fe\x53cd\x5c04\xff0c\x6cd5\x7ebf\x8d34\x56fe\xff0c\x89c6\x5dee\x8d34\x56fe)"
+		"Material for correct rendering of weapons in the FPS mode." = "\x5728FPS\x6a21\x5f0f\x4e0b\x7684\x6b66\x5668\x6750\x8d28\x6e32\x67d3"
+		"Material for grass and trees. Adds wave in the vertex shader." = "\x8349\x548c\x6811\x7684\x6750\x8d28\x3002\x5728\x9876\x70b9\x7740\x8272\x4e2d\x6dfb\x52a0\x6ce2\x7eb9"
+		"Example of a simple material template." = "\x4e00\x4e2a\x7b80\x5355\x6750\x8d28\x6a21\x677f\x7684\x4f8b\x5b50"
+	}
+	group ParticleSystemNewResourceDialog
+	{
+		"New Particle System" = "\x65b0\x7c92\x5b50\x7cfb\x7edf"
+		"Please specify fields." = "\x8bf7\x6307\x5b9a\x8303\x56f4"
+		"Name:" = "\x540d\x79f0"
+		"Invalid name." = "\x65e0\x6548\x540d\x79f0"
+		"A resource with the name you have specified already exists. Please specify another name." = "\x8d44\x6e90\x540d\x5df2\x5b58\x5728\xff0c\x8bf7\x91cd\x547d\x540d"
+		"A file with the name you have specified already exists. Please specify another name." = "\x6587\x4ef6\x540d\x5df2\x5b58\x5728\xff0c\x8bf7\x91cd\x547d\x540d"
+	}
+	group OKCancelTextBoxDialog
+	{
+		OK = 
+		Cancel = "\x53d6\x6d88"
+	}
+	group EntityTypeResourceType
+	{
+		"Name:" = "\x540d\x79f0"
+		"Rename Resource" = "\x91cd\x547d\x540d\x8d44\x6e90"
+		"Invalid name." = "\x65e0\x6548\x540d\x79f0"
+		"The resource with such name is already exists." = "\x8d44\x6e90\x540d\x5df2\x5b58\x5728"
+		"Unable to load entity type \"{0}\" ({1})." = "\x65e0\x6cd5\x8f7d\x5165\x5b9e\x4f53\x7c7b\x578b \"{0}\" ({1})."
+		"Unable to save file \"{0}\" ({1})." = "\x65e0\x6cd5\x4fdd\x5b58\x6587\x4ef6 \"{0}\" ({1})."
+		"The file with a name \"{0}\" is already exists." = "\x6587\x4ef6\x540d\"{0}\"\x5df2\x7ecf\x5b58\x5728"
+	}
+	group MaterialResourceType
+	{
+		"Name:" = "\x540d\x79f0"
+		"Rename Resource" = "\x91cd\x547d\x540d\x8d44\x6e90"
+		"Invalid name." = "\x65e0\x6548\x540d\x79f0"
+		"The resource with such name is already exists." = "\x8d44\x6e90\x540d\x5df2\x5b58\x5728"
+		"Unable to load material \"{0}\" ({1})." = "\x65e0\x6cd5\x8f7d\x5165\x6750\x8d28 \"{0}\" ({1})."
+		"Unable to save file \"{0}\" ({1})." = "\x65e0\x6cd5\x4fdd\x5b58\x6587\x4ef6 \"{0}\" ({1})."
+		"The file with a name \"{0}\" is already exists." = "\x6587\x4ef6\x540d\"{0}\"\x5df2\x7ecf\x5b58\x5728"
+		"The material with a name \"{0}\" is already exists. The material was renamed to \"{1}\"." = "\x6750\x8d28\x540d\"{0}\"\x5df2\x5b58\x5728\xff0c\x91cd\x547d\x540d\x4e3a\"{1}\""
+	}
+	group ParticleSystemResourceType
+	{
+		"Name:" = "\x540d\x79f0"
+		"Rename Resource" = "\x91cd\x547d\x540d\x8d44\x6e90"
+		"Invalid name." = "\x65e0\x6548\x540d\x79f0"
+		"The resource with such name is already exists." = "\x8d44\x6e90\x540d\x5df2\x5b58\x5728"
+		"The file with a name \"{0}\" is already exists." = "\x6587\x4ef6\x540d\"{0}\"\x5df2\x7ecf\x5b58\x5728"
+	}
+	group PhysicsModelResourceEditor
+	{
+		"Contacts: {0}" = "\x8fde\x7ed3: {0}"
+		"Create Body" = "\x521b\x5efa\x4e3b\x4f53"
+		"{0} selected" = "{0} \x88ab\x9009\x62e9"
+		"1 object was cloned" = "\x4e00\x4e2a\x5bf9\x8c61\x5df2\x88ab\x514b\x9686"
+		"{0} objects were cloned" = "{0} \x4e2a\x5bf9\x8c61\x5df2\x88ab\x514b\x9686"
+		"Are you sure you want to delete selected objects?" = "\x4f60\x786e\x5b9a\x60f3\x5220\x9664\x5df2\x9009\x62e9\x7684\x5bf9\x8c61\x5417?"
+		"Unable to save. There are two bodies with same name \"{0}\"." = "\x65e0\x6cd5\x4fdd\x5b58.2\x4e2a\x4e3b\x4f53\x6709\x76f8\x540c\x7684\x540d\x79f0\"{0}\""
+		"Create {0} Joint" = "\x521b\x5efa{0}\x8fde\x63a5\x5904"
+		"Create Attractor Motor" = "\x521b\x5efa\x5438\x5f15\x9a6c\x8fbe"
+		Delete = "\x5220\x9664"
+		"Unable to save. There are two joints with same name \"{0}\"." = "\x65e0\x6cd5\x4fdd\x5b58,\x67092\x4e2a\x76f8\x540c\x540d\x79f0\"{0}\"\x7684\x8fde\x63a5\x5904"
+		"Create {0} Shape" = "\x521b\x5efa{0}\x5f62\x72b6"
+		"Unable to save. There are two motors with same name \"{0}\"." = "\x65e0\x6cd5\x4fdd\x5b58,\x67092\x4e2a\x76f8\x540c\x540d\x79f0\"{0}\"\x7684\x9a6c\x8fbe"
+		"Create {0} Motor At {1} {2}" = "\x5728{0}\x521b\x5efa\x9a6c\x8fbe\x4e8e{1} {2}"
+		"Show Contacts" = "\x663e\x793a\x63a5\x89e6"
+		"Wireframe mode" = "\x7ebf\x6846\x6a21\x5f0f"
+		Stop = "\x505c\x6b62"
+		Test = "\x6d4b\x8bd5"
+		"Selected:" = "\x9009\x62e9:"
+	}
+	group FontDefinitionResourceEditor
+	{
+		"Show texture (for current screen size):" = "\x663e\x793a\x7eb9\x7406(\x5f53\x524d\x5c4f\x5e55\x5927\x5c0f):"
+		"(None)" = "\x65e0"
+		"Texture {0}" = "\x7eb9\x7406 {0}"
+		"Editing of recompiled image based fonts is not supported." = "\x4e0d\x652f\x6301\x7f16\x8f91\x91cd\x7f16\x8bd1\x7684\x56fe\x7247\x5b57\x4f53"
+		"No preview font loaded." = "\x6ca1\x6709\x8f7d\x5165\x9884\x89c8\x5b57\x4f53"
+	}
+	group TextureResourceEditor
+	{
+		"Shrink to fit" = "\x7f29\x5c0f\x81f3\x9002\x5408"
+		"Unable to load texture." = "\x65e0\x6cd5\x8f7d\x5165\x7eb9\x7406"
+		"You can convert texture to another format. Use context menu in the Resources Tree." = "\x4f60\x53ef\x4ee5\x8f6c\x6362\x7eb9\x7406\x81f3\x5176\x4ed6\x683c\x5f0f.\x5728\x8d44\x6e90\x6811\x4e2d\x4f7f\x7528\x80cc\x666f\x83dc\x5355"
+	}
+	group TextureResourceType
+	{
+		"Convert to..." = "\x8f6c\x6362\x4e3a"
+		"Conversion from compressed format is not supported." = "\x4e0d\x652f\x6301\x4ece\x538b\x7f29\x683c\x5f0f\x8f6c\x6362"
+		"The file with the name \"{0}\" is already exists. Overwrite?" = "\x6587\x4ef6\"{0}\"\x5df2\x5b58\x5728.\x662f\x5426\x8986\x76d6?"
+		"Unable to load image ({0})." = "\x65e0\x6cd5\x8f7d\x5165\x56fe\x7247 ({0})."
+		"Unable to convert. Conversion from \"{0}\" format to \"DDS\" is not supported." = "\x65e0\x6cd5\x8f6c\x6362,\x4e0d\x652f\x6301\x4ece\"{0}\"\x683c\x5f0f\x8f6c\x4e3aDDS"
+		"Unable to write image ({0})." = "\x65e0\x6cd5\x5199\x5165\x56fe\x7247 ({0})."
+		TGA = 
+		JPG = 
+		PNG = 
+		"DDS - DXT1" = 
+		"DDS - DXT5" = 
+		"DDS - 3Dc (Normal Map)" = 
+		"DDS - (A)RGB" = 
+	}
+	group StatusBar
+	{
+		Ready = "\x51c6\x5907"
+	}
+	group SoundVideoResourceEditor
+	{
+		Play = "\x64ad\x653e"
+		"Loop Play" = "\x5faa\x73af\x64ad\x653e"
+		Pause = "\x6682\x505c"
+		Stop = "\x505c\x6b62"
+		"File Name" = "\x6587\x4ef6\x540d"
+		Channels = "\x58f0\x9053"
+		Size = "\x5927\x5c0f"
+		"Sampling Rate" = "\x91c7\x6837\x7387"
+		FPS = "\x5e27\x7387"
+		Audio = "\x58f0\x97f3"
+		_General = "\x4e00\x822c"
+		Video = "\x89c6\x9891"
+		Length = "\x957f\x5ea6"
+	}
+	group PhysicsSystem
+	{
+		_General = "\x4e00\x822c"
+		Anchor = "\x56fa\x5b9a"
+		AngularDamping = "\x5c16\x89d2\x963b\x5c3c"
+		AsymptoteSlip = "\x6e10\x8fdb\x6ed1\x52a8"
+		AsymptoteValue = "\x6e10\x8fdb\x503c"
+		"Attractor motor" = "\x5438\x5f15\x9a6c\x8fbe"
+		Axis = "Axis\x8f74"
+		Axis1 = "Axis1\x8f741"
+		Axis2 = "Axis2\x8f742"
+		Axis3 = "Axis3\x8f743"
+		AxleSpeedOverride = "\x8f74\x901f\x5ea6\x624b\x52a8\x63a7\x5236"
+		"Ball joint" = "\x7403\x578b\x5173\x8282"
+		Bodies = "\x4e3b\x4f53"
+		Body = "\x4e3b\x4f53"
+		Body1 = "\x4e3b\x4f531"
+		Body2 = "\x4e3b\x4f532"
+		Bounciness = "\x5f39\x529b"
+		Box = "Box\x76d2\x5b50"
+		"Box shape" = "\x76d2\x5b50\x5f62\x72b6"
+		BrakeTorque = "\x5239\x8f66\x626d\x77e9"
+		Break = "\x7834\x88c2"
+		BreakMaxForce = "\x6700\x5927\x7834\x88c2\x529b"
+		BreakMaxTorque = "\x6700\x5927\x7834\x88c2\x626d\x77e9"
+		"By density" = "\x4ee5\x5bc6\x5ea6\x8ba1"
+		Capsule = "\x6982\x51b5"
+		"Capsule shape" = "\x80f6\x56ca\x5f62\x72b6"
+		CCD = 
+		ClampedFriction = "\x5939\x7247\x6469\x64e6"
+		Contact = "\x63a5\x89e6"
+		ContactsEnabled = "\x63a5\x89e6\x5f00\x542f"
+		"Continuous collision detection." = "\x8fde\x7eed\x78b0\x649e\x68c0\x6d4b"
+		Damper = "\x963b\x5c3c\x5668"
+		Damping = "\x963b\x5c3c"
+		Density = "\x5bc6\x5ea6"
+		DesiredAngle = "\x8bf7\x6c42\x89d2\x5ea6"
+		Dimensions = "\x5bb9\x79ef"
+		Direction = "\x65b9\x5411"
+		DynamicFriction = "\x52a8\x6469\x64e6"
+		Enabled = "\x5f00\x542f"
+		EnableGravity = "\x5f00\x542f\x91cd\x529b"
+		Exponent = "\x6307\x6570"
+		ExtremumSlip = "\x6ed1\x52a8\x6781\x503c"
+		ExtremumValue = "\x6781\x9650\x503c"
+		"Geared motor" = "\x6392\x6321\x9a6c\x8fbe"
+		General = "\x4e00\x822c"
+		Hardness = "\x786c\x5ea6"
+		"Hinge joint" = "\x94f0\x94fe\x5173\x8282"
+		"Hinge2 joint" = "\x94f0\x94fe2\x5173\x8282"
+		InputLaterialSlipVelocity = "\x8f93\x5165\x6a2a\x5411\x529b\x6ed1\x52a8\x901f\x7387"
+		InputLongutudalSlipVelocity = "\x8f93\x5165\x7eb5\x5411\x529b\x6ed1\x52a8\x901f\x7387"
+		Joint = "\x5173\x8282"
+		JointAxis = "JointAxis\x5173\x8282\x8f74\x5411"
+		Joints = "\x5173\x8282"
+		LateralTireForceFunction = "\x8f6e\x80ce\x6a2a\x5411\x529b\x529f\x80fd"
+		Length = "\x957f\x5ea6"
+		LimitHigh = "\x6700\x9ad8\x9650\x5236"
+		LimitLow = "\x6700\x4f4e\x9650\x5236"
+		LimitsBounciness = "\x5f39\x529b\x9650\x5236"
+		LimitsEnabled = "\x9650\x5236\x5f00\x542f"
+		LimitsHardness = "\x786c\x5ea6\x9650\x5236"
+		LinearDamping = "\x7ebf\x6027\x963b\x5c3c"
+		LongitudalTireForceFunction = "\x8f6e\x80ce\x7eb5\x5411\x529b\x529f\x80fd"
+		Manually = "\x624b\x52a8"
+		Mass = "\x8d28\x91cf"
+		MassMethod = "\x8d28\x91cf\x65b9\x6cd5"
+		Material = "\x6750\x8d28"
+		MaterialName = "\x6750\x8d28\x540d\x79f0"
+		MaxTorque = "MaxTorque\x6700\x5927\x626d\x77e9"
+		MaxVelocity = "MaxVelocity\x6700\x5927\x901f\x5ea6"
+		Mesh = "\x7f51\x683c"
+		"Mesh shape" = "\x7f51\x683c\x5f62\x72b6"
+		MeshName = "\x7f51\x683c\x540d\x79f0"
+		MeshScale = "\x7f51\x683c\x5c3a\x5bf8"
+		MeshType = "\x7f51\x683c\x7c7b\x578b"
+		Motors = "\x9a6c\x8fbe"
+		MotorTorque = "\x9a6c\x8fbe\x626d\x77e9"
+		Name = "\x540d\x79f0"
+		ODE_MaxTorque = "ODE\x6700\x5927\x626d\x77e9"
+		ODE_VelocityMultiplier = "\x901f\x7387\x500d\x589e"
+		PhysX_DamperCoefficient = "PhysX\x963b\x5c3c\x7cfb\x6570"
+		PhysX_SpringCoefficient = "PhysX\x53cd\x5f39\x7cfb\x6570"
+		"PhysXWheel shape" = "PhysX\x8f6e\x5b50\x5f62\x72b6"
+		PhysXWheel_Constant = "PhysX\x8f6e\x5b50\x5e38\x6570"
+		PhysXWheel_Dynamic = "PhysX\x8f6e\x5b50\x52a8\x6001"
+		Position = "\x4f4d\x7f6e"
+		Radius = "\x534a\x5f84"
+		Rotation = "\x65cb\x8f6c"
+		RotationAxis = "\x8f6c\x52a8\x8f74"
+		Servo = "\x4f3a\x670d\x5668"
+		"Servo motor" = "\x4f3a\x670d\x7cfb\x7edf\x9a6c\x8fbe"
+		Shapes = "\x5f62\x72b6"
+		ShapeType = "\x5f62\x72b6\x7c7b\x578b"
+		Sleepiness = "\x7761\x610f?"
+		"Slider joint" = "\x6ed1\x52a8\x5173\x8282"
+		Special = "\x7279\x522b\x7684"
+		SpecialLiquidDensity = "\x7279\x6b8a\x6d41\x4f53\x5bc6\x5ea6"
+		Sphere = "\x7403"
+		"Sphere shape" = "\x7403\x9762\x5f62\x72b6"
+		Spring = "\x53cd\x5f39"
+		Static = "\x9759\x6001"
+		StaticFriction = "\x9759\x6469\x64e6"
+		SteerAngle = "\x8f6c\x5411\x89d2"
+		StiffnessFactor = "\x50f5\x786c\x56e0\x5b50"
+		Strength = "\x529b"
+		Suspension = "\x60ac\x6302"
+		SuspensionTravel = "\x60ac\x6302\x884c\x7a0b"
+		TargetValue = "\x76ee\x6807\x503c"
+		Throttle = "\x626d\x77e9"
+		TireFunction = "\x8bba\x575b\x529f\x80fd"
+		Transform = "\x8f6c\x6362"
+		TranslationAxis = "\x8f6c\x5316\x8f74"
+		UnscaledSpringBehaviour = "\x975e\x523b\x5ea6\x53cd\x5f39\x53d8\x5316"
+		WheelAxisContactNormal = "\x6807\x51c6\x8f6e\x5b50\x8f74\x8fde\x63a5"
+		"You can\'t add joints. For creation a new joint you need go to working area, select two bodies, use context menu." = "\x4f60\x4e0d\x80fd\x6dfb\x52a0\x5173\x8282.\x8981\x521b\x5efa\x5173\x8282,\x4f60\x9700\x8981\x56de\x5230\x5de5\x4f5c\x533a,\x9009\x62e92\x4e2a\x7269\x4f53,\x4f7f\x7528\x80cc\x666f\x83dc\x5355"
+		"You can\'t add motors. For creation a new motor you need go to working area, select two bodies or joint, use context menu." = "\x4f60\x4e0d\x80fd\x6dfb\x52a0\x9a6c\x8fbe.\x8981\x521b\x5efa\x9a6c\x8fbe,\x4f60\x9700\x8981\x56de\x5230\x5de5\x4f5c\x533a\x57df,\x9009\x62e92\x4e2a\x7269\x4f53\x6216\x5173\x8282,\x4f7f\x7528\x80cc\x666f\x83dc\x5355"
+	}
+	group Texture
+	{
+		Name = "\x540d\x79f0"
+		SourceSize = "\x6e90\x5927\x5c0f"
+		MipmapCount = "\x8d34\x56fe\x8ba1\x6570"
+		Size = "\x5927\x5c0f"
+		SourceFormat = "\x6e90\x683c\x5f0f"
+		Format = "\x683c\x5f0f"
+	}
+	group FontDefinition
+	{
+		TrueTypeFontName = "\x5b57\x4f53\x540d\x79f0"
+		TextureIndentBetweenCharacters = "\x89d2\x8272\x95f4\x952f\x9f7f\x72b6\x7eb9\x7406"
+		Type = "\x7c7b\x578b"
+		Characters = "\x89d2\x8272"
+		InGame3DGuiHeightInPixels = "\x6e38\x620f\x51853D\x7528\x6237\x754c\x9762\x9ad8\x5ea6(\x50cf\x7d20)"
+		TextureSize = "\x7eb9\x7406\x5927\x5c0f"
+		FileName = "\x6587\x4ef6\x540d"
+		SizeMultiplier = "\x5927\x5c0f\x500d\x589e"
+		AdvanceMultiplier = "\x9ad8\x7ea7\x500d\x589e"
+		DrawOffsetY = "\x7ed8\x5236Y\x8f74\x504f\x79fb"
+		Begin = "\x5f00\x59cb"
+		End = "\x7ed3\x675f"
+		Range = "\x8303\x56f4"
+		_General = "\x4e00\x822c"
+		TrueType = 
+		CharactersRanges = 
+		CharactersString = 
+	}
+	group CollectionTypeConverter
+	{
+		"(Collection)" = "(\x96c6\x5408)"
+	}
+	group HighLevelMaterial
+	{
+		Template = "\x6a21\x677f"
+		Name = "\x540d\x79f0"
+		_General = "\x4e00\x822c"
+	}
+	group ShaderBaseMaterial
+	{
+		Blending = "\x6df7\x5408"
+		Diffuse4Map = "\x6f2b\x53cd\x5c044\x8d34\x56fe"
+		Lighting = "\x5149\x7167"
+		HeightScale = "\x9ad8\x5ea6\x5c3a\x5bf8"
+		HeightFromNormalMapAlpha = "\x4ece\x6cd5\x7ebf\x8d34\x56fe\x03b1\x901a\x9053\x4e2d\x7684\x9ad8\x5ea6"
+		HeightMap = "\x9ad8\x5ea6\x56fe"
+		NormalMap = "\x6cd5\x7ebf\x8d34\x56fe"
+		SpecularShininess = "\x9ad8\x5149\x5149\x6cfd"
+		SpecularMap = "\x9ad8\x5149\x8d34\x56fe"
+		SpecularScaleDynamic = "\x9ad8\x5149\x52a8\x6001\x8303\x56f4"
+		SpecularPower = "\x9ad8\x5149\x529b\x5ea6"
+		SpecularColor = "\x9ad8\x5149\x989c\x8272"
+		EmissionMap = "\x6563\x5c04\x8d34\x56fe"
+		EmissionScaleDynamic = "\x6563\x5c04\x52a8\x6001\x8303\x56f4"
+		EmissionPower = "\x6563\x5c04\x529b\x5ea6"
+		EmissionColor = "\x6563\x5c04\x989c\x8272"
+		ReflectionSpecificCubemap = "\x7279\x5b9a\x53cd\x5c04\x7684\x7acb\x65b9\x4f53\x8d34\x56fe"
+		ReflectionMap = "\x53cd\x5c04\x8d34\x56fe"
+		ReflectionScaleDynamic = "\x53cd\x5c04\x52a8\x6001\x8303\x56f4"
+		ReflectionPower = "\x53cd\x5c04\x529b\x5ea6"
+		ReflectionColor = "\x53cd\x5c04\x989c\x8272"
+		Culling = "\x5254\x9664"
+		UseNormals = "\x4f7f\x7528\x6cd5\x7ebf"
+		Diffuse3Map = "\x6f2b\x53cd\x5c043\x8d34\x56fe"
+		ReceiveShadows = "\x63a5\x6536\x9634\x5f71"
+		Diffuse2Map = "\x6f2b\x53cd\x5c042\x8d34\x56fe"
+		ReceiveSimpleShadows = "\x63a5\x6536\x7b80\x5355\x9634\x5f71"
+		Diffuse1Map = "\x6f2b\x53cd\x5c041\x8d34\x56fe"
+		AlphaRejectFunction = "\x03b1\x901a\x9053\x62d2\x7edd\x51fd\x6570"
+		AlphaRejectValue = "\x03b1\x901a\x9053\x62d2\x7edd\x503c"
+		AlphaToCoverage = "\x03b1\x901a\x9053\x5230\x8986\x76d6\x8303\x56f4"
+		FadingByDistanceRange = "\x6309\x8ddd\x79bb\x8303\x56f4\x892a\x8272"
+		DiffuseVertexColor = "\x6f2b\x53cd\x5c04\x9876\x70b9\x989c\x8272"
+		DiffuseScaleDynamic = "\x6f2b\x53cd\x5c04\x52a8\x6001\x8303\x56f4"
+		DiffusePower = "\x6f2b\x53cd\x5c04\x529b\x5ea6"
+		DiffuseColor = "\x6f2b\x53cd\x5c04\x989c\x8272"
+		DepthTest = "\x6df1\x5ea6\x6d4b\x8bd5"
+		AllowFog = "\x5141\x8bb8\x96fe"
+		DepthWrite = "\x6df1\x5ea6\x5199\x5165"
+		Texture = "\x7eb9\x7406"
+		TexCoord = "\x7eb9\x7406\x5750\x6807"
+		Transform = "\x8f6c\x6362"
+		Clamp = "\x5939\x4f4f"
+		Scroll = "\x6eda\x52a8"
+		Rotate = "\x65cb\x8f6c"
+		Animation = "\x52a8\x753b"
+		Scale = "\x5c3a\x5bf8"
+		ScrollSpeed = "\x6eda\x52a8\x901f\x5ea6"
+		ScrollRound = "\x6df7\x52a8\x5faa\x73af"
+		RotateSpeed = "\x9009\x88c5\x901f\x5ea6"
+		DoubleSided = "\x53cc\x8fb9"
+	}
+	group VegetationMaterial
+	{
+		WaveOnlyInVerticalPosition = "\x6ce2\x6d6a\x4ec5\x5728\x5782\x76f4\x65b9\x5411"
+		ReceiveObjectsPositionsFromVertices = "\x4ece\x9876\x70b9\x83b7\x53d6\x5bf9\x8c61\x4f4d\x7f6e"
+		Vegetation = "\x690d\x88ab"
+	}
+	group ParticleSystemResourceEditor
+	{
+		Play = "\x64ad\x653e"
+		"Loop play" = "\x5faa\x73af\x64ad\x653e"
+		Affectors = "\x5f71\x54cd\x56e0\x5b50"
+		"Particle count: {0}" = "\x7c92\x5b50\x6570\x91cf: {0}"
+		"Are you sure you want to delete selected objects?" = "\x4f60\x786e\x5b9a\x60f3\x5220\x9664\x5df2\x9009\x62e9\x7684\x5bf9\x8c61?"
+		"1 object was cloned" = "1\x4e2a\x5bf9\x8c61\x5df2\x88ab\x514b\x9686"
+		"{0} objects were cloned" = "{0} \x4e2a\x5bf9\x8c61\x5df2\x88ab\x514b\x9686"
+		"Create Emitter" = "\x521b\x5efa\x53d1\x5c04\x4f53"
+		"{0} Emitter" = "{0} \x53d1\x5c04\x4f53"
+		"Create Affector" = "\x521b\x5efa\x5f71\x54cd\x56e0\x5b50"
+		"{0} Affector" = "{0} \x5f71\x54cd\x56e0\x5b50"
+		Delete = "\x5220\x9664"
+		"Unable to save file \"{0}\"." = "\x65e0\x6cd5\x4fdd\x5b58\x6587\x4ef6 \"{0}\"."
+	}
+	group EntityTypeResourceEditor
+	{
+		"Edit Physics Model" = "\x7f16\x8f91\x7269\x7406\x6a21\x578b"
+		"Show Physics" = "\x663e\x793a\x7269\x7406"
+		"Show Invisible Objects" = "\x663e\x793a\x770b\x4e0d\x89c1\x7684\x5bf9\x8c61"
+		"(No filter)" = "(\x65e0\x8fc7\x6ee4\x5668)"
+		"(Without alias only)" = "(\x4ec5\x4e0d\x8981\x522b\x540d)"
+		"Filter By Alias:" = "\x4ee5\x522b\x540d\x8fc7\x6ee4"
+		"&Type Editor" = "&T\x7c7b\x522b\x7f16\x8f91\x5668"
+		"&Objects Window" = "&O\x5bf9\x8c61\x7a97\x53e3"
+		"Attach Object" = "\x9644\x4e0a\x5bf9\x8c61"
+		"Are you sure you want to delete attached object \"{0}\"?" = "\x4f60\x786e\x5b9a\x8981\x5220\x9664\x9644\x5c5e\x5bf9\x8c61 \"{0}\"?"
+		Delete = "\x5220\x9664"
+		"The entity type can\'t be deleted." = "\x8fd9\x4e2a\x5b9e\x4f53\x7c7b\x578b\x4e0d\x80fd\x88ab\x5220\x9664"
+		"1 object was cloned" = "1\x4e2a\x5bf9\x8c61\x88ab\x514b\x9686"
+		"Are you sure you want to delete these {0} attached objects?" = "\x4f60\x786e\x5b9a\x8981\x5220\x9664\x8fd9\x4e9b{0}\x9644\x5c5e\x5bf9\x8c61?"
+		"{0} objects were cloned" = "{0} \x5bf9\x8c61\x88ab\x514b\x9686"
+		"This file is inside an archive. Unable to edit it." = "\x8fd9\x4e2a\x6587\x4ef6\x5728\x6863\x6848\x4e2d.\x65e0\x6cd5\x7f16\x8f91."
+		"Unable to load type \"{0}\"." = "\x65e0\x6cd5\x8f7d\x5165\x7c7b\x578b \"{0}\"."
+	}
+	group EntityTypeEditorObjectsForm
+	{
+		Objects = "\x5bf9\x8c61"
+		Attached = "\x9644\x5c5e"
+	}
+	group ChooseResourceForm
+	{
+		"Resource Choosing" = "\x8d44\x6e90\x9009\x62e9"
+		OK = 
+		Cancel = "\x53d6\x6d88"
+		"(Null)" = "(\x7a7a)"
+	}
+	group MeshResourceEditor
+	{
+		"Animations:" = "\x52a8\x753b"
+		"(None)" = "(\x65e0)"
+		"LODs:" = "\x7ec6\x8282\x5c42\x7ea7"
+		"(Auto)" = "(\x81ea\x52a8)"
+		"LOD {0}; Faces: {1}; Depth {2}" = "\x9762:{1}; \x6df1\x5ea6{2}"
+		"UV channels:" = "\x901a\x9053"
+		"SubMesh: {0}; TexCoord: {1}" = "\x5b50\x7f51\x683c:{0}; \x7eb9\x7406\x5750\x6807:{1}"
+		"Generate LODs" = "\x751f\x6210LOD"
+		Channels = "\x901a\x9053"
+		Move = "\x79fb\x52a8"
+		Rotate = "\x65cb\x8f6c"
+		Scale = "\x7f29\x653e"
+		"Show skeleton" = "\x663e\x793a\x9aa8\x9abc"
+		"UV Unwrap" = "\x5c55\x5f00"
+		"Current LOD Index: {0}" = "\x5f53\x524dLOD\x7d22\x5f15: {0}"
+		"Faces: {0}" = "\x9762: {0}"
+		"LOD {0}: Depth: {1}; Faces: {2}" = "\x6df1\x5ea6{1}; \x9762{2}"
+		"The current model can not be used as a LOD." = "\x5f53\x524d\x6a21\x578b\x4e0d\x80fd\x7528\x4f5cLOD"
+		"Cursor over bone: {0}" = "\x5149\x6807\x5728\x9aa8\x9abc\x4e4b\x4e0a: {0}"
+		"Warning: Empty mesh" = "\x8b66\x544a:\x7a7a\x7f51\x683c"
+		"The mesh uses a material with Normal Mapping." = "\x7f51\x683c\x4f7f\x7528\x6709\x6cd5\x7ebf\x8d34\x56fe\x7684\x6750\x8d28"
+		"You need calculate tangent vectors." = "\x4f60\x9700\x8981\x8ba1\x7b97\x5207\x7ebf\x5411\x91cf"
+		"Use \"Channels\" button." = "\x4f7f\x7528\"\x901a\x9053\"\x6309\x94ae"
+		"The mesh contains old version of tangent vectors channel (float3)." = "\x7f51\x683c\x5305\x542b\x8001\x7248\x7684\x5207\x7ebf\x5411\x91cf\x901a\x9053(\x6d6e\x52a83)"
+		"You need recalculate tangent vectors." = "\x4f60\x9700\x8981\x4ece\x65b0\x8ba1\x7b97\x5207\x7ebf\x5411\x91cf"
+		"You cannot edit custom mesh format." = "\x4f60\x4e0d\x80fd\x7f16\x8f91\x81ea\x5b9a\x4e49\x7f51\x683c\x683c\x5f0f"
+		"You can convert it to the usual \".mesh\" file. Use context menu." = "\x4f60\x53ef\x4ee5\x8f6c\x4e3a\x666e\x901a\x7684.mesh\x6587\x4ef6.\x4f7f\x7528\x80cc\x666f\x83dc\x5355"
+		"Gabarites: {0}" = "\x8f6e\x5ed3: {0}"
+	}
+	group MeshMoveAxesForm
+	{
+		"Move Mesh" = "\x79fb\x52a8\x7f51\x683c"
+		"Apply to skeleton" = "\x8fd0\x7528\x4e8e\x9aa8\x9abc"
+		"Position:" = "\x4f4d\x7f6e"
+		OK = 
+		Cancel = "\x53d6\x6d88"
+	}
+	group MeshRotateAxesForm
+	{
+		"Rotate Mesh" = "\x65cb\x8f6c\x7f51\x683c"
+		"Apply to skeleton" = "\x8fd0\x7528\x4e8e\x9aa8\x9abc"
+		"Angle:" = "\x89d2\x5ea6:"
+		"Axis:" = "\x8f74\x5411:"
+		"-90" = 
+		"+90" = 
+		OK = 
+		Cancel = "\x53d6\x6d88"
+	}
+	group MeshScaleAxesForm
+	{
+		"Scale Mesh" = "\x7f29\x653e\x7f51\x683c"
+		"Apply to skeleton" = "\x8fd0\x7528\x4e8e\x9aa8\x9abc"
+		"Scale:" = "\x5c3a\x5bf8:"
+		OK = 
+		Cancel = "\x53d6\x6d88"
+	}
+	group MeshGenerateLODsForm
+	{
+		"Generate LODs" = "\x751f\x6210LOD"
+		"Reduction (%):" = "\x51cf\x5c11 (%): "
+		"Distance:" = "\x8ddd\x79bb"
+		"Count:" = "\x8ba1\x6570"
+		Cancel = "\x53d6\x6d88"
+		OK = 
+	}
+	group MeshChannelsForm
+	{
+		"Mesh Vertex Channels" = "\x7f51\x683c\x9876\x70b9\x901a\x9053"
+		"Vertex data:" = "\x9876\x70b9\x6570\x636e"
+		Close = "\x5173\x95ed"
+		"Channels:" = "\x901a\x9053"
+		"Vertex datas:" = "\x9876\x70b9\x6570\x636e"
+		Compress = "\x538b\x7f29"
+		"Tangent vectors" = "\x5207\x7ebf\x9876\x70b9"
+		"UV Unwrap" = "\x5c55\x5f00"
+		"Vertex buffers:" = "\x9876\x70b9\x7f13\x5b58"
+		"Remove the duplicated vertices" = "\x53bb\x9664\x526f\x672c\x9876\x70b9"
+		Delete = "\x5220\x9664"
+		Generate = "\x751f\x6210"
+		"Warning: Currently this tool is very simple and have bugs. Only for tests." = "\x8b66\x544a:\x5f53\x524d\x5de5\x5177\x975e\x5e38\x57fa\x7840\x800c\x4e14\x6709bug.\x4ec5\x4f5c\x6d4b\x8bd5"
+		"Automatic generation:" = "\x81ea\x52a8\x751f\x6210"
+		"Mark/Unmark Channel" = "\x6807\x8bb0/\x53d6\x6d88\x6807\x8bb0\x901a\x9053"
+		"SubMesh {0}: {1} vertices, {2} faces" = "\x5b50\x7f51\x683c{0}: {1}\x9876\x70b9, {2}\x9762"
+		"Are you sure you want to mark selected channel as unwrapped texture coordinates channel?" = "\x4f60\x786e\x5b9a\x8981\x6807\x8bb0\x9009\x4e2d\x7684\x901a\x9053\x4e3aUV\x5c55\x5f00\x540e\x7684\x7eb9\x7406\x5750\x6807\x901a\x9053\x5417?"
+		"Are you sure you want to unmark unwrapped texture coordinates channel?" = "\x4f60\x786e\x5b9a\x8981\x53d6\x6d88\x6807\x8bb0UV\x5c55\x5f00\x540e\x7684\x7eb9\x7406\x5750\x6807\x901a\x9053\x5417?"
+		"Are you sure you want to delete channel \"{0}\"?" = "\x4f60\x786e\x5b9a\x8981\x5220\x9664\x901a\x9053 \"{0}\"?"
+		"Are you sure you want to delete tangent vectors?" = "\x4f60\x786e\x5b9a\x8981\x5220\x9664\x5207\x7ebf\x5411\x91cf\x5417?"
+		"Are you sure you want to generate tangent vectors?" = "\x4f60\x786e\x5b9a\x8981\x751f\x6210\x5207\x7ebf\x5411\x91cf\x5417?"
+		"\"TextureCoordinates\" vertex element is not exists." = "\"\x7eb9\x7406\x5750\x6807\"\x9876\x70b9\x5143\x7d20\x4e0d\x5b58\x5728"
+		"\"Normal\" vertex element is not exists." = "\"\x6cd5\x7ebf\"\x9876\x70b9\x5143\x7d20\x4e0d\x5b58\x5728"
+		"Animated meshes are not supported." = "\x4e0d\x652f\x6301\x6d3b\x52a8\x7f51\x683c"
+		"The current implementation of the UVUnwrap tool needs at least one texture coordinates channel." = "\x5b8c\x6210\x5f53\x524d\x7684UV\x5c55\x5f00\x5de5\x5177\x9700\x8981\x81f3\x5c11\x4e00\x4e2a\x7eb9\x7406\x5750\x6807\x901a\x9053"
+		"More than one submesh uses SharedVertexData. In this case calculation is not supported." = "\x4e0d\x6b62\x4e00\x4e2a\x5b50\x7f51\x683c\x5171\x7528\x9876\x70b9\x6570\x636e.\x6240\x4ee5\x4e0d\x652f\x6301\x8ba1\x7b97"
+		"There is no free texture coordinates channel: channels from 0 to 3 are already in use." = "\x6ca1\x6709\x7a7a\x95f2\x7684\x7eb9\x7406\x5750\x6807\x901a\x9053:\x901a\x90530\x52303\x5df2\x7ecf\x88ab\x4f7f\x7528"
+		"Are you sure you want to generate unwrapped texture coordinates channel for the sub meshes?" = "\x4f60\x786e\x5b9a\x8981\x4e3a\x8fd9\x4e2a\x6b21\x7ea7\x7f51\x683c\x751f\x6210UV\x5c55\x5f00\x7684\x7eb9\x7406\x5750\x6807\x5417?"
+		"Warning: Additional vertices will be added to the mesh." = "\x8b66\x544a:\x7f51\x683c\x5c06\x88ab\x6dfb\x52a0\x989d\x5916\x7684\x9876\x70b9"
+		"Warning: LODs will be removed." = "\x8b66\x544a:LOD\x5c06\x88ab\x79fb\x9664"
+		"Are you sure you want to delete unwrapped texture coordinate channels?" = "\x4f60\x786e\x5b9a\x8981\x5220\x9664UV\x5c55\x5f00\x7684\x7eb9\x7406\x5750\x6807\x901a\x9053\x5417?"
+		"More than one sub mesh with shared vertices is not supported." = "\x4e0d\x652f\x6301\x591a\x4f59\x4e00\x4e2a\x4e14\x5171\x7528\x9876\x70b9\x7684\x6b21\x7ea7\x7f51\x683c"
+		"Are you sure you want to remove the duplicated vertices?" = "\x4f60\x786e\x5b9a\x8981\x79fb\x9664\x526f\x672c\x9876\x70b9\x5417?"
+		"{0} duplicated vertices were removed." = "{0} \x526f\x672c\x9876\x70b9\x5df2\x7ecf\x88ab\x79fb\x9664"
+		"No duplicated vertices." = "\x65e0\x526f\x672c\x9876\x70b9"
+	}
+	group Mesh
+	{
+		EdgeList = "\x8fb9\x5217\x8868"
+		SubMeshes = "\x5b50\x7f51\x683c"
+		SkeletonName = "\x9aa8\x9abc\x540d\x79f0"
+		ManualLODs = "\x624b\x52a8LOD"
+		General = "\x4e00\x822c"
+		"Depth: {0}; Mesh name: {1}" = "\x6df1\x5ea6:{0}; \x7f51\x683c\x540d\x79f0:{1}"
+		FromDepth = "\x6765\x81ea\x6df1\x5ea6"
+		MeshName = "\x7f51\x683c\x540d\x79f0"
+		"SubMesh: {0} vertices, {1} faces" = "\x5b50\x7f51\x683c:{0} \x9876\x70b9, {1}\x9762"
+		MaterialName = "\x6750\x8d28\x540d\x79f0"
+		AllowCollision = "\x5141\x8bb8\x78b0\x649e"
+		TextUserDictionary = "\x6587\x672c\x7528\x6237\x5b57\x5178"
+	}
+	group GuiResourceEditor
+	{
+		Test = "\x6d4b\x8bd5"
+		"&Gui Editor" = "&G\x56fe\x5f62\x754c\x9762\x7f16\x8f91\x5668"
+		"&Controls Window" = "&C\x63a7\x5236\x7a97"
+		"{0} selected" = "\x5df2\x9009\x62e9"
+		"Create New Control" = "\x521b\x5efa\x65b0\x63a7\x5236\x5668"
+		"Show State \"{0}\"" = "\x663e\x793a\x72b6\x6001\"{0}\""
+		"Bring to Front" = "\x5e26\x5230\x524d\x9762"
+		"Send to Back" = "\x53d1\x56de\x540e\x9762"
+		"Cannot create control (Hierarchy loop)." = "\x65e0\x6cd5\x521b\x5efa\x63a7\x5236(\x7ed3\x6784\x5faa\x73af)"
+		"1 object was cloned" = "1\x4e2a\x5bf9\x8c61\x5df2\x88ab\x514b\x9686"
+		"{0} objects were cloned" = "{0}\x4e2a\x5bf9\x8c61\x5df2\x88ab\x514b\x9686"
+		"Value {0}" = "\x503c {0}"
+		"Are you sure you want to delete selected controls?" = "\x4f60\x786e\x5b9a\x8981\x5220\x9664\x9009\x4e2d\x7684\x63a7\x5236\x5668?"
+		"Cannot delete root control." = "\x4e0d\x80fd\x5220\x9664\x6839\x63a7\x5236\x5668"
+		Stop = "\x505c\x6b62"
+		"Test mode" = "\x6d4b\x8bd5\x6a21\x5f0f"
+		"No control loaded" = "\x6ca1\x6709\x63a7\x5236\x5668\x88ab\x8f7d\x5165"
+		"Unable to save file \"{0}\" ({1})." = "\x65e0\x6cd5\x4fdd\x5b58\x6587\x4ef6 \"{0}\" ({1})."
+		"Select Page {0}" = "\x9009\x62e9\x9875\x9762 {0}"
+		Delete = "\x5220\x9664"
+		"Unable to load file \"{0}\"." = "\x65e0\x6cd5\x8f7d\x5165\x6587\x4ef6 \"{0}\"."
+		"Demand base type \"{0}\" for \"{1}\" slot." = "\"{1}\" \x69fd\x9700\x8981\"{0}\"\x7684\x57fa\x672c\x7c7b\x578b"
+	}
+	group GuiNewControlDialog
+	{
+		"(No special slot)" = "(\x6ca1\x6709\x7279\x6b8a\x69fd\x4f4d)"
+		"New Control" = "\x65b0\x63a7\x5236\x5668"
+		"Parent control slot:" = "\x592b\x63a7\x5236\x5668\x69fd"
+		"Base UI Model:" = "\x57fa\x7840\x754c\x9762\x6a21\x578b"
+		Cancel = "\x53d6\x6d88"
+		OK = 
+	}
+	group GuiControlsTreeView
+	{
+		"Base Templates" = "\x57fa\x7840\x6a21\x677f"
+	}
+	group GuiEditorControlsForm
+	{
+		"Control Hierarchy" = "\x63a7\x5236\x7ed3\x6784"
+	}
+}
