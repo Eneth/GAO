@@ -1,0 +1,283 @@
+type = GameMap
+uin = 2
+classPrompt = GameMap
+gameMusic = "Sounds\\Music\\Game.ogg"
+windDirection = 0
+windSpeed = 1
+ambientLight = 0.2 0.2 0.2
+editorCameraPosition = -22.8309 45.51575 1.967777
+editorCameraDirection = 4.105667 0.100774
+shadowColor = 1 1 1
+shadowPSSMSplitFactors = 0.1 0.4
+logicSystemManager = 3
+shadowTechnique = ShadowmapMedium
+rootEditorLayer
+{
+	layer
+	{
+		name = Spawn_points
+	}
+	layer
+	{
+		name = Objects
+	}
+}
+entity
+{
+	type = LogicSystemManager
+	uin = 3
+	mapClassManager = 4
+	entity
+	{
+		type = LogicClassManager
+		uin = 4
+	}
+}
+entity
+{
+	type = SkyBox
+	uin = 6
+	classPrompt = SkyBox
+	color = 1 1 1
+	power = 1
+}
+entity
+{
+	type = Tree05A
+	uin = 7
+	classPrompt = MapObject
+	position = -11.37911 -0.9191877 -0.1599627
+	editorLayer = "Root Layer\\Objects"
+}
+entity
+{
+	type = Tree05A
+	uin = 8
+	classPrompt = MapObject
+	position = -109.3087 -40.19473 -0.02051316
+	editorLayer = "Root Layer\\Objects"
+}
+entity
+{
+	type = Tree05A
+	uin = 9
+	classPrompt = MapObject
+	position = -12.59244 9.763504 -0.02331233
+	editorLayer = "Root Layer\\Objects"
+}
+entity
+{
+	type = Tree05A
+	uin = 10
+	classPrompt = MapObject
+	position = -23.02167 -0.06481934 0
+	editorLayer = "Root Layer\\Objects"
+}
+entity
+{
+	type = Tree05A
+	uin = 11
+	classPrompt = MapObject
+	position = -21.37431 6.959368 0
+	editorLayer = "Root Layer\\Objects"
+}
+entity
+{
+	type = HeightmapTerrain
+	uin = 12
+	classPrompt = HeightmapTerrain
+	position = 0 0 -50
+	horizontalSize = 1000
+	verticalSize = 100
+	dataDirectory = HeightmapTerrain
+	masksSize = 1024
+	detailMapsDistance = 50
+	renderQueueGroup = WorldGeometry1
+	collisionMaterialName = Default
+	bottomClipHeight = -10000
+	castDynamicShadows = False
+	receiveStaticShadows = True
+	simpleRendering = False
+	tileSize = 16
+	visible = True
+	ambientOcclusion
+	{
+		enabled = False
+		size = 1024
+		rayLength = 3
+		iterationCount = 100
+		blur = True
+		power = 1
+	}
+	layers
+	{
+		item
+		{
+			name = base
+			baseMap = "Types\\Base\\HeightmapTerrain\\DefaultLayer0Base.jpg"
+			baseScale = 10
+			detailMap = "Types\\Base\\HeightmapTerrain\\DefaultLayer0Detail.jpg"
+			detailScale = 2
+		}
+		item
+		{
+			name = second
+			baseMap = "Types\\Base\\HeightmapTerrain\\DefaultLayer1Base.jpg"
+			baseScale = 10
+			detailMap = "Types\\Base\\HeightmapTerrain\\DefaultLayer1Detail.jpg"
+			detailScale = 2
+		}
+	}
+}
+entity
+{
+	type = Sun
+	uin = 13
+	classPrompt = Sun
+	billboardTexture = "Types\\Base\\Sun\\SunDefault.png"
+	billboardColor = 1 1 1
+	billboardPower = 1
+	billboardSize = 1
+	billboardRenderQueueGroup = Main
+	billboardOverridePosition = 0 0 0
+	lightType = Directional
+	diffuseColor = 1 1 1
+	diffusePower = 1
+	specularColor = 0 0 0
+	specularPower = 1
+	attenuationNear = 0
+	attenuationFar = 10
+	attenuationPower = 2
+	ffpAttenuationConstant = 1
+	ffpAttenuationLinear = 0
+	ffpAttenuationQuadric = 0
+	spotlightInnerAngle = 30
+	spotlightOuterAngle = 40
+	spotlightFalloff = 1
+	castShadows = True
+	allowStaticLighting = False
+	allowDynamicLighting = True
+	customShaderParameter = 0 0 0 0
+	position = -145.6735 -37.90176 16.41096
+	rotation = -0.2916004 -0.04951372 0.5333846 0.7924764
+	name = Sun_0
+	editorLayer = "Root Layer\\Objects"
+}
+entity
+{
+	type = WindMill
+	uin = 5
+	classPrompt = Dynamic
+	position = -59.84833 16.78217 -0.001525879
+	rotation = -0.01654979 0.01143805 0.06329661 0.9977921
+	name = WindMill_0
+	editorLayer = "Root Layer\\Objects"
+}
+entity
+{
+	type = Girl
+	uin = 14
+	classPrompt = PlayerCharacter
+	contusionTimeRemaining = 0
+	intellectShouldDeleteAfterDetach = False
+	position = -51.89412 19.56493 1.179211
+	name = Girl_0
+	editorLayer = "Root Layer\\Objects"
+	weapons
+	{
+		item
+		{
+			exists = False
+			normalBulletCount = 0
+			normalMagazineCount = 0
+			alternativeBulletCount = 0
+			alternativeMagazineCount = 0
+		}
+		item
+		{
+			exists = False
+			normalBulletCount = 0
+			normalMagazineCount = 0
+			alternativeBulletCount = 0
+			alternativeMagazineCount = 0
+		}
+		item
+		{
+			exists = False
+			normalBulletCount = 0
+			normalMagazineCount = 0
+			alternativeBulletCount = 0
+			alternativeMagazineCount = 0
+		}
+	}
+}
+entity
+{
+	type = SmallHealthItem
+	uin = 15
+	classPrompt = HealthItem
+	respawnTime = 10
+	position = -53.16344 21.68726 0.001777996
+	editorLayer = "Root Layer\\Objects"
+}
+entity
+{
+	type = Crane
+	uin = 16
+	classPrompt = Crane
+	intellectShouldDeleteAfterDetach = False
+	position = -49.27377 -34.94114 24.57257
+	rotation = 0 0 -0.6353658 -0.7722113
+	name = Crane_0
+	editorLayer = "Root Layer\\Objects"
+}
+entity
+{
+	type = Girl
+	uin = 17
+	classPrompt = PlayerCharacter
+	contusionTimeRemaining = 0
+	intellectShouldDeleteAfterDetach = False
+	position = -54.93195 27.39052 2.082699
+	rotation = 0 0 0.9430054 0.3327775
+	name = Girl_1
+	editorLayer = "Root Layer\\Objects"
+	weapons
+	{
+		item
+		{
+			exists = False
+			normalBulletCount = 0
+			normalMagazineCount = 0
+			alternativeBulletCount = 0
+			alternativeMagazineCount = 0
+		}
+		item
+		{
+			exists = False
+			normalBulletCount = 0
+			normalMagazineCount = 0
+			alternativeBulletCount = 0
+			alternativeMagazineCount = 0
+		}
+		item
+		{
+			exists = False
+			normalBulletCount = 0
+			normalMagazineCount = 0
+			alternativeBulletCount = 0
+			alternativeMagazineCount = 0
+		}
+	}
+}
+entity
+{
+	type = SpawnPoint
+	uin = 18
+	classPrompt = SpawnPoint
+	defaultPoint = False
+	position = -25.8463 40.43365 0.04000816
+	rotation = 0 0 -0.5132702 -0.8582271
+	name = SpawnPoint_0
+	editorLayer = "Root Layer\\Spawn_points"
+}
