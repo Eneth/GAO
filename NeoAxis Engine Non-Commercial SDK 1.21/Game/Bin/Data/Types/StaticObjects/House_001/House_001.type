@@ -1,0 +1,14 @@
+type House_001
+{
+	class = RTSBuilding
+	allowEditorCreate = True
+	attachedObjects
+	{
+		mesh
+		{
+			meshName = "Types\\StaticObjects\\House_001\\House_001.mesh"
+			collision = True
+			position = 0 0 7.088295
+		}
+	}
+}

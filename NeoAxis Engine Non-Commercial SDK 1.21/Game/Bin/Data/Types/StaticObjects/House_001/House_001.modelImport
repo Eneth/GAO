@@ -1,0 +1,34 @@
+sourceFile = "Types\\StaticObjects\\House_001\\House_001.dae"
+renameMaterials
+{
+	item
+	{
+		originalName = Material_001-material
+		newName = mat1
+	}
+}
+objects
+{
+	mesh
+	{
+		name = House_001
+		pivotPosition = 5.057037 0.9428007 3.053106
+		sources
+		{
+			item
+			{
+				name = House_001
+				position = 4.411944 0.942801 0.1901816
+				rotation = -0.7071068 0 0 0.7071068
+				scale = 1 4.558641 7.350852
+			}
+			item
+			{
+				name = House_0012
+				position = -1.149315 1.590621 4.065622
+				rotation = -0.7071068 0 0 0.7071068
+				scale = 4.581617 8.155691 8.057699
+			}
+		}
+	}
+}

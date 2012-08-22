@@ -1,0 +1,9 @@
+highLevelMaterial mat1
+{
+	dataSource = "Types\\StaticObjects\\House_001\\House_001.modelImport"
+	template = ShaderBaseMaterial
+	diffuseColor = 0.2078336 0.09281286 0.03334137
+	specularColor = 0.5 0.5 0.5
+	specularShininess = 20
+	doubleSided = True
+}

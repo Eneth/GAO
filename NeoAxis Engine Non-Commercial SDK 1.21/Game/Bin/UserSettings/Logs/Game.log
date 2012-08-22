@@ -1,4 +1,4 @@
-Log started: 8/22/2012 12:45:02 AM
+Log started: 8/22/2012 2:08:12 AM
 Info: NeoAxis Engine log file.
 Info: Operating System: Microsoft Windows 5.1.2600.196608 (32-bit)
 Info: Runtime Framework: Net 4.0.30319.269
@@ -8,7 +8,7 @@ Info: Engine 32-bit version
 Info: Application type: Simulation
 Info: PhysXPhysicsSystem: Software mode enabled.
 Info: Physics system is initialized (Driver: NVIDIA PhysX 2.8.4)
-Info: OGRE: Added resource location 'E:\NeoAxis Engine Non-Commercial SDK 1.21\Game\Bin\Data' of type 'VirtualFileSystem' to resource group 'General' with recursive option
+Info: OGRE: Added resource location 'C:\Dokumente und Einstellungen\Idle\Eigene Dateien\GitHub\GAO\NeoAxis Engine Non-Commercial SDK 1.21\Game\Bin\Data' of type 'VirtualFileSystem' to resource group 'General' with recursive option
 Info: OGRE: Loading library RenderSystem_Direct3D9.dll
 Info: OGRE: Installing plugin: D3D9 RenderSystem
 Info: OGRE: D3D9 : Direct3D9 Rendering Subsystem created.
@@ -37,7 +37,7 @@ Info: OGRE: Driver description: NVIDIA GeForce GTS 250
 Info: OGRE: ***************************************
 Info: OGRE: *** D3D9 : Subsystem Initialised OK ***
 Info: OGRE: ***************************************
-Info: OGRE: D3D9RenderSystem::_createRenderWindow "MainWindow", 640x480 fullscreen  miscParams: colourDepth=32 externalWindowHandle=1115504 vsync=false 
+Info: OGRE: D3D9RenderSystem::_createRenderWindow "MainWindow", 640x480 fullscreen  miscParams: colourDepth=32 externalWindowHandle=1706300 vsync=false 
 Info: OGRE: D3D9 : Created D3D9 Rendering Window 'MainWindow' : 1680x1050, 32bpp
 Info: OGRE: Registering ResourceManager for type Texture
 Info: OGRE: Registering ResourceManager for type GpuProgram
@@ -174,12 +174,6 @@ Info: OGRE: Parsing script Materials\PostEffects\RadialBlur\RadialBlur.composito
 Info: OGRE: Parsing script Materials\PostEffects\Tiling\Tiling.compositor
 Info: OGRE: Parsing script Materials\PostEffects\Vignetting\Vignetting.compositor
 Info: OGRE: Parsing script _Tests\ParticleSystem\EmittersTest.particle
-Info: OGRE: Parsing script Demos\VillageDemo\River\Splash\VillageSplashDown.particle
-Info: OGRE: Parsing script Demos\VillageDemo\River\Splash\VillageWaterParticle.particle
-Info: OGRE: Parsing script Demos\VillageDemo\River\Splash\VillageWaterParticle2.particle
-Info: OGRE: Parsing script Demos\VillageDemo\River\Splash\VillageWaterParticle2_1.particle
-Info: OGRE: Parsing script Demos\VillageDemo\River\Splash\VillageWaterParticle3.particle
-Info: OGRE: Parsing script Demos\VillageDemo\River\Splash\VillageWaterParticleBig.particle
 Info: OGRE: Parsing script Effects\ExplosionParticle\ExplosionParticle.particle
 Info: OGRE: Parsing script Effects\ExplosionParticle\ExplosionParticle2.particle
 Info: OGRE: Parsing script Effects\FireParticle\BigFireParticle.particle
@@ -219,22 +213,37 @@ Info: OGRE: Finished parsing scripts for resource group Internal
 Info: Sound system is initialized (Driver: OpenAL 1.1 ALSOFT 1.13, Device: DirectSound Default)
 Info: OGRE: RenderTarget "MainWindow": createAdditionalMRTs
 Info: OGRE: Skeleton: Loading Types\Units\Girl\Girl.skeleton
-Exception: System.NullReferenceException: Der Objektverweis wurde nicht auf eine Objektinstanz festgelegt.
-   bei GameEntities.Crane.MagnetAttachObject(Body mapObjectBody)
-   bei GameEntities.Crane.TickMagnet()
-   bei GameEntities.Crane.OnTick()
-   bei Engine.EntitySystem.Entity.B()
-   bei Engine.EntitySystem.Entities.A(Single A, Boolean a)
-   bei Engine.EntitySystem.EntitySystemWorld.B()
-   bei Engine.EntitySystem.EntitySystemWorld.Tick()
-   bei Game.GameWindow.OnTick(Single delta)
-   bei Game.ActionGameWindow.OnTick(Single delta)
-   bei Engine.UISystem.Control.OnTick(Single delta)
-   bei Engine.UISystem.ControlManager.DoTick(Single delta)
-   bei Game.GameEngineApp.OnTick(Single delta)
-   bei Engine.EngineApp.DoTick()
-   bei Engine.EngineApp.A(Boolean A)
-   bei a.aD.RunMessageLoop()
-   bei Engine.EngineApp.Run()
-   bei Game.Program.Main2()
-   bei Game.Program.Main()Info: OGRE: RenderTarget "MainWindow": destroyAdditionalMRTs
+Info: OGRE: RenderTarget "MainWindow": destroyAdditionalMRTs
+Info: NativeMemoryManager: Leaks statistics begin
+Info: Leak - type: Renderer, size: 9712 x 1 = 9712 (file: NULL)
+Info: Leak - type: Renderer, size: 1132 x 1 = 1132 (file: NULL)
+Info: Leak - type: Renderer, size: 1028 x 1 = 1028 (file: NULL)
+Info: Leak - type: Renderer, size: 532 x 1 = 532 (file: NULL)
+Info: Leak - type: Renderer, size: 364 x 1 = 364 (file: NULL)
+Info: Leak - type: Renderer, size: 308 x 1 = 308 (file: NULL)
+Info: Leak - type: Renderer, size: 304 x 1 = 304 (file: NULL)
+Info: Leak - type: Renderer, size: 292 x 1 = 292 (file: NULL)
+Info: Leak - type: Renderer, size: 184 x 1 = 184 (file: NULL)
+Info: Leak - type: Renderer, size: 168 x 1 = 168 (file: NULL)
+Info: Leak - type: Renderer, size: 152 x 1 = 152 (file: NULL)
+Info: Leak - type: Renderer, size: 132 x 2 = 264 (file: NULL)
+Info: Leak - type: Renderer, size: 120 x 7 = 840 (file: NULL)
+Info: Leak - type: Renderer, size: 88 x 1 = 88 (file: OgreD3D9HardwareBufferManager.h:79)
+Info: Leak - type: Renderer, size: 88 x 1 = 88 (file: NULL)
+Info: Leak - type: Renderer, size: 76 x 1 = 76 (file: NULL)
+Info: Leak - type: Renderer, size: 72 x 1 = 72 (file: NULL)
+Info: Leak - type: Renderer, size: 60 x 1 = 60 (file: NULL)
+Info: Leak - type: Renderer, size: 56 x 5 = 280 (file: NULL)
+Info: Leak - type: Renderer, size: 52 x 4 = 208 (file: NULL)
+Info: Leak - type: Renderer, size: 48 x 4 = 192 (file: NULL)
+Info: Leak - type: Renderer, size: 44 x 16 = 704 (file: NULL)
+Info: Leak - type: Renderer, size: 36 x 5 = 180 (file: NULL)
+Info: Leak - type: Renderer, size: 24 x 1312 = 31488 (file: NULL)
+Info: Leak - type: Renderer, size: 20 x 9 = 180 (file: NULL)
+Info: Leak - type: Renderer, size: 16 x 5 = 80 (file: NULL)
+Info: Leak - type: Renderer, size: 12 x 29 = 348 (file: NULL)
+Info: Leak - type: Renderer, size: 8 x 2 = 16 (file: NULL)
+Info: Leak - type: Renderer, size: 4 x 5 = 20 (file: NULL)
+Info: Total size: 49360
+Info: NativeMemoryManager: Leaks statistics end
+Program END
