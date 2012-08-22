@@ -5,8 +5,8 @@ gameMusic = "Sounds\\Music\\Game.ogg"
 windDirection = 0
 windSpeed = 1
 ambientLight = 0.2 0.2 0.2
-editorCameraPosition = -2.624151 13.20363 15.68648
-editorCameraDirection = 2.464924 -0.3413666
+editorCameraPosition = 0.9143167 17.56259 15.60418
+editorCameraDirection = 1.944707 -0.3140743
 shadowColor = 1 1 1
 shadowPSSMSplitFactors = 0.1 0.4
 logicSystemManager = 3
@@ -309,5 +309,16 @@ entity
 	intellectShouldDeleteAfterDetach = False
 	position = -18.78286 55.41786 0.199215
 	rotation = 0 0 -0.8528421 0.5221689
+	scale = 1 1 0.5019516
 	name = House_001_0
+}
+entity
+{
+	type = House_001
+	uin = 22
+	classPrompt = RTSBuilding
+	intellectShouldDeleteAfterDetach = False
+	position = 9.242481 37.66042 0.1720465
+	rotation = 0 0 -0.9967031 -0.08113511
+	name = House_001_1
 }

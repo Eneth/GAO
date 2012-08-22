@@ -1,4 +1,4 @@
-Log started: 8/22/2012 2:08:12 AM
+Log started: 8/22/2012 2:12:22 AM
 Info: NeoAxis Engine log file.
 Info: Operating System: Microsoft Windows 5.1.2600.196608 (32-bit)
 Info: Runtime Framework: Net 4.0.30319.269
@@ -37,7 +37,7 @@ Info: OGRE: Driver description: NVIDIA GeForce GTS 250
 Info: OGRE: ***************************************
 Info: OGRE: *** D3D9 : Subsystem Initialised OK ***
 Info: OGRE: ***************************************
-Info: OGRE: D3D9RenderSystem::_createRenderWindow "MainWindow", 640x480 fullscreen  miscParams: colourDepth=32 externalWindowHandle=1706300 vsync=false 
+Info: OGRE: D3D9RenderSystem::_createRenderWindow "MainWindow", 640x480 fullscreen  miscParams: colourDepth=32 externalWindowHandle=2885640 vsync=false 
 Info: OGRE: D3D9 : Created D3D9 Rendering Window 'MainWindow' : 1680x1050, 32bpp
 Info: OGRE: Registering ResourceManager for type Texture
 Info: OGRE: Registering ResourceManager for type GpuProgram
